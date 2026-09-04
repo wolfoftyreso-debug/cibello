@@ -1,0 +1,17 @@
+@import url("/tokens.css");
+*{box-sizing:border-box}
+:root{color-scheme:light}
+body{margin:0;font-family:var(--font);line-height:1.65;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
+header{background:var(--green-x);color:#fff;padding:2.5rem 1.25rem}
+header div,main,footer{max-width:820px;margin:0 auto}
+h1{margin:0 0 .35rem;font-size:clamp(2rem,6vw,3rem);font-weight:var(--h-weight);letter-spacing:var(--h-spacing);line-height:1.12}
+h2{margin-top:2.25rem;line-height:1.25;letter-spacing:var(--h-spacing)}
+h3{margin-top:1.5rem}
+main{padding:2rem 1.25rem 4rem}
+a{color:var(--green)}
+header a{color:var(--green-l)}
+.notice{background:var(--green-l);border:1px solid var(--line);color:var(--green-x);padding:1rem 1.15rem;border-radius:var(--radius-s)}
+.meta{opacity:.8}
+nav{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1rem}
+li{margin-bottom:.45rem}
+footer{padding:2rem 1.25rem;border-top:1px solid var(--line);color:var(--muted)}

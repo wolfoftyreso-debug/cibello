@@ -1,0 +1,32 @@
+/* Cibello design tokens — enda källan för färg, typografi och form.
+   Importeras av home.css, seo.css och legal.css. Ändra här, aldrig i sidfilerna. */
+:root{
+  /* Färg */
+  --bg:#fbf6ee;         /* sidbakgrund, varm off-white */
+  --bg2:#f4ede1;        /* sektionsbakgrund, mörkare beige */
+  --surface:#fff;       /* kort och paneler */
+  --card:var(--surface);
+  --ink:#26251f;        /* brödtext */
+  --muted:#5f5b50;      /* sekundär text */
+  --green:#2f7d51;      /* primär varumärkesgrön */
+  --green-d:#245f3e;    /* hover/mörk grön */
+  --green-l:#e7f1ea;    /* ljusgrön yta */
+  --green-x:#173d2a;    /* djupgrön, CTA-block */
+  --amber:#e07a3e;      /* accent */
+  --amber-l:#fbe9db;    /* ljus accentyta */
+  --line:#ece4d6;       /* avdelare och ramar */
+  --dark:#1b1a17;       /* sidfot och mörka ytor */
+  --dark-ink:#cfc9bd;   /* text på mörk yta */
+  /* Typografi */
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --h-weight:700;
+  --h-spacing:-.015em;
+  --size-h1:clamp(2rem,4.2vw,3.1rem);
+  --size-h2:clamp(1.55rem,3vw,2.15rem);
+  /* Form */
+  --radius:16px;
+  --radius-m:12px;
+  --radius-s:10px;
+  --shadow:0 10px 28px -20px rgba(40,60,45,.4);
+  --wrap:1120px;
+}
