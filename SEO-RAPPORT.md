@@ -86,7 +86,31 @@ Konkurrenter i SERP för "middagstips": koket.se, ica.se, zeinaskitchen.se, coop
 - Säkerhets- och cache-headers via `_headers` eller `vercel.json`.
 - `main.js` laddas med `defer`.
 
-## 6. Nästa steg som inte går att lösa i koden
+## 6. Genomgång 2: prestanda, tillgänglighet, validitet, duplicerat innehåll
+
+Mätt med Playwright, axe-core 4 (WCAG 2.1 AA + best practice) och html-validate på lokal server.
+
+| Fynd | Före | Efter |
+|---|---|---|
+| Allt innehåll med `.reveal` var `opacity:0` tills JavaScript kört | Osynligt utan JS, LCP fördröjd | Animationen gäller bara när `html.js` finns (inline-skript med CSP-hash), `prefers-reduced-motion` respekteras |
+| `@import` i tre CSS-filer | Två seriella nätverksanrop innan rendering | `tokens.css` länkas direkt i HTML före övriga CSS |
+| `main.js` 86 kB med alla översättningar | Laddades av alla besökare | `main.js` 4,7 kB; `i18n.js` 83 kB laddas bara när ett annat språk väljs eller sparats. Startsidan: 109 kB → 27 kB |
+| Startsidan saknade `<main>`, hero låg utanför `<main>` på guide-sidor | axe: landmark-fel | `<main id="main">` på alla sidor, hopplänk, synliga fokusmarkeringar |
+| Små DOCTYPE, råa `&` i text | 89 valideringsfel | 0 fel i html-validate |
+| 102 identiska stycken mellan språkhubbar och deras guider | Internt duplicerat innehåll, kannibalisering | Engelska hubben omskriven med unikt innehåll. Övriga hubbar och guider behåller första meningen och länkar till sidan som äger texten. Fem svenska guider fick unika avslutningsstycken |
+| Ingen "Om oss"-sida | Svag E-E-A-T-signal | `/om/` och `/en/about/` med företagsuppgifter, AI-hållning, kontakt; länkade från alla sidfötter; `AboutPage`-schema |
+| Ingen CSP | – | Content-Security-Policy i `_headers` och `vercel.json`; `.well-known/security.txt`; `_redirects` för `/index.html` |
+| Google Play-länkar utan attribution | Installationer kunde inte kopplas till sajt/sida | `referrer=utm_source=cibello.app&utm_medium=web&utm_campaign=<sida>` på alla Play-länkar. App Store-länkar behöver ett provider token (pt) från App Store Connect för motsvarande |
+| Språkväljaren hade `aria-label="Language"` på svensk sida | – | "Språk / Language", språkbannern har landmark |
+| `delete-account.html` blandade engelska i `lang="sv"` | – | Engelsk sektion har `lang="en"` |
+
+axe-core efter fixarna: 0 överträdelser på startsida, guide, hubb, juridik och 404.
+
+Domänläge enligt Semrush (2026-09-04): Authority Score 0, 8 bakåtlänkar från 8 domäner (7 nofollow), inga organiska rankningar i den svenska databasen. Sajten är alltså tekniskt klar men har ingen auktoritet ännu. Punkt 7 nedan avgör hur snabbt det ändras.
+
+Tunna sidor som återstår (huvudinnehåll under 300 ord): de finska, polska, tyska, nederländska och danska guiderna, samt alla språkhubbar utom den svenska och engelska (efter avdupliceringen är hubbarna 150–190 ord och fungerar som navigering). De är korrekta men korta. Rekommendation: låt en modersmålstalare bygga ut till 500+ ord per sida med lokala sökord, eller prioritera de marknader appen faktiskt satsar på och låt övriga vara.
+
+## 7. Nästa steg som inte går att lösa i koden
 
 1. Verifiera domänen i Google Search Console och Bing Webmaster Tools, skicka in `sitemap.xml`.
 2. Skaffa riktiga betyg i App Store och Google Play. När det finns ett rimligt antal: lägg in `aggregateRating` i `SoftwareApplication`-noden och visa betygen på startsidan (mönstret från ExpressVPN/Varo). Lägg inte in påhittade siffror.

@@ -1,0 +1,4 @@
+Contact: mailto:privacy@cibello.app
+Preferred-Languages: sv, en
+Canonical: https://cibello.app/.well-known/security.txt
+Expires: 2027-09-04T00:00:00.000Z

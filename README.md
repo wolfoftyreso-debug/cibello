@@ -3,7 +3,9 @@
 Statisk marknadssajt för Cibello (LandveX AB). Ren HTML/CSS/JS utan byggsteg – ladda upp repo-roten som den är till valfri statisk host (Netlify, Cloudflare Pages, Vercel, S3 m.fl.).
 
 ## Struktur
-- `index.html` – svensk startsida (`home.css`, `main.js`). Texten byts på klientsidan per språk, men sidan serveras alltid på svenska (SEO-säkert). Andra språk erbjuds via banner/väljare.
+- `index.html` – svensk startsida (`home.css`, `main.js`). Sidan serveras alltid på svenska (SEO-säkert). Andra språk erbjuds via banner/väljare; översättningarna ligger i `i18n.js` och laddas först när ett annat språk väljs eller tidigare sparats i localStorage.
+- `/om/`, `/en/about/` – om företaget (E-E-A-T, kontakt).
+- Alla sidor har ett litet inline-skript som sätter `html.js`; reveal-animationer körs bara då, så innehållet syns utan JavaScript. Skriptets CSP-hash finns i `_headers`/`vercel.json` – ändra inte skriptet utan att uppdatera hashen.
 - `/middagstips/`, `/veckomeny/`, … – svenska guider (`seo.css`).
 - `/en/`, `/de/`, … – språkhubbar med guider per språk.
 - `integritet.html`, `villkor.html`, `delete-account.html` – juridik (`legal.css`).

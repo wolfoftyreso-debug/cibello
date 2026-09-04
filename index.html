@@ -2,7 +2,8 @@
 <html lang="sv">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>document.documentElement.classList.add("js")</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="color-scheme" content="light">
 <title>Cibello – matapp för recept från det du har hemma</title>
 <meta name="description" content="Cibello är en matapp för middagstips, recept från det du har hemma, veckomeny och inköpslista. Skanna kyl och skafferi och minska matsvinnet." />
 <link rel="stylesheet" href="tokens.css" />
@@ -45,10 +46,10 @@
 <link rel="alternate" hreflang="pt" href="https://cibello.app/pt/">
 <link rel="alternate" hreflang="x-default" href="https://cibello.app/">
 </head>
-<body>
-<div id="langbar" class="langbar" hidden><span id="langbar-text"></span> <button type="button" id="langbar-btn" class="langbar-btn"></button> <button type="button" id="langbar-close" class="langbar-close" aria-label="Stäng">×</button></div>
+<body><a class="skip" href="#main">Hoppa till innehåll</a>
+<div id="langbar" class="langbar" role="region" aria-label="Språk / Language" hidden><span id="langbar-text"></span> <button type="button" id="langbar-btn" class="langbar-btn"></button> <button type="button" id="langbar-close" class="langbar-close" aria-label="Stäng">×</button></div>
 <header>
-  <nav class="wrap">
+  <nav class="wrap" aria-label="Huvudmeny">
     <div class="brand"><span class="mark"><svg width="20" height="20" viewBox="0 0 32 32"><path d="M16 6c4.4 0 8 3.4 8 8 0 5.6-8 12-8 12S8 19.6 8 14c0-4.6 3.6-8 8-8z" fill="#fff"/><circle cx="16" cy="14" r="2.6" fill="#2f7d51"/></svg></span> Cibello</div>
     <div class="navlinks">
       <a href="#hur" data-i18n="nav_how">Så funkar det</a>
@@ -58,7 +59,7 @@
     </div>
     <div class="navright">
       <div class="lang">
-        <select id="langsel" aria-label="Language">
+        <select id="langsel" aria-label="Språk / Language">
           <option value="sv">Svenska</option>
           <option value="en">English</option>
           <option value="de">Deutsch</option>
@@ -86,6 +87,7 @@
   </div>
 </header>
 
+<main id="main">
 <section class="hero">
   <div class="wrap hero-grid">
     <div class="reveal in">
@@ -95,7 +97,7 @@
       <p class="lead" data-i18n="hero_lead">Cibello känner ditt kök, dina smaker och ditt folk. Fota kylen — så vet appen vad du har hemma och föreslår något ni faktiskt vill ha, av det ni redan har. Mindre stress, mindre svinn.</p>
       <div class="cta-row">
         <a href="https://apps.apple.com/app/id6807100747" class="store" rel="noopener"><svg viewBox="0 0 24 24" fill="#fff"><path d="M16.4 12.7c0-2 1.6-3 1.7-3.1-.9-1.4-2.4-1.6-2.9-1.6-1.2-.1-2.4.7-3 .7-.6 0-1.6-.7-2.6-.7-1.3 0-2.6.8-3.3 2-1.4 2.4-.4 6 1 8 .7 1 1.4 2 2.4 2 1 0 1.3-.6 2.5-.6 1.2 0 1.5.6 2.5.6 1 0 1.7-.9 2.3-1.9.7-1.1 1-2.2 1-2.3-.1 0-2-.8-2.1-3.1zM14.6 6.3c.5-.7.9-1.6.8-2.5-.8 0-1.7.5-2.3 1.2-.5.6-.9 1.5-.8 2.4.9.1 1.8-.4 2.3-1.1z"/></svg><span><small data-i18n="dl_apple">Ladda ner på</small><b>App Store</b></span></a>
-        <a href="https://play.google.com/store/apps/details?id=com.cibello.app" class="store" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 3.5v17c0 .5.5.8.9.5l9.3-8.5-9.3-8.5c-.4-.3-.9 0-.9.5z" fill="#34d399"/><path d="M14.2 12.5l2.7-2.5 3.6 2c.6.4.6 1.2 0 1.6l-3.6 2-2.7-2.5z" fill="#fbbf24"/><path d="M4.9 20.5l9.3-8-2.7-2.5-6.6 6c-.4.3-.4.9 0 .5z" fill="#f87171"/><path d="M4.9 3.5l9.3 8-2.7 2.5-6.6-6c-.4-.3-.4-.9 0-.5z" fill="#60a5fa"/></svg><span><small data-i18n="dl_google">Hämta på</small><b>Google Play</b></span></a>
+        <a href="https://play.google.com/store/apps/details?id=com.cibello.app&amp;referrer=utm_source%3Dcibello.app%26utm_medium%3Dweb%26utm_campaign%3Dhome" class="store" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 3.5v17c0 .5.5.8.9.5l9.3-8.5-9.3-8.5c-.4-.3-.9 0-.9.5z" fill="#34d399"/><path d="M14.2 12.5l2.7-2.5 3.6 2c.6.4.6 1.2 0 1.6l-3.6 2-2.7-2.5z" fill="#fbbf24"/><path d="M4.9 20.5l9.3-8-2.7-2.5-6.6 6c-.4.3-.4.9 0 .5z" fill="#f87171"/><path d="M4.9 3.5l9.3 8-2.7 2.5-6.6-6c-.4-.3-.4-.9 0-.5z" fill="#60a5fa"/></svg><span><small data-i18n="dl_google">Hämta på</small><b>Google Play</b></span></a>
       </div>
       <div class="reassure"><svg class="icn" style="width:18px;height:18px"><path d="M4 12l5 5L20 6"/></svg><span data-i18n="hero_reassure">Dina data i EU · du styr och kan radera ditt konto · 12 språk</span></div>
     </div>
@@ -216,7 +218,7 @@
     <p class="sec-p center" data-i18n="final_p">Ladda ner appen och gör vardagen i köket lite enklare — från och med ikväll.</p>
     <div class="cta-row" style="justify-content:center">
       <a href="https://apps.apple.com/app/id6807100747" class="store" rel="noopener"><svg viewBox="0 0 24 24" fill="#fff"><path d="M16.4 12.7c0-2 1.6-3 1.7-3.1-.9-1.4-2.4-1.6-2.9-1.6-1.2-.1-2.4.7-3 .7-.6 0-1.6-.7-2.6-.7-1.3 0-2.6.8-3.3 2-1.4 2.4-.4 6 1 8 .7 1 1.4 2 2.4 2 1 0 1.3-.6 2.5-.6 1.2 0 1.5.6 2.5.6 1 0 1.7-.9 2.3-1.9.7-1.1 1-2.2 1-2.3-.1 0-2-.8-2.1-3.1zM14.6 6.3c.5-.7.9-1.6.8-2.5-.8 0-1.7.5-2.3 1.2-.5.6-.9 1.5-.8 2.4.9.1 1.8-.4 2.3-1.1z"/></svg><span><small data-i18n="dl_apple">Ladda ner på</small><b>App Store</b></span></a>
-      <a href="https://play.google.com/store/apps/details?id=com.cibello.app" class="store" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 3.5v17c0 .5.5.8.9.5l9.3-8.5-9.3-8.5c-.4-.3-.9 0-.9.5z" fill="#34d399"/><path d="M14.2 12.5l2.7-2.5 3.6 2c.6.4.6 1.2 0 1.6l-3.6 2-2.7-2.5z" fill="#fbbf24"/><path d="M4.9 20.5l9.3-8-2.7-2.5-6.6 6c-.4.3-.4.9 0 .5z" fill="#f87171"/><path d="M4.9 3.5l9.3 8-2.7 2.5-6.6-6c-.4-.3-.4-.9 0-.5z" fill="#60a5fa"/></svg><span><small data-i18n="dl_google">Hämta på</small><b>Google Play</b></span></a>
+      <a href="https://play.google.com/store/apps/details?id=com.cibello.app&amp;referrer=utm_source%3Dcibello.app%26utm_medium%3Dweb%26utm_campaign%3Dhome" class="store" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 3.5v17c0 .5.5.8.9.5l9.3-8.5-9.3-8.5c-.4-.3-.9 0-.9.5z" fill="#34d399"/><path d="M14.2 12.5l2.7-2.5 3.6 2c.6.4.6 1.2 0 1.6l-3.6 2-2.7-2.5z" fill="#fbbf24"/><path d="M4.9 20.5l9.3-8-2.7-2.5-6.6 6c-.4.3-.4.9 0 .5z" fill="#f87171"/><path d="M4.9 3.5l9.3 8-2.7 2.5-6.6-6c-.4-.3-.4-.9 0-.5z" fill="#60a5fa"/></svg><span><small data-i18n="dl_google">Hämta på</small><b>Google Play</b></span></a>
     </div>
   </div></div>
 </section>
@@ -241,11 +243,12 @@
 </section>
 <section id="guider" lang="sv" aria-labelledby="upptack-cibello" class="guides">
   <div class="wrap center"><div class="kicker">Guider för en enklare matvardag</div><h2 class="sec-h" id="upptack-cibello">Vad vill du ha hjälp med?</h2><p class="sec-p">Läs hur Cibello kan hjälpa med middagsidéer, veckoplanering, matlådor, inköpslista och mindre matsvinn.</p></div>
-  <div class="wrap feat guide-grid"><a class="f" href="/middagstips/"><h3>Middagstips</h3><p>Hitta mat som passar det du redan har hemma.</p></a><a class="f" href="/vad-ska-vi-ata/"><h3>Vad ska vi äta idag?</h3><p>Få hjälp att välja utan ännu en oändlig receptlista.</p></a><a class="f" href="/veckomeny/"><h3>Veckomeny</h3><p>Planera varierat och samla det som behöver handlas.</p></a><a class="f" href="/vardagsmat/"><h3>Vardagsmat</h3><p>Enkla recept och en plan som håller hela veckan.</p></a><a class="f" href="/snabb-middag/"><h3>Snabb & enkel middag</h3><p>Klart på 20–30 minuter med det som finns hemma.</p></a><a class="f" href="/middagstips-barnfamilj/"><h3>Middagstips för barnfamiljen</h3><p>Rätter barnen äter – utan tjat.</p></a><a class="f" href="/matlador/"><h3>Matlådor</h3><p>Recept, planering och koll på kyl och frys.</p></a><a class="f" href="/billig-mat/"><h3>Billig mat för en vecka</h3><p>Handla mindre och använd det du har.</p></a><a class="f" href="/inkopslista/"><h3>Inköpslista</h3><p>Delad lista som fylls på från recepten.</p></a><a class="f" href="/bast-fore-datum/"><h3>Bäst före-datum</h3><p>Hur länge håller maten egentligen?</p></a><a class="f" href="/matsvinn/"><h3>Minska matsvinn</h3><p>Se och använd maten innan den glöms bort.</p></a><a class="f" href="/matapp/"><h3>Matapp</h3><p>Recept, matlager, hushåll och inköpslista på samma plats.</p></a></div>
+  <div class="wrap feat guide-grid"><a class="f" href="/middagstips/"><h3>Middagstips</h3><p>Hitta mat som passar det du redan har hemma.</p></a><a class="f" href="/vad-ska-vi-ata/"><h3>Vad ska vi äta idag?</h3><p>Få hjälp att välja utan ännu en oändlig receptlista.</p></a><a class="f" href="/veckomeny/"><h3>Veckomeny</h3><p>Planera varierat och samla det som behöver handlas.</p></a><a class="f" href="/vardagsmat/"><h3>Vardagsmat</h3><p>Enkla recept och en plan som håller hela veckan.</p></a><a class="f" href="/snabb-middag/"><h3>Snabb &amp; enkel middag</h3><p>Klart på 20–30 minuter med det som finns hemma.</p></a><a class="f" href="/middagstips-barnfamilj/"><h3>Middagstips för barnfamiljen</h3><p>Rätter barnen äter – utan tjat.</p></a><a class="f" href="/matlador/"><h3>Matlådor</h3><p>Recept, planering och koll på kyl och frys.</p></a><a class="f" href="/billig-mat/"><h3>Billig mat för en vecka</h3><p>Handla mindre och använd det du har.</p></a><a class="f" href="/inkopslista/"><h3>Inköpslista</h3><p>Delad lista som fylls på från recepten.</p></a><a class="f" href="/bast-fore-datum/"><h3>Bäst före-datum</h3><p>Hur länge håller maten egentligen?</p></a><a class="f" href="/matsvinn/"><h3>Minska matsvinn</h3><p>Se och använd maten innan den glöms bort.</p></a><a class="f" href="/matapp/"><h3>Matapp</h3><p>Recept, matlager, hushåll och inköpslista på samma plats.</p></a></div>
   <nav class="wrap langrow" aria-label="Cibello på andra språk">
     <strong>Andra språk:</strong> <a href="/en/" lang="en" hreflang="en">English</a> · <a href="/de/" lang="de" hreflang="de">Deutsch</a> · <a href="/fr/" lang="fr" hreflang="fr">Français</a> · <a href="/es/" lang="es" hreflang="es">Español</a> · <a href="/it/" lang="it" hreflang="it">Italiano</a> · <a href="/nl/" lang="nl" hreflang="nl">Nederlands</a> · <a href="/pl/" lang="pl" hreflang="pl">Polski</a> · <a href="/da/" lang="da" hreflang="da">Dansk</a> · <a href="/nb/" lang="nb" hreflang="nb">Norsk</a> · <a href="/fi/" lang="fi" hreflang="fi">Suomi</a> · <a href="/pt/" lang="pt" hreflang="pt">Português</a>
   </nav>
 </section>
+</main>
 <footer>
   <div class="wrap foot-grid">
     <div>
@@ -260,14 +263,14 @@
     <div class="foot-dl">
       <span style="font-weight:700;color:#fff;margin-bottom:4px" data-i18n="foot_get">Skaffa appen</span>
       <a href="https://apps.apple.com/app/id6807100747" class="store" rel="noopener"><svg viewBox="0 0 24 24" fill="#fff"><path d="M16.4 12.7c0-2 1.6-3 1.7-3.1-.9-1.4-2.4-1.6-2.9-1.6-1.2-.1-2.4.7-3 .7-.6 0-1.6-.7-2.6-.7-1.3 0-2.6.8-3.3 2-1.4 2.4-.4 6 1 8 .7 1 1.4 2 2.4 2 1 0 1.3-.6 2.5-.6 1.2 0 1.5.6 2.5.6 1 0 1.7-.9 2.3-1.9.7-1.1 1-2.2 1-2.3-.1 0-2-.8-2.1-3.1zM14.6 6.3c.5-.7.9-1.6.8-2.5-.8 0-1.7.5-2.3 1.2-.5.6-.9 1.5-.8 2.4.9.1 1.8-.4 2.3-1.1z"/></svg><span><small data-i18n="dl_apple">Ladda ner på</small><b>App Store</b></span></a>
-      <a href="https://play.google.com/store/apps/details?id=com.cibello.app" class="store" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 3.5v17c0 .5.5.8.9.5l9.3-8.5-9.3-8.5c-.4-.3-.9 0-.9.5z" fill="#34d399"/><path d="M14.2 12.5l2.7-2.5 3.6 2c.6.4.6 1.2 0 1.6l-3.6 2-2.7-2.5z" fill="#fbbf24"/><path d="M4.9 20.5l9.3-8-2.7-2.5-6.6 6c-.4.3-.4.9 0 .5z" fill="#f87171"/><path d="M4.9 3.5l9.3 8-2.7 2.5-6.6-6c-.4-.3-.4-.9 0-.5z" fill="#60a5fa"/></svg><span><small data-i18n="dl_google">Hämta på</small><b>Google Play</b></span></a>
+      <a href="https://play.google.com/store/apps/details?id=com.cibello.app&amp;referrer=utm_source%3Dcibello.app%26utm_medium%3Dweb%26utm_campaign%3Dhome" class="store" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 3.5v17c0 .5.5.8.9.5l9.3-8.5-9.3-8.5c-.4-.3-.9 0-.9.5z" fill="#34d399"/><path d="M14.2 12.5l2.7-2.5 3.6 2c.6.4.6 1.2 0 1.6l-3.6 2-2.7-2.5z" fill="#fbbf24"/><path d="M4.9 20.5l9.3-8-2.7-2.5-6.6 6c-.4.3-.4.9 0 .5z" fill="#f87171"/><path d="M4.9 3.5l9.3 8-2.7 2.5-6.6-6c-.4-.3-.4-.9 0-.5z" fill="#60a5fa"/></svg><span><small data-i18n="dl_google">Hämta på</small><b>Google Play</b></span></a>
     </div>
   </div>
 
   <div class="wrap foot-cols">
-    <nav aria-label="Guider"><h3 data-i18n="foot_guides">Guider</h3><a href="/middagstips/">Middagstips</a><a href="/vad-ska-vi-ata/">Vad ska vi äta idag?</a><a href="/veckomeny/">Veckomeny</a><a href="/vardagsmat/">Vardagsmat</a><a href="/snabb-middag/">Snabb & enkel middag</a><a href="/middagstips-barnfamilj/">Middagstips för barnfamiljen</a><a href="/matlador/">Matlådor</a><a href="/billig-mat/">Billig mat för en vecka</a><a href="/inkopslista/">Inköpslista</a><a href="/bast-fore-datum/">Bäst före-datum</a><a href="/matsvinn/">Minska matsvinn</a><a href="/matapp/">Matapp</a></nav>
+    <nav aria-label="Guider"><h3 data-i18n="foot_guides">Guider</h3><a href="/middagstips/">Middagstips</a><a href="/vad-ska-vi-ata/">Vad ska vi äta idag?</a><a href="/veckomeny/">Veckomeny</a><a href="/vardagsmat/">Vardagsmat</a><a href="/snabb-middag/">Snabb &amp; enkel middag</a><a href="/middagstips-barnfamilj/">Middagstips för barnfamiljen</a><a href="/matlador/">Matlådor</a><a href="/billig-mat/">Billig mat för en vecka</a><a href="/inkopslista/">Inköpslista</a><a href="/bast-fore-datum/">Bäst före-datum</a><a href="/matsvinn/">Minska matsvinn</a><a href="/matapp/">Matapp</a></nav>
     <nav aria-label="Språk"><h3 data-i18n="foot_langs">Språk</h3><a href="/" lang="sv" hreflang="sv">Svenska</a><a href="/en/" lang="en" hreflang="en">English</a><a href="/de/" lang="de" hreflang="de">Deutsch</a><a href="/fr/" lang="fr" hreflang="fr">Français</a><a href="/es/" lang="es" hreflang="es">Español</a><a href="/it/" lang="it" hreflang="it">Italiano</a><a href="/nl/" lang="nl" hreflang="nl">Nederlands</a><a href="/pl/" lang="pl" hreflang="pl">Polski</a><a href="/da/" lang="da" hreflang="da">Dansk</a><a href="/nb/" lang="nb" hreflang="nb">Norsk</a><a href="/fi/" lang="fi" hreflang="fi">Suomi</a><a href="/pt/" lang="pt" hreflang="pt">Português</a></nav>
-    <nav aria-label="Företag"><h3 data-i18n="foot_company">Företag</h3><a href="/integritet.html" data-i18n="foot_privacy">Integritet</a><a href="/villkor.html" data-i18n="foot_terms">Villkor</a><a href="/delete-account.html" data-i18n="foot_delete">Radera konto</a><a href="mailto:hello@cibello.app" data-i18n="foot_contact">Kontakt</a><a href="https://landvex.com" rel="noopener">LandveX AB</a></nav>
+    <nav aria-label="Företag"><h3 data-i18n="foot_company">Företag</h3><a href="/om/">Om Cibello</a><a href="/integritet.html" data-i18n="foot_privacy">Integritet</a><a href="/villkor.html" data-i18n="foot_terms">Villkor</a><a href="/delete-account.html" data-i18n="foot_delete">Radera konto</a><a href="mailto:hello@cibello.app" data-i18n="foot_contact">Kontakt</a><a href="https://landvex.com" rel="noopener">LandveX AB</a></nav>
   </div>
   <div class="wrap"><p class="foot-note" data-i18n="foot_disclaimer">Recept och förslag är vägledning, inte medicinsk rådgivning. Har du en allergi – kontrollera alltid ingredienserna själv.</p></div>
   <div class="wrap"><p class="foot-note" style="margin-top:6px">LandveX AB · Org.nr 559141-7042 · Antennvägen 2, 135&nbsp;48 Tyresö</p></div>

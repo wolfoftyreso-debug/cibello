@@ -1,4 +1,3 @@
-@import url("/tokens.css");
 *{box-sizing:border-box}
 body{margin:0;font:17px/1.7 var(--font);color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
 a{color:var(--green)}
@@ -83,3 +82,7 @@ footer a{color:#fff}
 .cta a.store{display:inline-flex;background:linear-gradient(180deg,#33322d 0%,var(--dark) 50%,#0d0d0b 100%);color:#fff;border-radius:11px;padding:11px 18px}
 .updated{color:var(--muted);margin-top:18px}
 .cta a.store,.cta a.store *{text-decoration:none}
+
+.skip{position:absolute;left:8px;top:-60px;z-index:100;background:var(--green-x);color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;text-decoration:none;transition:top .15s}
+.skip:focus{top:8px}
+a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:6px}
