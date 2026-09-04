@@ -7,6 +7,8 @@ Statisk marknadssajt för Cibello (LandveX AB). Ren HTML/CSS/JS utan byggsteg �
 - `/en/`, `/de/`, … `index.html` – **genererade** landningssidor. Ändra aldrig dem direkt: ändra `index.html` (markup), `tools/i18n.json` (översättningar per `data-i18n`-nyckel), `tools/sitedata.py` (guider, etiketter) eller `tools/hubtext/<lang>.html` (språkspecifik text) och kör `python3 tools/build_home.py`. Ingen text byts i webbläsaren; språkväljaren navigerar till rätt sida och besökare med annat webbläsarspråk får en banner.
 - `/om/`, `/en/about/` – om företaget (E-E-A-T, kontakt). `/press/`, `/en/press/` – pressmaterial.
 - `/basta-matapp/`, `/en/best-meal-planning-app/`, `/en/best-recipe-app/` – jämförelsesidor. `/vad-ska-jag-ata-till-middag/` har Middagsväljaren (`middag.js`).
+- `/nytt/`, `/en/news/` – nyhetssida med RSS (`feed.xml`). Lägg till en post per apputgåva eller ny guide; det är sajtens färskhetssignal.
+- `docs/OVERSATTNINGSBRIEF.md` – brief för modersmålsskribenter till guiderna på de tio övriga språken, inklusive noindex-alternativet.
 - `/matsvinn-statistik/` – officiella siffror med källor; uppdatera när Naturvårdsverket publicerar ny statistik (december varje år).
 - `outreach/` – länkprospekt och pitchmallar (publiceras inte, ligger utanför sitemap).
 - Alla sidor har ett litet inline-skript som sätter `html.js`; reveal-animationer körs bara då, så innehållet syns utan JavaScript. Skriptets CSP-hash finns i `_headers`/`vercel.json` – ändra inte skriptet utan att uppdatera hashen.
