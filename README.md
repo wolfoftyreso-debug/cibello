@@ -18,6 +18,10 @@ Statisk marknadssajt för Cibello (LandveX AB). Ren HTML/CSS/JS utan byggsteg �
 - `tools/sitemap.py` – regenererar `sitemap.xml` från HTML-filerna (hreflang läses från sidorna, lastmod från git).
 - `tools/check.py` – validerar länkar, canonical, hreflang-reciprocitet, JSON-LD, titlar, beskrivningar och sitemap-täckning.
 
+- `img/og/` – en OG-bild per svensk och engelsk guide. Regenerera vid nya sidor eller ändrade rubriker (mallen ligger i `og.html` i genereringsskriptet; kräver Playwright).
+- `.github/workflows/site-checks.yml` – kör `tools/check.py`, html-validate och JS-syntaxkontroll vid varje push.
+- `docs/LANSERING.md` – lanseringschecklista. `docs/FAKTAKONTROLL.md` – register över produktpåståenden och deras källor.
+
 ## Arbetsflöde
 1. Redigera HTML direkt. Ny guide: kopiera en befintlig sida i samma språk, byt canonical/hreflang/title/description/innehåll och lägg till sidan i sidfotens och asidens länklistor.
 2. Kör `python3 tools/sitemap.py && python3 tools/check.py` innan push. Checken ska ge 0 errors.
