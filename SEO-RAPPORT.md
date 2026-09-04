@@ -166,7 +166,15 @@ Domäner som redan länkar till svenska matappar och därför sannolikt länkar 
 
 Semrush-enheterna var fortfarande slut, så volymerna för "matsvinn statistik" och "hur mycket mat slängs i sverige" kunde inte hämtas. Sidan är motiverad av länkvärde oavsett volym.
 
-## 9. Nästa steg som inte går att lösa i koden
+## 9. Genomgång 5–7: faktakontroll, intern länkning, riktiga landningssidor per språk
+
+- **Faktakontroll** (`docs/FAKTAKONTROLL.md`): varje produktpåstående på de nya sidorna prövat mot integritetspolicy, villkor och ursprunglig startsida. Sju formuleringar utan täckning skrevs om (ingrediensbyten, tidsfilter, automatisk restplanering, "datum och plats" på matlådor, barn som använder appen trots 18-årsgräns, "inga annonser", lanseringsår). Två belagda fakta lades till: 14 dagars provperiod utan kort och 18-årsgränsen.
+- **Intern länkning**: kontextuella länkar i brödtexten från de äldre guiderna till de nya. Egna OG-bilder för 29 guider. CI-kontroll vid varje push.
+- **Riktiga landningssidor per språk.** Tidigare var `/en/`, `/de/` m.fl. textsidor på 150–300 ord, medan den rika startsidan bara fanns på svenska och översattes med JavaScript. Nu renderas startsidan statiskt till elva fullständiga landningssidor (`tools/build_home.py`) med hero, siffror, funktioner, jämförelse, FAQ med schema, hubbens egen text och guidelista på respektive språk. Sidstorlek 36–39 kB HTML. Ingen text byts längre i webbläsaren: språkväljaren navigerar, bannern navigerar, valet sparas. `/en/` är nu den sida som ska ranka på "meal planning app" (40 500 sökningar) med 1 000+ ord engelskt innehåll i stället för 190.
+- Egna OG-bilder per språk (`img/og-<lang>.png`) med hero-texten på det språket.
+- axe-core: 0 överträdelser på `/`, `/en/`, guide, juridik och 404 efter ändringen.
+
+## 10. Nästa steg som inte går att lösa i koden
 
 0. Semrush-kontot behöver fler API-enheter innan nästa datakörning (organisk nyckelordslista per konkurrent och frågerapporter för veckomeny/matsvinn stoppades av tom balans).
 

@@ -3,7 +3,8 @@
 Statisk marknadssajt för Cibello (LandveX AB). Ren HTML/CSS/JS utan byggsteg – ladda upp repo-roten som den är till valfri statisk host (Netlify, Cloudflare Pages, Vercel, S3 m.fl.).
 
 ## Struktur
-- `index.html` – svensk startsida (`home.css`, `main.js`). Sidan serveras alltid på svenska (SEO-säkert). Andra språk erbjuds via banner/väljare; översättningarna ligger i `i18n.js` och laddas först när ett annat språk väljs eller tidigare sparats i localStorage.
+- `index.html` – svensk startsida (`home.css`, `main.js`). Källa för alla språkversioner.
+- `/en/`, `/de/`, … `index.html` – **genererade** landningssidor. Ändra aldrig dem direkt: ändra `index.html` (markup), `tools/i18n.json` (översättningar per `data-i18n`-nyckel), `tools/sitedata.py` (guider, etiketter) eller `tools/hubtext/<lang>.html` (språkspecifik text) och kör `python3 tools/build_home.py`. Ingen text byts i webbläsaren; språkväljaren navigerar till rätt sida och besökare med annat webbläsarspråk får en banner.
 - `/om/`, `/en/about/` – om företaget (E-E-A-T, kontakt). `/press/`, `/en/press/` – pressmaterial.
 - `/basta-matapp/`, `/en/best-meal-planning-app/`, `/en/best-recipe-app/` – jämförelsesidor. `/vad-ska-jag-ata-till-middag/` har Middagsväljaren (`middag.js`).
 - `/matsvinn-statistik/` – officiella siffror med källor; uppdatera när Naturvårdsverket publicerar ny statistik (december varje år).

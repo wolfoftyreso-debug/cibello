@@ -214,3 +214,12 @@ a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{
 .cmp-us h3{color:#fff}.cmp-us p{color:#e7f1ea}
 .cmp-link{margin-top:22px;font-weight:600}.cmp-link a{color:var(--green-d);text-decoration:underline;text-underline-offset:3px}
 @media(max-width:820px){.cmp-grid{grid-template-columns:1fr}}
+/* Language-specific prose kept from the earlier hub pages */
+.hubtext{padding:64px 0 8px;background:var(--bg)}
+.hubwrap{max-width:820px}
+.hubwrap h2{font-size:1.45rem;margin:1.6em 0 .4em}
+.hubwrap section:first-child h2{margin-top:0}
+.hubwrap p,.hubwrap li{color:var(--muted);max-width:72ch}
+.hubwrap a{color:var(--green-d);text-decoration:underline;text-underline-offset:3px}
+.hubwrap ul,.hubwrap ol{padding-left:1.3em}
+.hubwrap li{margin:.35em 0}
