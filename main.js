@@ -34,6 +34,7 @@ document.getElementById('yr').textContent = new Date().getFullYear();
       if (v==null) return;
       if (el.tagName==="META"){ el.setAttribute("content", v); } else { el.textContent = v; }
     });
+    document.querySelectorAll("[data-href-en]").forEach(function(a){ a.setAttribute("href", lang === "sv" ? a.getAttribute("data-href-sv") || a.getAttribute("href") : a.getAttribute("data-href-en")); if(!a.getAttribute("data-href-sv")) a.setAttribute("data-href-sv", "/basta-matapp/"); });
     document.getElementById("langsel").value = lang;
   }
   // SEO: the page is served in Swedish and never auto-translated on load (crawlers render

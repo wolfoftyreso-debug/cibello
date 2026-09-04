@@ -110,7 +110,55 @@ Domänläge enligt Semrush (2026-09-04): Authority Score 0, 8 bakåtlänkar frå
 
 Tunna sidor som återstår (huvudinnehåll under 300 ord): de finska, polska, tyska, nederländska och danska guiderna, samt alla språkhubbar utom den svenska och engelska (efter avdupliceringen är hubbarna 150–190 ord och fungerar som navigering). De är korrekta men korta. Rekommendation: låt en modersmålstalare bygga ut till 500+ ord per sida med lokala sökord, eller prioritera de marknader appen faktiskt satsar på och låt övriga vara.
 
-## 7. Nästa steg som inte går att lösa i koden
+## 7. Genomgång 3: konkurrentlandskapet
+
+Källor: Semrush (SERP-ägare, bakåtlänkar, auktoritet; API-enheterna tog slut mitt i omgången så vissa rapporter saknas), Firecrawl-webbsök av apparnas egna sidor och butiksbeskrivningar, Mobbin för jämförelsemönster.
+
+### Vem äger sökresultaten i Sverige
+
+| Sökord | Topp 3 | Vad de erbjuder |
+|---|---|---|
+| middagstips (40 500) | koket.se, ica.se, zeinaskitchen.se | Receptsamlingar med hög auktoritet |
+| veckomeny (3 600) | koket.se, ica.se, citygross.se | Färdiga veckomenyer, ofta kopplade till matkasse/butik |
+| vad ska vi äta idag (4 400) | koket.se, vadfanskajaglagatillmiddag.nu, Facebook-grupper | Listor och en slump-generator |
+| matapp (170) | Google Play, App Store (Too Good To Go), toogoodtogo.com, mealview.se | Butikslistningar och en svensk planeringsapp |
+| matsvinn app (170) | Karma, Too Good To Go, digitalare.se | Överskottsmat från butiker, roundup-artiklar |
+| recept app (110) | Recipe Keeper, Reddit, smakshare.com, Arla-appen, matlistan.se | Receptsamlingar och inköpslistor |
+
+Slutsats: receptvolym vinner de stora orden, och där kan Cibello inte konkurrera på bredd. Ingen svensk aktör äger positionen "recept utifrån det du faktiskt har hemma, från ett foto". vadfanskajaglagatillmiddag.nu rankar tvåa på "vad ska vi äta idag" med en ren slump-generator, vilket visar att ett interaktivt verktyg slår långa texter för den intentionen.
+
+### Direkta appkonkurrenter
+
+| App | Marknad | Vad den gör | Vad den saknar mot Cibello | Auktoritet (Semrush) |
+|---|---|---|---|---|
+| Matlistan | SE, sedan 2014 | Delad inköpslista, receptsamling, planering | Inget matlager, inga förslag utifrån det man har, ingen AI-skanning | AS 16, 259 länkar, 158 domäner |
+| SmakShare | SE (Gotland) | Spara recept (även från Instagram), veckomatsedel, inköpslista | Inget matlager, inga datum/påminnelser | AS 15, 2 132 länkar, 227 domäner |
+| Mealview | SE | Matplanering, blogg | Oklart; liten närvaro | AS 7, 201 länkar, 130 domäner |
+| Matsedeln – Måltidsplanerare | SE | Veckomeny, receptbok, inköpslista, gratis + premium | Inget matlager | – |
+| Too Good To Go / Karma | SE + int. | Överskottsmat från butiker | Löser inte svinnet i hemmet | Mycket hög |
+| SuperCook | Int. (svensk översättning) | Recept från ingredienser du skriver/dikterar, 11 miljoner recept, gratis | Manuellt lager, ingen plan, ingen hushållsdelning, inga datum | Mycket hög |
+| Mealime | Int. | Guidade veckoplaner, automatisk lista, gratis + Pro | Vet inte vad du har, katalogen upprepar sig, inga egna recept | Hög |
+| Samsung Food (ex-Whisk) | Int. | Spara recept, planera, lista, gratis + Plus | Manuellt, apparat-fokus | Hög |
+| Plan to Eat / Paprika | Int. | Receptbibliotek, kalender, listor; abonnemang resp. engångsköp | Inget lager, ingen AI | Hög |
+| Fridge AI, Pantry Pic, KitchenPal | Int., nya | Foto av kylen ger recept | Sällan varaktigt lager, plan eller hushåll | Låg |
+
+Cibello: AS 0, 8 länkar. Sajten ligger alltså långt efter även små svenska konkurrenter i länkar, vilket är den enskilt viktigaste faktorn att åtgärda.
+
+### Vad som byggdes utifrån detta
+
+- `/basta-matapp/` – ärlig jämförelse Cibello vs SuperCook, Matlistan, SmakShare, Too Good To Go/Karma, ICA/Coop. Fångar "matlistan" (590), "karma app" (720), "matapp", "recept app" och jämförelseintentionen. Tabell med Ja/Nej/Delvis och källnot; anger också vad Cibello inte gör.
+- `/en/best-meal-planning-app/` – jämförelse mot Mealime, Samsung Food, Plan to Eat, Paprika, SuperCook och fotoappar. Riktar "best meal planning app" (1 000, KD 37), "best recipe app" (1 900, KD 18), "free meal planning app" (1 000).
+- `/vad-ska-jag-ata-till-middag/` – frågesida med Middagsväljaren (slumpar bland 40 rätter efter protein, tid och läge, ingen inloggning). Riktar "vad ska jag äta till middag" (2 400), "vad fan ska jag laga till middag" (390), "vad kan man äta till middag" (320), "vad ska jag laga till middag" (260), "middag ikväll" (260), "vad ska jag äta ikväll" (210).
+- Startsidan: sektionen "Receptappar vet inte vad du har hemma. Cibello gör det." (tre kort, översatt till tolv språk, länk till rätt jämförelse per språk).
+- Jämförelsesidorna länkas från sidhuvud, sidfot och asides på alla sidor.
+
+### Länkprospekt
+
+Domäner som redan länkar till svenska matappar och därför sannolikt länkar till Cibello med rätt pitch: lchfarkivet.se (AS 39), theresematochbak.se (AS 18), digitalare.se (roundup "fem bra appar mot matsvinn"), warpnews.se (skrev om recept-från-ingredienser-appar), swedroid.se (forumtråd "tips på svensk matapp"), Sveriges Radio och SVT lokalt (har rapporterat om matappar mot svinn). Pitcha vinkeln "svensk app som fotar kylen" och siffror om hushållens matsvinn.
+
+## 8. Nästa steg som inte går att lösa i koden
+
+0. Semrush-kontot behöver fler API-enheter innan nästa datakörning (organisk nyckelordslista per konkurrent och frågerapporter för veckomeny/matsvinn stoppades av tom balans).
 
 1. Verifiera domänen i Google Search Console och Bing Webmaster Tools, skicka in `sitemap.xml`.
 2. Skaffa riktiga betyg i App Store och Google Play. När det finns ett rimligt antal: lägg in `aggregateRating` i `SoftwareApplication`-noden och visa betygen på startsidan (mönstret från ExpressVPN/Varo). Lägg inte in påhittade siffror.
