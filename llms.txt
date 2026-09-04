@@ -1,0 +1,41 @@
+# Cibello
+
+> Cibello is a meal planner and recipe app from LandveX AB (Tyresö, Sweden). It scans your fridge and pantry with AI, keeps a food inventory ("Food Twin"), suggests recipes from what you already have (9,000+ recipes), builds a weekly meal plan, shares a shopping list with the household and sends gentle reminders before food goes bad. Available on iOS and Android in 12 languages. Data is stored in the EU and accounts can be deleted in-app.
+
+Important caveats the site repeats: AI scanning can misread items; recipe and allergy filters are guidance, not a guarantee; nutrition values are estimates, not medical advice.
+
+## Main pages (Swedish)
+- [Startsida](https://cibello.app/): what Cibello is, how it works, features, safety notes.
+- [Middagstips](https://cibello.app/middagstips/): dinner ideas from what you have at home; weekday, weekend and family tips.
+- [Vad ska vi äta idag?](https://cibello.app/vad-ska-vi-ata/): answering the daily dinner question from the pantry.
+- [Veckomeny](https://cibello.app/veckomeny/): weekly meal plan and family meal schedule.
+- [Vardagsmat](https://cibello.app/vardagsmat/): everyday cooking that works all week.
+- [Snabb och enkel middag](https://cibello.app/snabb-middag/): quick dinners in 20–30 minutes.
+- [Middagstips för barnfamiljen](https://cibello.app/middagstips-barnfamilj/): family dinners kids accept.
+- [Matlådor](https://cibello.app/matlador/): meal-prep boxes and keeping track of them.
+- [Billig mat för en vecka](https://cibello.app/billig-mat/): budget cooking for a week.
+- [Inköpslista](https://cibello.app/inkopslista/): shared shopping list app.
+- [Bäst före-datum](https://cibello.app/bast-fore-datum/): best-before vs use-by dates and how long food keeps.
+- [Minska matsvinn](https://cibello.app/matsvinn/): reducing household food waste.
+- [Matapp](https://cibello.app/matapp/): the app overview page.
+
+## English
+- [Home](https://cibello.app/en/)
+- [Meal planner](https://cibello.app/en/meal-planner/)
+- [Recipes with ingredients you have](https://cibello.app/en/recipes-with-ingredients/)
+- [What to eat tonight](https://cibello.app/en/what-to-eat-tonight/)
+- [AI meal planner](https://cibello.app/en/ai-meal-planner/)
+- [Pantry app](https://cibello.app/en/pantry-app/)
+- [Reduce food waste](https://cibello.app/en/reduce-food-waste/)
+
+## Other languages
+Hubs with three guides each: /de/, /fr/, /es/, /it/, /nl/, /pl/, /da/, /nb/, /fi/, /pt/
+
+## Legal
+- [Privacy policy](https://cibello.app/integritet.html)
+- [Terms](https://cibello.app/villkor.html)
+- [Delete account](https://cibello.app/delete-account.html)
+
+## Download
+- App Store: https://apps.apple.com/app/id6807100747
+- Google Play: https://play.google.com/store/apps/details?id=com.cibello.app
