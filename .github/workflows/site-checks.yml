@@ -1,0 +1,23 @@
+name: Site checks
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Links, canonical, hreflang, JSON-LD, sitemap coverage
+        run: python3 tools/check.py
+      - name: HTML validity
+        run: npx --yes html-validate@9 --config tools/.htmlvalidate.json "**/*.html"
+      - name: JavaScript syntax
+        run: for f in main.js i18n.js middag.js; do node --check "$f"; done
