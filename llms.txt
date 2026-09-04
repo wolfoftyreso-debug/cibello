@@ -4,37 +4,103 @@
 
 Important caveats the site repeats: AI scanning can misread items; recipe and allergy filters are guidance, not a guarantee; nutrition values are estimates, not medical advice.
 
-## Main pages (Swedish)
-- [Startsida](https://cibello.app/): what Cibello is, how it works, features, safety notes.
-- [Middagstips](https://cibello.app/middagstips/): dinner ideas from what you have at home; weekday, weekend and family tips.
-- [Vad ska vi äta idag?](https://cibello.app/vad-ska-vi-ata/): answering the daily dinner question from the pantry.
-- [Veckomeny](https://cibello.app/veckomeny/): weekly meal plan and family meal schedule.
-- [Vardagsmat](https://cibello.app/vardagsmat/): everyday cooking that works all week.
-- [Snabb och enkel middag](https://cibello.app/snabb-middag/): quick dinners in 20–30 minutes.
-- [Middagstips för barnfamiljen](https://cibello.app/middagstips-barnfamilj/): family dinners kids accept.
-- [Matlådor](https://cibello.app/matlador/): meal-prep boxes and keeping track of them.
-- [Billig mat för en vecka](https://cibello.app/billig-mat/): budget cooking for a week.
-- [Inköpslista](https://cibello.app/inkopslista/): shared shopping list app.
-- [Bäst före-datum](https://cibello.app/bast-fore-datum/): best-before vs use-by dates and how long food keeps.
-- [Minska matsvinn](https://cibello.app/matsvinn/): reducing household food waste.
-- [Matapp](https://cibello.app/matapp/): the app overview page.
+## Svenska (primary market)
+- [Bäst före-datum: hur länge håller maten egentligen? | Cibello](https://cibello.app/bast-fore-datum/): Skillnaden mellan bäst före och sista förbrukningsdag, hur länge vanliga livsmedel håller och hur du får påminnelser innan maten blir dålig.
+- [Bästa matappen? Cibello vs SuperCook, Matlistan, SmakShare | Cibello](https://cibello.app/basta-matapp/): Vilken matapp passar dig? Ärlig jämförelse av Cibello, SuperCook, Matlistan, SmakShare, Too Good To Go, Karma och ICA/Coop: matlager, recept, veckomeny, inköpslista.
+- [Billig mat för en vecka: planera, handla mindre, använd det du har | Cibello](https://cibello.app/billig-mat/): Billig mat utan att det blir tråkigt: planera en billig veckomeny, handla bara det som saknas och använd maten du redan har. Konkreta tips och exempelmeny.
+- [Radera konto och data – Cibello](https://cibello.app/delete-account.html): Så raderar du ditt Cibello-konto och tillhörande personuppgifter direkt i appen.
+- [Cibello – matapp för recept från det du har hemma](https://cibello.app/): Cibello är en matapp för middagstips, recept från det du har hemma, veckomeny och inköpslista. Skanna kyl och skafferi och minska matsvinnet.
+- [Inköpslista som delas med hushållet och fylls på från recepten | Cibello](https://cibello.app/inkopslista/): En inköpslista som hela hushållet ser, som fylls på automatiskt från veckomenyn och som bara tar med det som saknas hemma. Så fungerar inköpslistan i Cibello.
+- [Integritetspolicy – Cibello](https://cibello.app/integritet.html): Så behandlar Cibello personuppgifter, bilder, Gemini-analys och frivillig Cibello AI-träning.
+- [Matapp och receptapp med matlager, veckomeny och inköpslista | Cibello](https://cibello.app/matapp/): Cibello är en matapp som skannar kyl och skafferi, matchar 9 000+ recept mot det du har hemma, planerar veckan och delar inköpslistan med hushållet.
+- [Matlådor: recept, planering och koll på kyl och frys | Cibello](https://cibello.app/matlador/): Matlådor som faktiskt blir ätna: rätter som tål att värmas, hur du planerar veckans matlådor och hur du håller koll på vad som står i kyl och frys.
+- [Minska matsvinn hemma – appen som håller koll på maten | Cibello](https://cibello.app/matsvinn/): Minska matsvinnet i hushållet: se vad som bör användas snart, hitta recept på det du har och undvik dubbelköp. Vad är matsvinn och hur mycket slängs i Sverige?
+- [Matsvinn i Sverige 2024: hur mycket mat slängs, per person och i kronor | Cibello](https://cibello.app/matsvinn-statistik/): Så mycket mat slängs i Sverige: 880 000 ton livsmedelsavfall, 16 kg ätbar mat per person i hushållen och 1 330 kr per person och år. Siffror från Naturvårdsverket och Livsmedelsverket, med källor.
+- [Middagstips utifrån det du har hemma – vardag, helg och barn | Cibello](https://cibello.app/middagstips/): Middagstips som utgår från maten du redan har. Enkla middagstips för vardag, helg och barnfamilj – och en app som ser vad som finns i kylen.
+- [Middagstips för barnfamiljen – snabbt och godkänt av barnen | Cibello](https://cibello.app/middagstips-barnfamilj/): Middagstips för barnfamilj: snabba rätter som går att variera och som barnen faktiskt äter. Planera veckans middagar utifrån det som finns hemma – utan tjat.
+- [Middagstips för helg: fredagsmys, lördagsmiddag och söndagens långkok | Cibello](https://cibello.app/middagstips-helg/): Middagstips för helgen: enkelt fredagsmys, lite lyxigare lördagsmiddag och söndagens långkok som ger matlådor. Rätter som tål gäster och rester – planerade utifrån det ni har hemma.
+- [Middagstips för vardag: 25 rätter på under 30 minuter | Cibello](https://cibello.app/middagstips-vardag/): Middagstips för vardagen som går att laga på 15–30 minuter med sådant som brukar finnas hemma. 25 rätter sorterade på tid, plus knepet som gör att middagen aldrig blir en fråga.
+- [Om Cibello – appen och företaget bakom | LandveX AB](https://cibello.app/om/): Cibello utvecklas av LandveX AB i Tyresö. Läs om varför appen finns, hur vi ser på AI, data och matsvinn, och hur du kontaktar oss.
+- [Press och media – fakta, bilder och kontakt | Cibello](https://cibello.app/press/): Pressmaterial om Cibello: kort beskrivning, fakta om appen, logotyp och bilder, matsvinnssiffror med källor och presskontakt hos LandveX AB.
+- [Snabb och enkel middag på 20–30 minuter med det du har hemma | Cibello](https://cibello.app/snabb-middag/): Snabb middag utan att först springa till affären. Så hittar du enkla middagar på 20–30 minuter utifrån det som redan finns i kylen och skafferiet.
+- [Vad ska jag äta till middag ikväll? Middagsväljare + tips | Cibello](https://cibello.app/vad-ska-jag-ata-till-middag/): Vad ska jag laga till middag ikväll? Använd middagsväljaren för ett förslag direkt, eller lär dig svara på frågan utifrån det du har hemma, tiden och orken.
+- [Vad ska vi äta idag? Middagsförslag från det ni har hemma | Cibello](https://cibello.app/vad-ska-vi-ata/): Vad ska vi äta idag? Få middagsförslag utifrån matlagret, hushållets smak och det som bör användas snart – i stället för ännu en oändlig receptlista.
+- [Vardagsmat – enkla recept och en plan som håller hela veckan | Cibello](https://cibello.app/vardagsmat/): Vardagsmat som faktiskt blir lagad: enkla recept, rätter på 20–30 minuter och en plan som utgår från det du har hemma. Så får du variation utan stress.
+- [Veckomeny och veckomatsedel som passar ert kök | Cibello](https://cibello.app/veckomeny/): Skapa en veckomeny med variation, använd maten hemma i rätt ordning och samla det som saknas i en delad inköpslista. Veckomatsedel för familjen utan krångel.
+- [Användarvillkor – Cibello](https://cibello.app/villkor.html): Användarvillkor för Cibello, inklusive konto, betalning, AI-analys och säker användning.
 
 ## English
-- [Home](https://cibello.app/en/)
-- [Meal planner](https://cibello.app/en/meal-planner/)
-- [Recipes with ingredients you have](https://cibello.app/en/recipes-with-ingredients/)
-- [What to eat tonight](https://cibello.app/en/what-to-eat-tonight/)
-- [AI meal planner](https://cibello.app/en/ai-meal-planner/)
-- [Pantry app](https://cibello.app/en/pantry-app/)
-- [Reduce food waste](https://cibello.app/en/reduce-food-waste/)
+- [About Cibello – the app and the company behind it | LandveX AB](https://cibello.app/en/about/): Cibello is built by LandveX AB in Tyresö, Sweden. Why the app exists, how we think about AI, data and food waste, and how to contact us.
+- [AI meal planner that starts with what is in your kitchen | Cibello](https://cibello.app/en/ai-meal-planner/): An AI meal planner that scans your fridge, learns your household's tastes and plans the week from food you already have. How it works, and where AI can be wrong.
+- [Best meal planning app? Cibello vs Mealime, Samsung Food, Paprika | Cibello](https://cibello.app/en/best-meal-planning-app/): Honest comparison of meal planning apps: Cibello, Mealime, Samsung Food, Plan to Eat, Paprika, SuperCook and photo-to-recipe apps. Inventory, planning, lists, pricing.
+- [Best recipe app? Cibello vs Paprika, Samsung Food, Yummly, SuperCook | Cibello](https://cibello.app/en/best-recipe-app/): Which recipe app is best? Honest comparison of Cibello, Paprika, Samsung Food, Yummly, SideChef, Tasty and SuperCook: saving recipes, finding recipes from what you have, planning and shopping lists.
+- [Cibello – meal planner and recipe app for food at home](https://cibello.app/en/): Plan meals, find recipes with ingredients you have, manage your pantry and share a shopping list with your household in Cibello.
+- [Meal planner for a simpler, more varied week | Cibello](https://cibello.app/en/meal-planner/): Plan meals around your household, the food already at home and what should be used soon. Cibello keeps the weekly plan and shopping list connected.
+- [Pantry app: scan your fridge and pantry, know what you have | Cibello](https://cibello.app/en/pantry-app/): A pantry inventory app that fills itself from photos, receipts and barcodes, tracks expiry dates, suggests recipes from what you have and shares with your household.
+- [Press and media – facts, images and contact | Cibello](https://cibello.app/en/press/): Press kit for Cibello: boilerplate, facts about the app, logo and images, food waste figures with sources, and the press contact at LandveX AB.
+- [Recipes with ingredients you already have | Cibello](https://cibello.app/en/recipes-with-ingredients/): Turn a reviewed fridge and pantry inventory into relevant recipe ideas. Cibello shows possible matches and what may still be missing.
+- [Reduce food waste with a clearer pantry | Cibello](https://cibello.app/en/reduce-food-waste/): See what is at home, notice food that should be used soon and plan meals before buying duplicates. Cibello connects inventory, recipes and shopping.
+- [What to eat tonight? Dinner ideas from what you already have | Cibello](https://cibello.app/en/what-to-eat-tonight/): Stuck on what to eat tonight? Get dinner ideas based on what is actually in your fridge and pantry, how much time you have and what your household likes.
 
-## Other languages
-Hubs with three guides each: /de/, /fr/, /es/, /it/, /nl/, /pl/, /da/, /nb/, /fi/, /pt/
+## Deutsch
+- [Essensplaner für eine abwechslungsreiche Woche | Cibello](https://cibello.app/de/essensplaner/): Plane Mahlzeiten nach Haushalt, vorhandenen Vorräten und Lebensmitteln, die bald verbraucht werden sollten. Cibello verbindet Wochenplan und Einkaufsliste.
+- [Cibello – Essensplaner und Rezept-App für deine Vorräte](https://cibello.app/de/): Plane Mahlzeiten, finde Rezepte mit vorhandenen Zutaten und teile Vorrat und Einkaufsliste mit deinem Haushalt in Cibello.
+- [Lebensmittelverschwendung mit mehr Überblick reduzieren | Cibello](https://cibello.app/de/lebensmittelverschwendung-reduzieren/): Sieh, was zu Hause ist, nutze empfindliche Lebensmittel rechtzeitig und vermeide Doppelkäufe. Cibello verbindet Vorrat, Rezepte und Einkauf.
+- [Rezepte mit Zutaten, die du zu Hause hast | Cibello](https://cibello.app/de/rezepte-mit-zutaten/): Mach aus einem geprüften Kühlschrank- und Vorratsbestand passende Rezeptideen. Cibello zeigt mögliche Treffer und was eventuell noch fehlt.
 
-## Legal
-- [Privacy policy](https://cibello.app/integritet.html)
-- [Terms](https://cibello.app/villkor.html)
-- [Delete account](https://cibello.app/delete-account.html)
+## Français
+- [Cibello – planificateur de repas et application de recettes](https://cibello.app/fr/): Planifiez les repas, trouvez des recettes avec vos ingrédients et partagez inventaire et liste de courses avec votre foyer dans Cibello.
+- [Planificateur de repas pour une semaine variée | Cibello](https://cibello.app/fr/planificateur-repas/): Planifiez les repas selon votre foyer, les aliments disponibles et ceux à utiliser bientôt. Cibello relie le planning hebdomadaire à la liste de courses.
+- [Recettes avec les ingrédients déjà disponibles | Cibello](https://cibello.app/fr/recettes-avec-ingredients/): Transformez l'inventaire vérifié du réfrigérateur et des placards en idées de recettes pertinentes. Cibello indique les correspondances possibles et ce qui manque.
+- [Réduire le gaspillage alimentaire | Cibello](https://cibello.app/fr/reduire-gaspillage-alimentaire/): Voyez ce qui est disponible, utilisez à temps les aliments fragiles et évitez les achats en double. Cibello relie inventaire, recettes et courses.
+
+## Español
+- [Cibello – planificador de comidas y app de recetas](https://cibello.app/es/): Planifica comidas, encuentra recetas con los ingredientes que tienes y comparte inventario y lista de la compra con tu hogar en Cibello.
+- [Planificador de comidas para una semana variada | Cibello](https://cibello.app/es/planificador-comidas/): Planifica según tu hogar, los alimentos disponibles y lo que conviene utilizar pronto. Cibello conecta el menú semanal con la lista de la compra.
+- [Recetas con los ingredientes que ya tienes | Cibello](https://cibello.app/es/recetas-con-ingredientes/): Convierte un inventario revisado del frigorífico y la despensa en ideas de recetas relevantes. Cibello muestra posibles coincidencias y lo que falta.
+- [Reducir el desperdicio alimentario con más control | Cibello](https://cibello.app/es/reducir-desperdicio-alimentario/): Ve lo que hay en casa, utiliza a tiempo los alimentos y evita compras duplicadas. Cibello conecta inventario, recetas y lista de la compra.
+
+## Italiano
+- [Cibello – pianificatore pasti e app di ricette](https://cibello.app/it/): Pianifica i pasti, trova ricette con gli ingredienti che hai e condividi dispensa e lista della spesa con la famiglia in Cibello.
+- [Pianificatore pasti per una settimana più varia | Cibello](https://cibello.app/it/pianificatore-pasti/): Pianifica in base alla famiglia, agli alimenti disponibili e a quelli da usare presto. Cibello collega il piano settimanale alla lista della spesa.
+- [Ricette con gli ingredienti che hai già | Cibello](https://cibello.app/it/ricette-con-ingredienti/): Trasforma un inventario controllato di frigorifero e dispensa in idee di ricette pertinenti. Cibello mostra le possibili corrispondenze e cosa manca.
+- [Ridurre lo spreco alimentare con più chiarezza | Cibello](https://cibello.app/it/ridurre-spreco-alimentare/): Vedi cosa c'è in casa, usa per tempo gli alimenti e limita gli acquisti doppi. Cibello collega inventario, ricette e spesa.
+
+## Nederlands
+- [Cibello – maaltijdplanner en recepten-app voor je voorraad](https://cibello.app/nl/): Plan maaltijden, vind recepten met wat je in huis hebt en deel voorraad en boodschappenlijst met je huishouden in Cibello.
+- [Maaltijdplanner voor een eenvoudige, gevarieerde week | Cibello](https://cibello.app/nl/maaltijdplanner/): Plan maaltijden rond je huishouden, de voorraad en eten dat snel gebruikt moet worden. Cibello koppelt de weekplanning aan de boodschappenlijst.
+- [Recepten met ingrediënten die je al hebt | Cibello](https://cibello.app/nl/recepten-met-ingredienten/): Maak van een gecontroleerde koelkast- en voorraadlijst passende receptideeën. Cibello toont mogelijke matches en wat nog ontbreekt.
+- [Voedselverspilling verminderen met beter overzicht | Cibello](https://cibello.app/nl/voedselverspilling-verminderen/): Zie wat er in huis is, gebruik kwetsbaar eten op tijd en voorkom dubbele aankopen. Cibello koppelt voorraad, recepten en boodschappen.
+
+## Polski
+- [Cibello – planer posiłków i aplikacja z przepisami](https://cibello.app/pl/): Planuj posiłki, znajduj przepisy z posiadanych składników i udostępniaj zapasy oraz listę zakupów domownikom w Cibello.
+- [Ogranicz marnowanie żywności dzięki lepszemu podglądowi | Cibello](https://cibello.app/pl/ograniczanie-marnowania-zywnosci/): Zobacz, co jest w domu, wykorzystaj żywność na czas i unikaj podwójnych zakupów. Cibello łączy zapasy, przepisy i zakupy.
+- [Planer posiłków na prostszy tydzień | Cibello](https://cibello.app/pl/planer-posilkow/): Planuj według potrzeb domowników, posiadanych produktów i żywności do szybkiego wykorzystania. Cibello łączy plan tygodnia z listą zakupów.
+- [Przepisy z produktów, które masz w domu | Cibello](https://cibello.app/pl/przepisy-z-produktow/): Zmień sprawdzone zapasy z lodówki i spiżarni w trafne pomysły na przepisy. Cibello pokazuje możliwe dopasowania i brakujące produkty.
+
+## Dansk
+- [Cibello – madplan og opskriftsapp til dine råvarer](https://cibello.app/da/): Planlæg måltider, find opskrifter med det du har hjemme, og del madlager og indkøbsliste med husstanden i Cibello.
+- [Madplan til en nemmere og mere varieret uge | Cibello](https://cibello.app/da/madplan/): Planlæg efter husstanden, råvarer hjemme og mad, der snart bør bruges. Cibello forbinder ugeplanen med indkøbslisten.
+- [Mindsk madspild med bedre overblik | Cibello](https://cibello.app/da/mindske-madspild/): Se hvad der er hjemme, brug maden i tide og undgå dobbeltkøb. Cibello forbinder madlager, opskrifter og indkøb.
+- [Opskrifter med ingredienser, du allerede har | Cibello](https://cibello.app/da/opskrifter-med-ingredienser/): Gør et kontrolleret køleskab og madlager til relevante opskriftsidéer. Cibello viser mulige match og det, der eventuelt mangler.
+
+## Norsk
+- [Cibello – matplanlegger og oppskriftsapp for det du har](https://cibello.app/nb/): Planlegg måltider, finn oppskrifter med det du har hjemme, og del matlager og handleliste med husstanden i Cibello.
+- [Matplanlegger for en enklere og mer variert uke | Cibello](https://cibello.app/nb/matplanlegger/): Planlegg etter husstanden, maten dere har og det som bør brukes snart. Cibello kobler ukeplanen til handlelisten.
+- [Oppskrifter med ingrediensene du allerede har | Cibello](https://cibello.app/nb/oppskrifter-med-ingredienser/): Gjør et kontrollert kjøleskap og matlager om til relevante oppskriftsideer. Cibello viser mulige treff og hva som eventuelt mangler.
+- [Reduser matsvinn med bedre oversikt | Cibello](https://cibello.app/nb/redusere-matsvinn/): Se hva som finnes hjemme, bruk maten i tide og unngå dobbeltkjøp. Cibello kobler matlager, oppskrifter og innkjøp.
+
+## Suomi
+- [Ateriasuunnittelu vaihtelevampaan viikkoon | Cibello](https://cibello.app/fi/ateriasuunnittelu/): Suunnittele talouden, kotona olevan ruoan ja pian käytettävien tuotteiden mukaan. Cibello yhdistää viikkosuunnitelman ostoslistaan.
+- [Cibello – ateriasuunnittelu ja reseptisovellus](https://cibello.app/fi/): Suunnittele ateriat, löydä reseptejä kotona olevista aineksista ja jaa ruokavarasto sekä ostoslista talouden kanssa Cibellossa.
+- [Reseptejä aineksista, joita sinulla jo on | Cibello](https://cibello.app/fi/reseptit-aineksista/): Muuta tarkistettu jääkaappi ja ruokavarasto sopiviksi resepti-ideoiksi. Cibello näyttää mahdolliset osumat ja puuttuvat tuotteet.
+- [Vähennä ruokahävikkiä paremman näkymän avulla | Cibello](https://cibello.app/fi/vahenna-ruokahavikkia/): Näe kotona oleva ruoka, käytä tuotteet ajoissa ja vältä päällekkäisiä ostoksia. Cibello yhdistää varaston, reseptit ja ostokset.
+
+## Português
+- [Cibello – planeador de refeições e app de receitas](https://cibello.app/pt/): Planeia refeições, encontra receitas com os ingredientes que tens e partilha despensa e lista de compras com a casa no Cibello.
+- [Planeador de refeições para uma semana mais variada | Cibello](https://cibello.app/pt/planeador-refeicoes/): Planeia de acordo com a casa, os alimentos disponíveis e o que deve ser usado brevemente. O Cibello liga o plano semanal à lista de compras.
+- [Receitas com os ingredientes que já tens | Cibello](https://cibello.app/pt/receitas-com-ingredientes/): Transforma um frigorífico e uma despensa confirmados em ideias de receitas relevantes. O Cibello mostra combinações possíveis e o que falta.
+- [Reduz o desperdício alimentar com mais controlo | Cibello](https://cibello.app/pt/reduzir-desperdicio-alimentar/): Vê o que existe em casa, usa os alimentos a tempo e evita compras duplicadas. O Cibello liga despensa, receitas e compras.
 
 ## Download
 - App Store: https://apps.apple.com/app/id6807100747
