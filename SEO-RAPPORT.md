@@ -156,7 +156,17 @@ Cibello: AS 0, 8 länkar. Sajten ligger alltså långt efter även små svenska 
 
 Domäner som redan länkar till svenska matappar och därför sannolikt länkar till Cibello med rätt pitch: lchfarkivet.se (AS 39), theresematochbak.se (AS 18), digitalare.se (roundup "fem bra appar mot matsvinn"), warpnews.se (skrev om recept-från-ingredienser-appar), swedroid.se (forumtråd "tips på svensk matapp"), Sveriges Radio och SVT lokalt (har rapporterat om matappar mot svinn). Pitcha vinkeln "svensk app som fotar kylen" och siffror om hushållens matsvinn.
 
-## 8. Nästa steg som inte går att lösa i koden
+## 8. Genomgång 4: länkbart material, fler sökordssidor, press och outreach
+
+- `/matsvinn-statistik/` – officiella siffror från Naturvårdsverket (livsmedelsavfall 2024: 880 000 ton, 84 kg/person, hushåll 72 %, matsvinn 16 kg/person, 190 000 ton i avloppet) och Livsmedelsverket (1 330 kr/person, 5 000–6 000 kr/familj, 14 miljarder kr) med länk till varje källa, tidsserie 2016–2024 och citeringsanvisning. Byggd för att bli länkad av media, kommuner och bloggar.
+- `/middagstips-vardag/` (25 rätter sorterade på tid) och `/middagstips-helg/` (fredag, lördag, söndag) – egna sidor för "middagstips vardag" och "middagstips helg", 5 400 sökningar var med KD 18–22. Tidigare bara sektioner.
+- `/en/best-recipe-app/` – "best recipe app" (1 900, KD 18) med jämförelse mot Paprika, Samsung Food, Yummly, SideChef och SuperCook.
+- `/press/` och `/en/press/` – boilerplate, fakta, bilder, presskontakt. Länkade från alla sidfötter.
+- `outreach/lankprospekt-och-pitchar.md` – prioriterad prospektlista (bloggar som länkar till svenska matappar, roundup-skribenter, kommunala avfallsbolag, föräldramedier, lokalmedia i Tyresö, ekonomipoddar), vilka sidor som pitchas till vem, och fyra färdiga mejlmallar.
+
+Semrush-enheterna var fortfarande slut, så volymerna för "matsvinn statistik" och "hur mycket mat slängs i sverige" kunde inte hämtas. Sidan är motiverad av länkvärde oavsett volym.
+
+## 9. Nästa steg som inte går att lösa i koden
 
 0. Semrush-kontot behöver fler API-enheter innan nästa datakörning (organisk nyckelordslista per konkurrent och frågerapporter för veckomeny/matsvinn stoppades av tom balans).
 
