@@ -12,7 +12,8 @@ Statisk marknadssajt för Cibello (LandveX AB). Ren HTML/CSS/JS utan byggsteg �
 - Alla sidor har ett litet inline-skript som sätter `html.js`; reveal-animationer körs bara då, så innehållet syns utan JavaScript. Skriptets CSP-hash finns i `_headers`/`vercel.json` – ändra inte skriptet utan att uppdatera hashen.
 - `/middagstips/`, `/veckomeny/`, … – svenska guider (`seo.css`).
 - `/en/`, `/de/`, … – språkhubbar med guider per språk.
-- `integritet.html`, `villkor.html`, `delete-account.html` – juridik (`legal.css`).
+- `integritet.html`, `villkor.html`, `delete-account.html` – juridik (`legal.css`). `/en/privacy/`, `/en/terms/` – engelska översättningar; alla icke-svenska sidor länkar dit. Svensk version gäller vid avvikelse.
+- `tools/build_home.py` – renderar startsidan till elva språkversioner (`/en/`, `/de/` …) från `tools/i18n.json`, `tools/sitedata.py` och `tools/hubtext/`. Kör efter varje ändring av `index.html`. `tools/llms.py` – regenererar `llms.txt`.
 - `tokens.css` – enda källan för färg, typografi och form.
 - `img/` – OG-bilder och ikoner. `manifest.webmanifest`, `favicon.svg`, `robots.txt`, `llms.txt`, `sitemap.xml`.
 - `_headers` (Netlify/Cloudflare) och `vercel.json` (Vercel) – säkerhets- och cache-headers. Använd den som passar hosten.

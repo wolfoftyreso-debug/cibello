@@ -80,7 +80,7 @@ def footer(lang):
             f'<div><a class="brand" href="{home}"><span class="mark">{MARK_SVG}</span>Cibello</a><p class="foot-tag">{t["tagline"]}</p>{SOCIAL}{store_badges(lang, "foot-stores")}</div>'
             f'<nav aria-label="{t["guides"]}"><h3>{t["guides"]}</h3>{guides}</nav>'
             f'<nav aria-label="{t["langs"]}"><h3>{t["langs"]}</h3>{langs}</nav>'
-            f'<nav aria-label="{t["company"]}"><h3>{t["company"]}</h3><a href="/integritet.html">{t["privacy"]}</a><a href="/villkor.html">{t["terms"]}</a><a href="/delete-account.html">{t["delete"]}</a><a href="mailto:hello@cibello.app">{t["contact"]}</a></nav>'
+            f'<nav aria-label="{t["company"]}"><h3>{t["company"]}</h3><a href="{legal_paths(lang)[0]}">{t["privacy"]}</a><a href="{legal_paths(lang)[1]}">{t["terms"]}</a><a href="/delete-account.html">{t["delete"]}</a><a href="mailto:hello@cibello.app">{t["contact"]}</a></nav>'
             f'</div><div class="wrap foot-bottom"><p>{t["disclaimer"]}</p><p>© 2026 Cibello · LandveX AB · Org.nr 559141-7042 · Antennvägen 2, 135&nbsp;48 Tyresö · {t["made"]}</p></div></footer>')
 
 def cta_block(lang, h=None, p=None):
@@ -132,3 +132,7 @@ HOME_UI = {
  "fi": dict(menu="Valikko", close="Sulje", guides_kicker="Oppaat helpompaan ruoka-arkeen", guides_h="Missä tarvitset apua?", guides_p="Lue, miten Cibello auttaa ruokaideoissa, viikkosuunnittelussa, ruokavarastossa ja hävikin vähentämisessä.", stats="Cibello numeroina"),
  "pt": dict(menu="Menu", close="Fechar", guides_kicker="Guias para um dia a dia mais simples na cozinha", guides_h="Com o que precisas de ajuda?", guides_p="Lê como o Cibello ajuda com ideias de jantar, planeamento semanal, despensa e menos desperdício.", stats="Cibello em números"),
 }
+
+
+def legal_paths(lang):
+    return ("/integritet.html", "/villkor.html") if lang == "sv" else ("/en/privacy/", "/en/terms/")

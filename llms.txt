@@ -1,6 +1,6 @@
 # Cibello
 
-> Cibello is a meal planner and recipe app from LandveX AB (Tyresö, Sweden). It scans your fridge and pantry with AI, keeps a food inventory ("Food Twin"), suggests recipes from what you already have (9,000+ recipes), builds a weekly meal plan, shares a shopping list with the household and sends gentle reminders before food goes bad. Available on iOS and Android in 12 languages. Data is stored in the EU and accounts can be deleted in-app.
+> Cibello is a meal planner and recipe app from LandveX AB (Tyresö, Sweden). It scans your fridge and pantry with AI, keeps a food inventory ("Food Twin"), suggests recipes from what you already have (9,000+ recipes), builds a weekly meal plan, shares a shopping list with the household and sends gentle reminders before food goes bad. Available on iOS and Android in 12 languages for users aged 18+, with a 14-day trial without a card. Data is stored in the EU and accounts can be deleted in-app.
 
 Important caveats the site repeats: AI scanning can misread items; recipe and allergy filters are guidance, not a guarantee; nutrition values are estimates, not medical advice.
 
@@ -38,8 +38,10 @@ Important caveats the site repeats: AI scanning can misread items; recipe and al
 - [Meal planner for a simpler, more varied week | Cibello](https://cibello.app/en/meal-planner/): Plan meals around your household, the food already at home and what should be used soon. Cibello keeps the weekly plan and shopping list connected.
 - [Pantry app: scan your fridge and pantry, know what you have | Cibello](https://cibello.app/en/pantry-app/): A pantry inventory app that fills itself from photos, receipts and barcodes, tracks expiry dates, suggests recipes from what you have and shares with your household.
 - [Press and media – facts, images and contact | Cibello](https://cibello.app/en/press/): Press kit for Cibello: boilerplate, facts about the app, logo and images, food waste figures with sources, and the press contact at LandveX AB.
+- [Privacy policy – Cibello](https://cibello.app/en/privacy/): How Cibello handles personal data, images, Gemini analysis and voluntary Cibello AI training. English translation of the Swedish policy, version 2.0.
 - [Recipes with ingredients you already have | Cibello](https://cibello.app/en/recipes-with-ingredients/): Turn a reviewed fridge and pantry inventory into relevant recipe ideas. Cibello shows possible matches and what may still be missing.
 - [Reduce food waste with a clearer pantry | Cibello](https://cibello.app/en/reduce-food-waste/): See what is at home, notice food that should be used soon and plan meals before buying duplicates. Cibello connects inventory, recipes and shopping.
+- [Terms of use – Cibello](https://cibello.app/en/terms/): Terms of use for Cibello: account, age limit, subscriptions and the 14-day trial, AI analysis and safe use. English translation of the Swedish terms, version 2.0.
 - [What to eat tonight? Dinner ideas from what you already have | Cibello](https://cibello.app/en/what-to-eat-tonight/): Stuck on what to eat tonight? Get dinner ideas based on what is actually in your fridge and pantry, how much time you have and what your household likes.
 
 ## Deutsch

@@ -102,7 +102,7 @@ def build(lang):
     cols = f'''<div class="wrap foot-cols">
     <nav aria-label="{t["guides"]}"><h3>{t["guides"]}</h3>{g}</nav>
     <nav aria-label="{t["langs"]}"><h3>{t["langs"]}</h3>{langs}</nav>
-    <nav aria-label="{t["company"]}"><h3>{t["company"]}</h3><a href="{ap}">{ABOUT[lang]}</a><a href="{pp}">{PRESS[lang]}</a><a href="/integritet.html">{t["privacy"]}</a><a href="/villkor.html">{t["terms"]}</a><a href="/delete-account.html">{t["delete"]}</a><a href="mailto:hello@cibello.app">{t["contact"]}</a><a href="https://landvex.com" rel="noopener">LandveX AB</a></nav>
+    <nav aria-label="{t["company"]}"><h3>{t["company"]}</h3><a href="{ap}">{ABOUT[lang]}</a><a href="{pp}">{PRESS[lang]}</a><a href="{legal_paths(lang)[0]}">{t["privacy"]}</a><a href="{legal_paths(lang)[1]}">{t["terms"]}</a><a href="/delete-account.html">{t["delete"]}</a><a href="mailto:hello@cibello.app">{t["contact"]}</a><a href="https://landvex.com" rel="noopener">LandveX AB</a></nav>
   </div>'''
     h = re.sub(r'<div class="wrap foot-cols">.*?</nav>\n  </div>', cols, h, count=1, flags=re.S)
     h = h.replace('<a href="/om/">Om Cibello</a><a href="/press/">Press</a>', f'<a href="{ap}">{ABOUT[lang]}</a><a href="{pp}">{PRESS[lang]}</a>')
