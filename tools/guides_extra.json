@@ -1,0 +1,220 @@
+{
+ "de": [
+  [
+   "/de/alltagsgerichte/",
+   "Alltagsgerichte"
+  ],
+  [
+   "/de/schnelles-abendessen/",
+   "Schnelles Abendessen"
+  ],
+  [
+   "/de/abendessen-familie/",
+   "Essen für die Familie"
+  ],
+  [
+   "/de/meal-prep/",
+   "Meal Prep"
+  ],
+  [
+   "/de/einkaufsliste/",
+   "Einkaufsliste"
+  ],
+  [
+   "/de/mindesthaltbarkeitsdatum/",
+   "MHD und Verbrauchsdatum"
+  ],
+  [
+   "/de/abendessen-unter-der-woche/",
+   "Abendessen unter der Woche"
+  ],
+  [
+   "/de/was-koche-ich-heute/",
+   "Was koche ich heute?"
+  ]
+ ],
+ "es": [
+  [
+   "/es/comida-de-diario/",
+   "Comida de diario"
+  ],
+  [
+   "/es/cena-rapida/",
+   "Cena rápida"
+  ],
+  [
+   "/es/cenas-familiares/",
+   "Cenas familiares"
+  ],
+  [
+   "/es/tuppers-para-la-semana/",
+   "Tuppers para la semana"
+  ],
+  [
+   "/es/lista-de-la-compra/",
+   "Lista de la compra"
+  ],
+  [
+   "/es/caducidad-consumo-preferente/",
+   "Caducidad y consumo preferente"
+  ],
+  [
+   "/es/cenas-entre-semana/",
+   "Cenas entre semana"
+  ],
+  [
+   "/es/que-cenar-hoy/",
+   "Qué cenar hoy"
+  ],
+  [
+   "/es/cenas-fin-de-semana/",
+   "Fin de semana"
+  ],
+  [
+   "/es/comer-barato/",
+   "Comer barato"
+  ],
+  [
+   "/es/desperdicio-alimentario-cifras/",
+   "Cifras del desperdicio"
+  ],
+  [
+   "/es/planificador-comidas-ia/",
+   "Planificador con IA"
+  ],
+  [
+   "/es/app-despensa/",
+   "App de despensa"
+  ],
+  [
+   "/es/mejor-app-planificar-comidas/",
+   "Comparativa de apps"
+  ],
+  [
+   "/es/mejor-app-recetas/",
+   "Apps de recetas"
+  ]
+ ],
+ "fr": [
+  [
+   "/fr/idees-repas-week-end/",
+   "Repas du week-end"
+  ],
+  [
+   "/fr/manger-pas-cher/",
+   "Manger pas cher"
+  ],
+  [
+   "/fr/gaspillage-alimentaire-chiffres/",
+   "Chiffres du gaspillage"
+  ],
+  [
+   "/fr/planificateur-repas-ia/",
+   "Planificateur IA"
+  ],
+  [
+   "/fr/application-garde-manger/",
+   "Inventaire de cuisine"
+  ],
+  [
+   "/fr/meilleure-application-repas/",
+   "Comparatif applis repas"
+  ],
+  [
+   "/fr/meilleure-application-recettes/",
+   "Comparatif applis recettes"
+  ]
+ ],
+ "it": [
+  [
+   "/it/cucina-quotidiana/",
+   "Cucina quotidiana"
+  ],
+  [
+   "/it/cena-veloce/",
+   "Cena veloce"
+  ],
+  [
+   "/it/cena-in-famiglia/",
+   "Cena in famiglia"
+  ],
+  [
+   "/it/meal-prep/",
+   "Meal prep"
+  ],
+  [
+   "/it/lista-della-spesa/",
+   "Lista della spesa"
+  ],
+  [
+   "/it/data-di-scadenza/",
+   "Data di scadenza"
+  ],
+  [
+   "/it/idee-per-la-cena/",
+   "Idee per la cena"
+  ],
+  [
+   "/it/cosa-mangiare-stasera/",
+   "Cosa mangiare stasera"
+  ],
+  [
+   "/it/cena-fine-settimana/",
+   "Cene del weekend"
+  ],
+  [
+   "/it/cucina-economica/",
+   "Cucina economica"
+  ],
+  [
+   "/it/statistiche-spreco-alimentare/",
+   "Spreco alimentare: dati"
+  ],
+  [
+   "/it/pianificatore-pasti-ai/",
+   "Pianificatore con AI"
+  ],
+  [
+   "/it/app-dispensa/",
+   "App dispensa"
+  ],
+  [
+   "/it/migliore-app-pianificazione-pasti/",
+   "Confronto app pasti"
+  ],
+  [
+   "/it/migliore-app-ricette/",
+   "Confronto app ricette"
+  ]
+ ],
+ "nl": [
+  [
+   "/nl/weekendrecepten/",
+   "Weekendrecepten"
+  ],
+  [
+   "/nl/goedkoop-eten/",
+   "Goedkoop eten"
+  ],
+  [
+   "/nl/voedselverspilling-cijfers/",
+   "Voedselverspilling in cijfers"
+  ],
+  [
+   "/nl/ai-maaltijdplanner/",
+   "AI-maaltijdplanner"
+  ],
+  [
+   "/nl/voorraad-app/",
+   "Voorraad-app"
+  ],
+  [
+   "/nl/beste-maaltijdplanner-app/",
+   "Beste maaltijdplanner-app?"
+  ],
+  [
+   "/nl/beste-recepten-app/",
+   "Beste recepten-app?"
+  ]
+ ]
+}
