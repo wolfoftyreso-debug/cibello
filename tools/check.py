@@ -87,6 +87,8 @@ for rel, alts in hreflang_of.items():
     self_url = canon_of.get(rel)
     for h, u in alts:
         tp = url_to_path(u)
+        if tp is None:
+            errors.append(f"{rel}: hreflang {h} has a malformed href {u}"); continue
         trel = "/" + tp.relative_to(ROOT).as_posix()
         back = [x for _, x in hreflang_of.get(trel, [])]
         if self_url and back and self_url not in back:

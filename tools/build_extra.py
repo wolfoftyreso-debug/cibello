@@ -55,8 +55,8 @@ def registry(content):
 def alt_links_for(fam, reg):
     slugs = reg[fam]
     alts = [(l, "https://cibello.app" + slugs[l]) for l in LANG_NAMES if l in slugs]
-    xd = slugs.get("en") or slugs.get("sv") or alts[0][1]
-    alts.append(("x-default", "https://cibello.app" + (xd if xd.startswith("http") else xd)))
+    xd = slugs.get("en") or slugs.get("sv") or next(slugs[l] for l in LANG_NAMES if l in slugs)
+    alts.append(("x-default", "https://cibello.app" + xd))
     return "\n".join(f'<link rel="alternate" hreflang="{l}" href="{u}">' for l, u in alts)
 
 def tool_html(lang, tool):
