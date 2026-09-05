@@ -140,3 +140,12 @@ def legal_paths(lang):
 NEWS = {"sv": "Nytt", "en": "News", "de": "Neuigkeiten", "fr": "Actualités", "es": "Novedades", "it": "Novità", "nl": "Nieuws", "pl": "Aktualności", "da": "Nyt", "nb": "Nytt", "fi": "Uutiset", "pt": "Novidades"}
 def news_path(lang):
     return '/nytt/' if lang == 'sv' else '/en/news/'
+
+# --- Phase 2: guides added per language by tools/build_extra.py (tools/guides_extra.json) ---
+import json as _json, pathlib as _pl
+_extra = _pl.Path(__file__).with_name("guides_extra.json")
+if _extra.exists():
+    for _lang, _items in _json.loads(_extra.read_text(encoding="utf-8")).items():
+        for _path, _label in _items:
+            if _path not in [p for p, _ in GUIDES.get(_lang, [])]:
+                GUIDES.setdefault(_lang, []).append((_path, _label))
