@@ -91,7 +91,7 @@ a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{
 .cmp caption{caption-side:bottom;text-align:left;font-size:.82rem;color:var(--muted);padding:10px 0}
 .cmp th[scope="row"]{font-weight:600;color:var(--ink);background:transparent;min-width:220px}
 .cmp thead th:nth-child(2),.cmp td:nth-child(2){background:var(--green-l);color:var(--green-x);font-weight:600}
-.cmp .y{color:var(--green-d);font-weight:700}.cmp .n{color:#9a4a2b}.cmp .p{color:#8a6a1a;font-weight:600}
+.cmp .y{color:var(--green-d);font-weight:700}.cmp .n{color:#9a4a2b}.cmp .p{color:#6b5210;font-weight:600}
 .cmp td{white-space:normal;min-width:120px}
 
 body.wide .content{grid-template-columns:1fr}

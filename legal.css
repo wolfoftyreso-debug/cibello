@@ -17,3 +17,5 @@ footer{padding:2rem 1.25rem;border-top:1px solid var(--line);color:var(--muted)}
 .skip{position:absolute;left:8px;top:-60px;z-index:100;background:var(--green-x);color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;text-decoration:none;transition:top .15s}
 .skip:focus{top:8px}
 a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:6px}
+
+.notice a{color:var(--green-d)}
