@@ -174,7 +174,25 @@ Semrush-enheterna var fortfarande slut, så volymerna för "matsvinn statistik" 
 - Egna OG-bilder per språk (`img/og-<lang>.png`) med hero-texten på det språket.
 - axe-core: 0 överträdelser på `/`, `/en/`, guide, juridik och 404 efter ändringen.
 
-## 10. Nästa steg som inte går att lösa i koden
+## 10. Genomgång 8: fullständig sidparitet på tolv språk
+
+Från 79 sidor till 303. Varje språk har nu samma uppsättning: startsida, 18 guider, Om, Press, Nytt med RSS, integritetspolicy, villkor och kontoradering, allt skrivet på språket i 600–900 ord per guide. Svenska har dessutom sin idiomsida "vad ska vi äta idag" och den svenska statistiken; övriga språk har en EU-statistiksida med Eurostat 2023 (130 kg per person, 58,2 miljoner ton, hushållen 53 %).
+
+| | Före | Efter |
+|---|---|---|
+| Sidor totalt | 79 | 303 |
+| Sidor per icke-svenskt språk | 4–8 | 25 |
+| Ord per guide, tio språk | 210–310 | 600–900 |
+| Juridik på språket | 2 språk | 12 språk |
+| Middagsväljaren | svenska | 12 språk, 40 lokala rätter var |
+
+Så byggdes det: 33 innehållsfiler i `tools/content/` skrivna parallellt av 33 språkmodellsskribenter med samma brief, faktaregister och schema; två generatorer renderar alla sidor med sidhuvud, sidfot, brödsmulor, schema och fullständiga hreflang-set per sidfamilj. Kontroller: 0 fel i länk/canonical/hreflang/schema/sitemap, 0 HTML-fel, 0 axe-överträdelser på stickprov, inga svenska strängar på andra språk, middagsväljaren testad i fem språk.
+
+Slugar per språk är lokala sökordsslugar (till exempel `/de/schnelles-abendessen/`, `/fr/quoi-manger-ce-soir/`, `/pl/co-na-obiad/`), med hreflang till motsvarande sidor på alla andra språk.
+
+Förbehåll: texterna är skrivna av språkmodeller. De följer faktaregistret, men ton och idiom bör granskas av en modersmålstalare per marknad innan ni annonserar där. Juridiska texter anger att den svenska versionen gäller.
+
+## 11. Nästa steg som inte går att lösa i koden
 
 0. Semrush-kontot behöver fler API-enheter innan nästa datakörning (organisk nyckelordslista per konkurrent och frågerapporter för veckomeny/matsvinn stoppades av tom balans).
 

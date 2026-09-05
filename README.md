@@ -26,6 +26,14 @@ Statisk marknadssajt för Cibello (LandveX AB). Ren HTML/CSS/JS utan byggsteg �
 - `.github/workflows/site-checks.yml` – kör `tools/check.py`, html-validate och JS-syntaxkontroll vid varje push.
 - `docs/LANSERING.md` – lanseringschecklista. `docs/FAKTAKONTROLL.md` – register över produktpåståenden och deras källor.
 
+## Innehåll per språk (fullständig paritet)
+Alla tolv språk har samma sidor: startsida, 18 guider, Om, Press, Nytt (med RSS), integritetspolicy, villkor och kontoradering. Svenska har dessutom `/vad-ska-vi-ata/` och den svenska matsvinnsstatistiken; övriga språk har EU-statistik från Eurostat i stället.
+
+- `tools/content/<lang>.py` – grundinnehåll (3 guider, landningssidans text, Om, Press, Nytt, juridik). Schema i `tools/content/_schema.py`. Renderas med `python3 tools/build_lang.py all`.
+- `tools/content/<lang>_extra_a.py`, `<lang>_extra_b.py` – de 15 övriga guiderna per språk inklusive middagsväljarens rätter. Schema i `_schema_extra.py`, brief i `_phase2_brief.md`. Renderas med `python3 tools/build_extra.py`, som också kopplar hreflang mellan alla språkversioner av samma sida via `tools/guides_extra.json`.
+- Efter ändring i någon innehållsfil: `build_lang.py` (om grundinnehåll) eller `build_extra.py`, sedan `tools/sitemap.py`, `tools/llms.py`, `tools/check.py`.
+- Texterna är skrivna av språkmodeller enligt `docs/OVERSATTNINGSBRIEF.md` och faktaregistret; en granskning av modersmålstalare per marknad rekommenderas innan större annonsering. Juridiska texter är översättningar; den svenska versionen gäller vid avvikelse, vilket står på varje sida.
+
 ## Arbetsflöde
 1. Redigera HTML direkt. Ny guide: kopiera en befintlig sida i samma språk, byt canonical/hreflang/title/description/innehåll och lägg till sidan i sidfotens och asidens länklistor.
 2. Kör `python3 tools/sitemap.py && python3 tools/check.py` innan push. Checken ska ge 0 errors.

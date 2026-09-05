@@ -93,6 +93,76 @@
   [
    "/de/was-koche-ich-heute/",
    "Was koche ich heute?"
+  ],
+  [
+   "/de/kochen-am-wochenende/",
+   "Kochen am Wochenende"
+  ],
+  [
+   "/de/guenstig-kochen/",
+   "Günstig kochen"
+  ],
+  [
+   "/de/lebensmittelverschwendung-statistik/",
+   "Lebensmittelverschwendung in Zahlen"
+  ],
+  [
+   "/de/ki-essensplaner/",
+   "KI-Essensplaner"
+  ],
+  [
+   "/de/vorrats-app/",
+   "Vorrats-App"
+  ],
+  [
+   "/de/beste-essensplaner-app/",
+   "Essensplaner-Apps im Vergleich"
+  ],
+  [
+   "/de/beste-rezepte-app/",
+   "Rezepte-Apps im Vergleich"
+  ]
+ ],
+ "en": [
+  [
+   "/en/everyday-cooking/",
+   "Everyday cooking"
+  ],
+  [
+   "/en/quick-dinner-ideas/",
+   "Quick dinners"
+  ],
+  [
+   "/en/family-dinner-ideas/",
+   "Family dinners"
+  ],
+  [
+   "/en/meal-prep/",
+   "Meal prep"
+  ],
+  [
+   "/en/shopping-list-app/",
+   "Shopping list"
+  ],
+  [
+   "/en/best-before-dates/",
+   "Best before dates"
+  ],
+  [
+   "/en/weeknight-dinner-ideas/",
+   "Weeknight dinners"
+  ],
+  [
+   "/en/weekend-dinner-ideas/",
+   "Weekend dinners"
+  ],
+  [
+   "/en/budget-meals/",
+   "Budget meals"
+  ],
+  [
+   "/en/food-waste-statistics-eu/",
+   "Food waste statistics"
   ]
  ],
  "es": [
@@ -157,7 +227,101 @@
    "Apps de recetas"
   ]
  ],
+ "fi": [
+  [
+   "/fi/arkiruoka/",
+   "Arkiruoka"
+  ],
+  [
+   "/fi/nopea-ruoka/",
+   "Nopea ruoka"
+  ],
+  [
+   "/fi/lapsiperheen-ruoka/",
+   "Lapsiperheen ruoka"
+  ],
+  [
+   "/fi/lounasevaat/",
+   "Lounaseväät"
+  ],
+  [
+   "/fi/ostoslista/",
+   "Ostoslista"
+  ],
+  [
+   "/fi/parasta-ennen/",
+   "Parasta ennen"
+  ],
+  [
+   "/fi/ruokaideoita-arkeen/",
+   "Ruokaideoita arkeen"
+  ],
+  [
+   "/fi/mita-tanaan-syotaisiin/",
+   "Mitä tänään syötäisiin"
+  ],
+  [
+   "/fi/viikonlopun-ruoat/",
+   "Viikonlopun ruoat"
+  ],
+  [
+   "/fi/halpa-ruoka/",
+   "Halpa ruoka"
+  ],
+  [
+   "/fi/ruokahavikki-tilastot/",
+   "Ruokahävikki numeroina"
+  ],
+  [
+   "/fi/tekoaly-ateriasuunnittelija/",
+   "Tekoäly-ateriasuunnittelija"
+  ],
+  [
+   "/fi/ruokavarasto-sovellus/",
+   "Ruokavarastosovellus"
+  ],
+  [
+   "/fi/paras-ateriasuunnittelusovellus/",
+   "Sovellusvertailu"
+  ],
+  [
+   "/fi/paras-reseptisovellus/",
+   "Reseptisovellukset"
+  ]
+ ],
  "fr": [
+  [
+   "/fr/repas-du-quotidien/",
+   "Repas du quotidien"
+  ],
+  [
+   "/fr/diner-rapide/",
+   "Dîner rapide"
+  ],
+  [
+   "/fr/idees-repas-famille/",
+   "Repas en famille"
+  ],
+  [
+   "/fr/batch-cooking/",
+   "Batch cooking"
+  ],
+  [
+   "/fr/liste-de-courses/",
+   "Liste de courses"
+  ],
+  [
+   "/fr/date-de-peremption/",
+   "DLC et DDM"
+  ],
+  [
+   "/fr/idees-repas-semaine/",
+   "Idées repas semaine"
+  ],
+  [
+   "/fr/quoi-manger-ce-soir/",
+   "Quoi manger ce soir&nbsp;?"
+  ],
   [
    "/fr/idees-repas-week-end/",
    "Repas du week-end"
@@ -281,6 +445,34 @@
   [
    "/nb/hva-skal-vi-ha-til-middag/",
    "Hva skal vi spise?"
+  ],
+  [
+   "/nb/middagstips-helg/",
+   "Middagstips helg"
+  ],
+  [
+   "/nb/billig-mat/",
+   "Billig mat"
+  ],
+  [
+   "/nb/matsvinn-statistikk/",
+   "Matsvinn i tall"
+  ],
+  [
+   "/nb/ki-matplanlegger/",
+   "KI-matplanlegger"
+  ],
+  [
+   "/nb/matlager-app/",
+   "Matlager-app"
+  ],
+  [
+   "/nb/beste-matplanlegger-app/",
+   "Beste matplanlegger-app"
+  ],
+  [
+   "/nb/beste-oppskriftsapp/",
+   "Beste oppskriftsapp"
   ]
  ],
  "nl": [
@@ -343,6 +535,144 @@
   [
    "/nl/beste-recepten-app/",
    "Beste recepten-app?"
+  ]
+ ],
+ "pl": [
+  [
+   "/pl/domowe-obiady/",
+   "Domowe obiady"
+  ],
+  [
+   "/pl/szybki-obiad/",
+   "Szybki obiad"
+  ],
+  [
+   "/pl/obiady-dla-rodziny/",
+   "Obiady dla rodziny"
+  ],
+  [
+   "/pl/meal-prep/",
+   "Meal prep"
+  ],
+  [
+   "/pl/lista-zakupow/",
+   "Lista zakupów"
+  ],
+  [
+   "/pl/najlepiej-spozyc-przed/",
+   "Daty na opakowaniach"
+  ],
+  [
+   "/pl/pomysly-na-obiad/",
+   "Pomysły na obiad"
+  ],
+  [
+   "/pl/co-na-obiad/",
+   "Co na obiad?"
+  ],
+  [
+   "/pl/obiad-na-weekend/",
+   "Obiad na weekend"
+  ],
+  [
+   "/pl/tanie-gotowanie/",
+   "Tanie gotowanie"
+  ],
+  [
+   "/pl/marnowanie-zywnosci-statystyki/",
+   "Statystyki marnowania"
+  ],
+  [
+   "/pl/ai-planer-posilkow/",
+   "Planer posiłków AI"
+  ],
+  [
+   "/pl/aplikacja-spizarnia/",
+   "Aplikacja do zapasów"
+  ],
+  [
+   "/pl/najlepsza-aplikacja-do-planowania-posilkow/",
+   "Porównanie aplikacji"
+  ],
+  [
+   "/pl/najlepsza-aplikacja-z-przepisami/",
+   "Aplikacje z przepisami"
+  ]
+ ],
+ "pt": [
+  [
+   "/pt/comida-do-dia-a-dia/",
+   "Jantares simples"
+  ],
+  [
+   "/pt/jantar-rapido/",
+   "Jantar rápido"
+  ],
+  [
+   "/pt/jantares-em-familia/",
+   "Jantares em família"
+  ],
+  [
+   "/pt/marmitas/",
+   "Marmitas"
+  ],
+  [
+   "/pt/lista-de-compras/",
+   "Lista de compras"
+  ],
+  [
+   "/pt/prazo-de-validade/",
+   "Prazo de validade"
+  ],
+  [
+   "/pt/jantares-dias-de-semana/",
+   "Jantares de semana"
+  ],
+  [
+   "/pt/o-que-jantar-hoje/",
+   "O que jantar hoje"
+  ],
+  [
+   "/pt/jantares-fim-de-semana/",
+   "Fim de semana"
+  ],
+  [
+   "/pt/comer-barato/",
+   "Comer barato"
+  ],
+  [
+   "/pt/desperdicio-alimentar-numeros/",
+   "Números do desperdício"
+  ],
+  [
+   "/pt/planeador-refeicoes-ia/",
+   "Planeador com IA"
+  ],
+  [
+   "/pt/app-despensa/",
+   "App de despensa"
+  ],
+  [
+   "/pt/melhor-app-planear-refeicoes/",
+   "Comparação de apps"
+  ],
+  [
+   "/pt/melhor-app-receitas/",
+   "Apps de receitas"
+  ]
+ ],
+ "sv": [
+  [
+   "/ai-matplanerare/",
+   "AI-matplanerare"
+  ],
+  [
+   "/matlager-app/",
+   "Matlager-app"
+  ],
+  [
+   "/basta-receptappen/",
+   "Bästa receptappen"
   ]
  ]
 }
