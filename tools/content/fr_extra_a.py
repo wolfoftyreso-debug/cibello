@@ -8,9 +8,9 @@ GUIDES2 = {
         slug="/fr/repas-du-quotidien/",
         label="Repas du quotidien",
         title="Repas du quotidien sans se compliquer la vie | Cibello",
-        desc="Des repas du quotidien qui tiennent toute la semaine : partir du frigo, varier sans effort et cuisiner dans le temps dont vous disposez.",
+        desc="Des repas du quotidien qui tiennent toute la semaine : partir du frigo, varier sans effort et cuisiner dans le temps dont vous disposez.",
         eyebrow="Cuisine de tous les jours",
-        h1="Repas du quotidien : cuisiner simple toute la semaine",
+        h1="Repas du quotidien : cuisiner simple toute la semaine",
         lead="La cuisine de tous les jours n’a pas besoin d’idées neuves chaque soir. Elle a besoin de plats faisables avec ce qu’il y a, dans le temps qu’il reste, et d’assez de variété pour que personne ne se lasse.",
         sections=[
             (
@@ -39,20 +39,20 @@ GUIDES2 = {
             ),
         ],
         faq=[
-            ("Qu’appelle-t-on repas du quotidien ?", "Des plats faisables un soir de semaine ordinaire : rapides, avec des produits que vous avez chez vous ou trouvez facilement, et qui se déclinent au fil de la semaine."),
-            ("Comment trouver des recettes avec ce que j’ai dans le frigo ?", "Dans Cibello, vous photographiez le réfrigérateur, le congélateur et les placards ou scannez un ticket. L’application compare cet inventaire aux recettes et indique la part des ingrédients déjà chez vous. Vous vérifiez la lecture avant de l’enregistrer."),
-            ("Cibello peut-il planifier toute la semaine ?", "Oui. Cibello propose un menu de la semaine qui varie les plats et les produits et place ce qui manque dans une liste de courses partagée. Vous relisez et modifiez la proposition vous-même."),
-            ("Les suggestions tiennent-elles compte des allergies ?", "Vous pouvez indiquer vos allergies et habitudes alimentaires, mais le filtrage est une aide, pas une garantie. Vérifiez toujours les ingrédients et les emballages."),
+            ("Qu’appelle-t-on repas du quotidien ?", "Des plats faisables un soir de semaine ordinaire : rapides, avec des produits que vous avez chez vous ou trouvez facilement, et qui se déclinent au fil de la semaine."),
+            ("Comment trouver des recettes avec ce que j’ai dans le frigo ?", "Dans Cibello, vous photographiez le réfrigérateur, le congélateur et les placards ou scannez un ticket. L’application compare cet inventaire aux recettes et indique la part des ingrédients déjà chez vous. Vous vérifiez la lecture avant de l’enregistrer."),
+            ("Cibello peut-il planifier toute la semaine ?", "Oui. Cibello propose un menu de la semaine qui varie les plats et les produits et place ce qui manque dans une liste de courses partagée. Vous relisez et modifiez la proposition vous-même."),
+            ("Les suggestions tiennent-elles compte des allergies ?", "Vous pouvez indiquer vos allergies et habitudes alimentaires, mais le filtrage est une aide, pas une garantie. Vérifiez toujours les ingrédients et les emballages."),
         ],
     ),
     # ------------------------------------------------------------------
     "quick-dinner": dict(
         slug="/fr/diner-rapide/",
         label="Dîner rapide",
-        title="Dîner rapide : à table en 20 à 30 minutes | Cibello",
-        desc="Un dîner rapide avec ce que vous avez déjà : tableau de plats prêts en 15 à 30 minutes et méthode pour choisir en moins d’une minute.",
+        title="Dîner rapide : à table en 20 à 30 minutes | Cibello",
+        desc="Un dîner rapide avec ce que vous avez déjà : tableau de plats prêts en 15 à 30 minutes et méthode pour choisir en moins d’une minute.",
         eyebrow="Repas du soir en 20 à 30 minutes",
-        h1="Dîner rapide : quoi cuisiner en 20 à 30 minutes avec ce que vous avez",
+        h1="Dîner rapide : quoi cuisiner en 20 à 30 minutes avec ce que vous avez",
         lead="Le vrai frein d’un dîner rapide, ce n’est pas la recette, c’est l’ingrédient qui manque. Voici des plats qui se préparent presque toujours, et une méthode pour choisir en moins d’une minute.",
         sections=[
             (
@@ -81,21 +81,21 @@ GUIDES2 = {
             ),
         ],
         faq=[
-            ("Qu’est-ce qu’un dîner rapide ?", "Un plat qui se prépare en vingt à trente minutes avec des produits déjà chez vous, sans passer par le magasin."),
-            ("Comment trouver un dîner rapide avec ce que j’ai ?", "Photographiez le frigo et les placards dans Cibello. L’application compare l’inventaire aux recettes et montre les plats faisables maintenant, avec en tête ceux qui utilisent les produits à date courte."),
-            ("Est-ce que je vois ce qui manque dans une recette ?", "Oui. Cibello indique pour chaque recette les ingrédients manquants. Vérifiez toujours les ingrédients et les allergènes vous-même."),
-            ("Quels dîners rapides plaisent aux enfants ?", "Les pâtes à la sauce tomate, les croque-monsieur, les crêpes salées, les wraps et les gratins fonctionnent souvent. Variez l’accompagnement et la protéine plutôt que le plat."),
+            ("Qu’est-ce qu’un dîner rapide ?", "Un plat qui se prépare en vingt à trente minutes avec des produits déjà chez vous, sans passer par le magasin."),
+            ("Comment trouver un dîner rapide avec ce que j’ai ?", "Photographiez le frigo et les placards dans Cibello. L’application compare l’inventaire aux recettes et montre les plats faisables maintenant, avec en tête ceux qui utilisent les produits à date courte."),
+            ("Est-ce que je vois ce qui manque dans une recette ?", "Oui. Cibello indique pour chaque recette les ingrédients manquants. Vérifiez toujours les ingrédients et les allergènes vous-même."),
+            ("Quels dîners rapides plaisent aux enfants ?", "Les pâtes à la sauce tomate, les croque-monsieur, les crêpes salées, les wraps et les gratins fonctionnent souvent. Variez l’accompagnement et la protéine plutôt que le plat."),
         ],
     ),
     # ------------------------------------------------------------------
     "family-dinner": dict(
         slug="/fr/idees-repas-famille/",
         label="Repas en famille",
-        title="Idées repas famille : ce que les enfants mangent | Cibello",
+        title="Idées repas famille : ce que les enfants mangent | Cibello",
         desc="Des idées de repas en famille que les enfants acceptent, un menu de la semaine sans négociation à 18 h et une liste de courses partagée.",
         eyebrow="Dîner avec des enfants",
-        h1="Idées de repas en famille : des plats que les enfants acceptent",
-        lead="Les enfants aiment ce qu’ils connaissent. Cela ne condamne pas la famille à manger la même chose chaque semaine : il suffit de varier à l’intérieur des plats qu’ils reconnaissent, et de décider à l’avance plutôt qu’à 18 h devant le frigo.",
+        h1="Idées de repas en famille : des plats que les enfants acceptent",
+        lead="Les enfants aiment ce qu’ils connaissent. Cela ne condamne pas la famille à manger la même chose chaque semaine : il suffit de varier à l’intérieur des plats qu’ils reconnaissent, et de décider à l’avance plutôt qu’à 18 h devant le frigo.",
         sections=[
             (
                 "Des plats familiers qui se déclinent",
@@ -123,21 +123,21 @@ GUIDES2 = {
             ),
         ],
         faq=[
-            ("Quels repas plaisent généralement aux enfants ?", "Les pâtes, les wraps, les crêpes salées, les boulettes, les gratins et les plaques au four fonctionnent pour beaucoup d’enfants. Variez les sauces, les accompagnements et la protéine plutôt que le plat entier."),
-            ("Comment faire un menu de la semaine pour la famille ?", "Choisissez deux plats rapides que tout le monde aime, un plat nouveau, un soir de restes et un dîner du week-end. Dans Cibello, vous placez les plats par jour et obtenez ce qui manque dans une liste de courses partagée."),
-            ("Cibello peut-il tenir compte des allergies des enfants ?", "Vous pouvez indiquer les allergies dans le profil du foyer, mais le filtrage est une aide, pas une garantie. Vérifiez toujours les ingrédients et les emballages vous-même."),
-            ("Les valeurs nutritionnelles sont-elles adaptées aux enfants ?", "Ce sont des estimations données à titre indicatif pour planifier, pas un conseil diététique. Pour des besoins particuliers, consultez un pédiatre ou un professionnel de santé."),
+            ("Quels repas plaisent généralement aux enfants ?", "Les pâtes, les wraps, les crêpes salées, les boulettes, les gratins et les plaques au four fonctionnent pour beaucoup d’enfants. Variez les sauces, les accompagnements et la protéine plutôt que le plat entier."),
+            ("Comment faire un menu de la semaine pour la famille ?", "Choisissez deux plats rapides que tout le monde aime, un plat nouveau, un soir de restes et un dîner du week-end. Dans Cibello, vous placez les plats par jour et obtenez ce qui manque dans une liste de courses partagée."),
+            ("Cibello peut-il tenir compte des allergies des enfants ?", "Vous pouvez indiquer les allergies dans le profil du foyer, mais le filtrage est une aide, pas une garantie. Vérifiez toujours les ingrédients et les emballages vous-même."),
+            ("Les valeurs nutritionnelles sont-elles adaptées aux enfants ?", "Ce sont des estimations données à titre indicatif pour planifier, pas un conseil diététique. Pour des besoins particuliers, consultez un pédiatre ou un professionnel de santé."),
         ],
     ),
     # ------------------------------------------------------------------
     "meal-boxes": dict(
         slug="/fr/batch-cooking/",
         label="Batch cooking",
-        title="Batch cooking : préparer ses repas de la semaine | Cibello",
-        desc="Batch cooking simple : les plats qui supportent la boîte, les portions à planifier, la conservation au frigo et au congélateur, le suivi dans l’app.",
+        title="Batch cooking : préparer ses repas de la semaine | Cibello",
+        desc="Batch cooking simple : les plats qui supportent la boîte, les portions à planifier, la conservation au frigo et au congélateur, le suivi dans l’app.",
         eyebrow="Repas préparés à l’avance",
-        h1="Batch cooking : des repas préparés à l’avance qui restent bons",
-        lead="Cuisiner en double le dimanche pour manger tranquille le mardi : le batch cooking n’a rien de compliqué, à condition de choisir des plats qui supportent la boîte et de ne pas les oublier au fond du frigo.",
+        h1="Batch cooking : des repas préparés à l’avance qui restent bons",
+        lead="Cuisiner en double le dimanche pour manger tranquille le mardi : le batch cooking n’a rien de compliqué, à condition de choisir des plats qui supportent la boîte et de ne pas les oublier au fond du frigo.",
         sections=[
             (
                 "Les plats qui supportent la boîte",
@@ -165,10 +165,10 @@ GUIDES2 = {
             ),
         ],
         faq=[
-            ("Quels plats se prêtent au batch cooking ?", "Plats mijotés, currys, chili, gratins, salades de boulgour, de riz ou de lentilles, et légumes rôtis avec une protéine supportent bien le frigo et le micro-ondes."),
-            ("Combien de temps se conserve une boîte-repas au frigo ?", "Comptez deux à trois jours au réfrigérateur et bien plus longtemps au congélateur. Refroidissez vite, réchauffez à cœur et vérifiez toujours l’odeur et l’aspect."),
-            ("Cibello peut-il suivre mes boîtes-repas ?", "Oui. Les boîtes peuvent être enregistrées dans l’inventaire, et l’application rappelle quand quelque chose devrait être mangé."),
-            ("Les restes comptent-ils dans la planification ?", "Oui. Les restes saisis comme boîtes-repas font partie de l’inventaire et peuvent être pris en compte quand vous planifiez les repas suivants."),
+            ("Quels plats se prêtent au batch cooking ?", "Plats mijotés, currys, chili, gratins, salades de boulgour, de riz ou de lentilles, et légumes rôtis avec une protéine supportent bien le frigo et le micro-ondes."),
+            ("Combien de temps se conserve une boîte-repas au frigo ?", "Comptez deux à trois jours au réfrigérateur et bien plus longtemps au congélateur. Refroidissez vite, réchauffez à cœur et vérifiez toujours l’odeur et l’aspect."),
+            ("Cibello peut-il suivre mes boîtes-repas ?", "Oui. Les boîtes peuvent être enregistrées dans l’inventaire, et l’application rappelle quand quelque chose devrait être mangé."),
+            ("Les restes comptent-ils dans la planification ?", "Oui. Les restes saisis comme boîtes-repas font partie de l’inventaire et peuvent être pris en compte quand vous planifiez les repas suivants."),
         ],
     ),
     # ------------------------------------------------------------------
@@ -178,7 +178,7 @@ GUIDES2 = {
         title="Liste de courses partagée avec tout le foyer | Cibello",
         desc="Une liste de courses partagée qui ne contient que ce qui manque, remplie depuis vos recettes et le menu de la semaine, visible par tout le foyer.",
         eyebrow="Courses sans doublons",
-        h1="Liste de courses partagée : seulement ce qui manque vraiment",
+        h1="Liste de courses partagée : seulement ce qui manque vraiment",
         lead="La liste de courses classique s’écrit de mémoire, par une seule personne, et finit soit trop longue soit incomplète. Une liste qui part de votre inventaire et de vos recettes règle les deux problèmes.",
         sections=[
             (
@@ -207,20 +207,20 @@ GUIDES2 = {
             ),
         ],
         faq=[
-            ("Tout le foyer peut-il voir la même liste de courses ?", "Oui. La fonction foyer de Cibello partage l’inventaire, le menu de la semaine et la liste de courses entre les membres."),
-            ("La liste se remplit-elle automatiquement ?", "Oui. Quand vous planifiez des recettes ou un menu de la semaine, les ingrédients absents de l’inventaire sont ajoutés à la liste."),
-            ("Puis-je ajouter mes propres articles ?", "Oui, tout peut être ajouté à la main, y compris ce qui n’est pas alimentaire."),
-            ("L’inventaire est-il mis à jour après les courses ?", "Vous pouvez photographier le ticket de caisse ou scanner des codes-barres pour que les produits entrent dans l’inventaire. Vérifiez le résultat, car l’IA peut se tromper."),
+            ("Tout le foyer peut-il voir la même liste de courses ?", "Oui. La fonction foyer de Cibello partage l’inventaire, le menu de la semaine et la liste de courses entre les membres."),
+            ("La liste se remplit-elle automatiquement ?", "Oui. Quand vous planifiez des recettes ou un menu de la semaine, les ingrédients absents de l’inventaire sont ajoutés à la liste."),
+            ("Puis-je ajouter mes propres articles ?", "Oui, tout peut être ajouté à la main, y compris ce qui n’est pas alimentaire."),
+            ("L’inventaire est-il mis à jour après les courses ?", "Vous pouvez photographier le ticket de caisse ou scanner des codes-barres pour que les produits entrent dans l’inventaire. Vérifiez le résultat, car l’IA peut se tromper."),
         ],
     ),
     # ------------------------------------------------------------------
     "best-before": dict(
         slug="/fr/date-de-peremption/",
         label="DLC et DDM",
-        title="Date de péremption : DLC ou DDM, que faire ? | Cibello",
-        desc="DLC et DDM : la différence entre « à consommer jusqu’au » et « de préférence avant », un tableau de durées indicatives et une méthode pour ne rien oublier.",
+        title="Date de péremption : DLC ou DDM, que faire ? | Cibello",
+        desc="DLC et DDM : la différence entre « à consommer jusqu’au » et « de préférence avant », un tableau de durées indicatives et une méthode pour ne rien oublier.",
         eyebrow="Comprendre les dates sur l’emballage",
-        h1="Date de péremption : DLC, DDM et ce que vous pouvez encore manger",
+        h1="Date de péremption : DLC, DDM et ce que vous pouvez encore manger",
         lead="Deux mentions se côtoient sur les emballages et ne veulent pas dire la même chose. L’une est une limite de sécurité, l’autre une indication de qualité. Les confondre remplit la poubelle ou, à l’inverse, fait prendre des risques inutiles.",
         sections=[
             (
@@ -245,21 +245,21 @@ GUIDES2 = {
             ),
         ],
         faq=[
-            ("Quelle est la différence entre DLC et DDM ?", "La DDM (« à consommer de préférence avant ») est une indication de qualité : le produit reste souvent consommable après, s’il a été bien conservé. La DLC (« à consommer jusqu’au ») est une limite de sécurité pour les produits sensibles comme la viande et le poisson frais, à ne pas dépasser."),
-            ("Peut-on manger un produit après la DDM ?", "Souvent oui. Regardez, sentez, goûtez. Cela ne vaut pas pour les produits marqués d’une DLC."),
-            ("Combien de temps le lait se conserve-t-il après la date ?", "Le lait UHT non ouvert et conservé au frais reste souvent bon quelques jours à une semaine après la DDM. L’odeur et le goût décident. Le lait frais pasteurisé porte généralement une DLC, à respecter."),
-            ("Une application peut-elle me prévenir avant que la nourriture se perde ?", "Oui. Cibello garde les dates dans l’inventaire, vous prévient quand un produit devrait être utilisé et propose des recettes qui l’emploient. Vérifiez toujours les dates vous-même."),
+            ("Quelle est la différence entre DLC et DDM ?", "La DDM (« à consommer de préférence avant ») est une indication de qualité : le produit reste souvent consommable après, s’il a été bien conservé. La DLC (« à consommer jusqu’au ») est une limite de sécurité pour les produits sensibles comme la viande et le poisson frais, à ne pas dépasser."),
+            ("Peut-on manger un produit après la DDM ?", "Souvent oui. Regardez, sentez, goûtez. Cela ne vaut pas pour les produits marqués d’une DLC."),
+            ("Combien de temps le lait se conserve-t-il après la date ?", "Le lait UHT non ouvert et conservé au frais reste souvent bon quelques jours à une semaine après la DDM. L’odeur et le goût décident. Le lait frais pasteurisé porte généralement une DLC, à respecter."),
+            ("Une application peut-elle me prévenir avant que la nourriture se perde ?", "Oui. Cibello garde les dates dans l’inventaire, vous prévient quand un produit devrait être utilisé et propose des recettes qui l’emploient. Vérifiez toujours les dates vous-même."),
         ],
     ),
     # ------------------------------------------------------------------
     "weekday-dinners": dict(
         slug="/fr/idees-repas-semaine/",
         label="Idées repas semaine",
-        title="Idées repas semaine : 25 dîners classés par temps | Cibello",
-        desc="25 idées de repas pour la semaine, classées par temps : prêts en 15, 25 ou 30 minutes avec des produits que vous avez souvent déjà chez vous.",
+        title="Idées repas semaine : 25 dîners classés par temps | Cibello",
+        desc="25 idées de repas pour la semaine, classées par temps : prêts en 15, 25 ou 30 minutes avec des produits que vous avez souvent déjà chez vous.",
         eyebrow="Du lundi au jeudi",
-        h1="Idées repas de la semaine : 25 dîners classés par temps",
-        lead="Un soir de semaine, la question n’est pas « quoi de nouveau ? » mais « qu’est-ce qui se fait en trente minutes avec ce qu’il y a ? ». Voici 25 réponses, du plus rapide au plus tranquille.",
+        h1="Idées repas de la semaine : 25 dîners classés par temps",
+        lead="Un soir de semaine, la question n’est pas « quoi de nouveau ? » mais « qu’est-ce qui se fait en trente minutes avec ce qu’il y a ? ». Voici 25 réponses, du plus rapide au plus tranquille.",
         sections=[
             (
                 "Prêt en 15 minutes",
@@ -287,21 +287,21 @@ GUIDES2 = {
             ),
         ],
         faq=[
-            ("Quelles sont de bonnes idées de repas pour la semaine ?", "Des plats en 15 à 30 minutes avec des produits souvent déjà là : pâtes, omelette, poêlées, wraps, soupes, mijotés et plaques au four. La liste ci-dessus en donne 25."),
-            ("Comment trouver des idées de repas avec ce que j’ai ?", "Photographiez le frigo et les placards dans Cibello. L’application classe plus de 9 000 recettes selon la part des ingrédients déjà chez vous."),
-            ("Comment varier les repas de la semaine ?", "Changez la protéine et l’accompagnement plutôt que le plat, planifiez trois ou quatre dîners à la fois et gardez un soir de restes."),
-            ("Cibello propose-t-il un menu pour toute la semaine ?", "Oui. Cibello peut proposer un menu de la semaine qui varie les plats et les produits et place ce qui manque dans une liste de courses partagée. Vous le relisez et le modifiez."),
+            ("Quelles sont de bonnes idées de repas pour la semaine ?", "Des plats en 15 à 30 minutes avec des produits souvent déjà là : pâtes, omelette, poêlées, wraps, soupes, mijotés et plaques au four. La liste ci-dessus en donne 25."),
+            ("Comment trouver des idées de repas avec ce que j’ai ?", "Photographiez le frigo et les placards dans Cibello. L’application classe plus de 9 000 recettes selon la part des ingrédients déjà chez vous."),
+            ("Comment varier les repas de la semaine ?", "Changez la protéine et l’accompagnement plutôt que le plat, planifiez trois ou quatre dîners à la fois et gardez un soir de restes."),
+            ("Cibello propose-t-il un menu pour toute la semaine ?", "Oui. Cibello peut proposer un menu de la semaine qui varie les plats et les produits et place ce qui manque dans une liste de courses partagée. Vous le relisez et le modifiez."),
         ],
     ),
     # ------------------------------------------------------------------
     "what-to-eat-tonight": dict(
         slug="/fr/quoi-manger-ce-soir/",
-        label="Quoi manger ce soir ?",
-        title="Qu’est-ce qu’on mange ce soir ? Réponse rapide | Cibello",
-        desc="Qu’est-ce qu’on mange ce soir ? Un sélecteur de dîner gratuit parmi quarante plats du quotidien et une méthode pour ne plus se poser la question.",
+        label="Quoi manger ce soir&nbsp;?",
+        title="Qu’est-ce qu’on mange ce soir ? Réponse rapide | Cibello",
+        desc="Qu’est-ce qu’on mange ce soir ? Un sélecteur de dîner gratuit parmi quarante plats du quotidien et une méthode pour ne plus se poser la question.",
         eyebrow="La question de 18 h",
-        h1="Qu’est-ce qu’on mange ce soir ?",
-        lead="Décider quoi cuisiner, c’est jongler avec quatre choses à la fois : ce qu’il y a, le temps disponible, ce que chacun mangera et ce qui doit être consommé avant de se perdre. Le sélecteur ci-dessous tranche en dix secondes ; le reste de la page explique comment ne plus avoir à y penser.",
+        h1="Qu’est-ce qu’on mange ce soir ?",
+        lead="Décider quoi cuisiner, c’est jongler avec quatre choses à la fois : ce qu’il y a, le temps disponible, ce que chacun mangera et ce qui doit être consommé avant de se perdre. Le sélecteur ci-dessous tranche en dix secondes ; le reste de la page explique comment ne plus avoir à y penser.",
         sections=[
             (
                 "Pourquoi la question est si difficile",
@@ -329,17 +329,17 @@ GUIDES2 = {
             ),
         ],
         faq=[
-            ("Que manger ce soir quand on n’a aucune inspiration ?", "Utilisez le sélecteur ci-dessus ou partez de ce qu’il y a : pâtes, omelette, poêlée, wraps, soupe ou plaque au four couvrent la plupart des soirs. Cibello propose des plats à partir de votre inventaire."),
-            ("Que manger ce soir en version végétarienne ?", "Soupe de lentilles, chili sin carne, pois chiches mijotés, galettes de haricots, salade de boulgour et feta, gratin de pâtes aux brocolis ou falafels en pita. Tous se font en moins de trente minutes avec des produits de placard."),
-            ("Que cuisiner ce soir avec ce que j’ai chez moi ?", "Enregistrez le frigo et les placards dans Cibello en les photographiant. L’application classe plus de 9 000 recettes selon la part des ingrédients déjà chez vous et indique ce qui manque."),
-            ("Comment arrêter de réfléchir au dîner chaque jour ?", "Planifiez trois à cinq dîners à la fois dans un menu de la semaine, laissez la liste de courses se compléter avec ce qui manque et utilisez d’abord les produits à date courte."),
+            ("Que manger ce soir quand on n’a aucune inspiration ?", "Utilisez le sélecteur ci-dessus ou partez de ce qu’il y a : pâtes, omelette, poêlée, wraps, soupe ou plaque au four couvrent la plupart des soirs. Cibello propose des plats à partir de votre inventaire."),
+            ("Que manger ce soir en version végétarienne ?", "Soupe de lentilles, chili sin carne, pois chiches mijotés, galettes de haricots, salade de boulgour et feta, gratin de pâtes aux brocolis ou falafels en pita. Tous se font en moins de trente minutes avec des produits de placard."),
+            ("Que cuisiner ce soir avec ce que j’ai chez moi ?", "Enregistrez le frigo et les placards dans Cibello en les photographiant. L’application classe plus de 9 000 recettes selon la part des ingrédients déjà chez vous et indique ce qui manque."),
+            ("Comment arrêter de réfléchir au dîner chaque jour ?", "Planifiez trois à cinq dîners à la fois dans un menu de la semaine, laissez la liste de courses se compléter avec ce qui manque et utilisez d’abord les produits à date courte."),
         ],
     ),
 }
 
 # Sélecteur de dîner (rendu par le générateur, alimenté par middag.js).
 TOOL = dict(
-    heading="Le sélecteur de dîner : une idée en 10 secondes",
+    heading="Le sélecteur de dîner : une idée en 10 secondes",
     protein_label="Protéine",
     time_label="Temps",
     mode_label="Envie",
@@ -359,7 +359,7 @@ TOOL = dict(
     no_match="Aucun plat ne correspond. Essayez d’assouplir un filtre.",
     minutes="min",
     any_protein="protéine au choix",
-    tip="Vous avez ça chez vous ? Dans l’application, les suggestions partent de ce qui est réellement dans votre frigo.",
+    tip="Vous avez ça chez vous ? Dans l’application, les suggestions partent de ce qui est réellement dans votre frigo.",
     note="Le sélecteur tire au sort parmi quarante plats du quotidien et ne demande aucun compte. Dans l’application, les propositions partent de ce qu’il y a vraiment dans votre frigo.",
     dishes=[
         ("Pâtes à la sauce tomate et aux haricots blancs", "veg", 20, ["pantry", "budget", "kids"]),
