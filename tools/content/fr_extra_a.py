@@ -57,7 +57,7 @@ GUIDES2 = {
         sections=[
             (
                 "Pourquoi les dîners rapides échouent",
-                """<p>La plupart des recettes «&nbsp;express&nbsp;» supposent que tout est déjà dans la cuisine. En réalité, il manque souvent une ou deux choses, et les vingt minutes annoncées deviennent cinquante avec un passage au supermarché. L’autre problème classique, c’est la monotonie&nbsp;: les plats rapides finissent par se ressembler, pâtes, pâtes et encore pâtes. La solution tient en deux points&nbsp;: partir de ce que vous avez réellement, et confier la variété à autre chose que votre mémoire.</p>""",
+                """<p>La plupart des recettes «&nbsp;express&nbsp;» supposent que tout est déjà dans la cuisine. En réalité, il manque souvent une ou deux choses, et les vingt minutes annoncées deviennent cinquante avec un passage au supermarché. L’autre problème classique, c’est la monotonie&nbsp;: les plats rapides finissent par se ressembler, pâtes, pâtes et encore pâtes. La solution tient en deux points&nbsp;: partir de ce que vous avez réellement, et confier la variété à autre chose que votre mémoire.</p><p>Il y a aussi la fatigue. À 19&nbsp;h, chercher une recette demande souvent plus d’énergie que la cuisiner. Un tableau de plats de secours affiché dans la cuisine et une application qui connaît le contenu de votre frigo enlèvent cette étape, et la soirée commence par un geste plutôt que par une hésitation.</p>""",
             ),
             (
                 "Des plats simples que l’on peut presque toujours faire",
@@ -107,11 +107,11 @@ GUIDES2 = {
             ),
             (
                 "Rapide et économique sans sacrifier l’équilibre",
-                """<p>Les familles ont rarement le temps de cuisiner longtemps en semaine, et l’alimentation pèse lourd dans le budget. La base est la même pour un <a href="/fr/diner-rapide/">dîner rapide</a> et pour une semaine économique&nbsp;: utiliser ce qu’il y a, planifier les restes et n’acheter que ce qui manque. Cibello affiche des valeurs nutritionnelles à titre indicatif au moment de planifier. Ce sont des estimations, pas un conseil diététique&nbsp;: pour des besoins particuliers, parlez-en au pédiatre ou à un professionnel de santé.</p>""",
+                """<p>Les familles ont rarement le temps de cuisiner longtemps en semaine, et l’alimentation pèse lourd dans le budget. La base est la même pour un <a href="/fr/diner-rapide/">dîner rapide</a> et pour une semaine économique&nbsp;: utiliser ce qu’il y a, planifier les restes et n’acheter que ce qui manque. Cibello affiche des valeurs nutritionnelles à titre indicatif au moment de planifier. Ce sont des estimations, pas un conseil diététique&nbsp;: pour des besoins particuliers, parlez-en au pédiatre ou à un professionnel de santé.</p><p>Concrètement, choisissez un soir de la semaine pour cuisiner en double un plat qui supporte la boîte, une bolognaise ou un curry doux, et gardez la moitié pour le lendemain ou le congélateur. Les soirs de sport ou de réunion tardive trouvent ainsi une réponse sans passer par la livraison. Et n’achetez que ce qui manque&nbsp;: un inventaire à jour évite les doublons de pâtes et de yaourts qui s’accumulent au fond du placard et finissent par dépasser leur date.</p>""",
             ),
             (
                 "Allergies et enfants",
-                """<p>Si un enfant a une allergie ou une intolérance, vous pouvez l’indiquer dans le profil du foyer pour que les suggestions soient filtrées. Ce filtrage est une aide, jamais une garantie. Lisez toujours la liste des ingrédients et vérifiez l’emballage, surtout quand une recette est modifiée ou qu’un produit est remplacé par un autre. Les informations affichées par l’application s’appuient sur ce que vous avez enregistré, et une lecture d’étiquette par l’IA peut contenir une erreur.</p>""",
+                """<p>Si un enfant a une allergie ou une intolérance, vous pouvez l’indiquer dans le profil du foyer pour que les suggestions soient filtrées. Ce filtrage est une aide, jamais une garantie. Lisez toujours la liste des ingrédients et vérifiez l’emballage, surtout quand une recette est modifiée ou qu’un produit est remplacé par un autre. Les informations affichées par l’application s’appuient sur ce que vous avez enregistré, et une lecture d’étiquette par l’IA peut contenir une erreur. La même vigilance vaut pour le goûter et le déjeuner emporté à l’école, où l’on pioche souvent dans le placard sans relire l’emballage.</p>""",
             ),
             (
                 "Laisser les enfants participer",
@@ -134,14 +134,14 @@ GUIDES2 = {
         slug="/fr/batch-cooking/",
         label="Batch cooking",
         title="Batch cooking : préparer ses repas de la semaine | Cibello",
-        desc="Batch cooking sans prise de tête : quels plats supportent la boîte, comment planifier les portions, les règles de conservation au frigo et au congélateur, et le suivi dans l’app.",
+        desc="Batch cooking simple : les plats qui supportent la boîte, les portions à planifier, la conservation au frigo et au congélateur, le suivi dans l’app.",
         eyebrow="Repas préparés à l’avance",
         h1="Batch cooking : des repas préparés à l’avance qui restent bons",
         lead="Cuisiner en double le dimanche pour manger tranquille le mardi : le batch cooking n’a rien de compliqué, à condition de choisir des plats qui supportent la boîte et de ne pas les oublier au fond du frigo.",
         sections=[
             (
                 "Les plats qui supportent la boîte",
-                """<p>Une bonne boîte-repas tient une journée ou deux au réfrigérateur et quelques minutes au micro-ondes sans devenir triste. Les plats mijotés, les currys, le chili, les salades de boulgour, de riz ou de lentilles, les lasagnes, les gratins de pâtes et les légumes racines rôtis avec une protéine sont des valeurs sûres. Ce qui est croustillant, la salade verte ou l’œuf au plat se transportent à part et s’ajoutent au moment de servir. Le geste le plus simple reste de doubler un plat ordinaire&nbsp;: les boîtes se remplissent sans effort supplémentaire. Notre page sur les <a href="/fr/repas-du-quotidien/">repas du quotidien</a> liste les plats qui s’y prêtent.</p>""",
+                """<p>Une bonne boîte-repas tient une journée ou deux au réfrigérateur et quelques minutes au micro-ondes sans devenir triste. Les plats mijotés, les currys, le chili, les salades de boulgour, de riz ou de lentilles, les lasagnes, les gratins de pâtes et les légumes racines rôtis avec une protéine sont des valeurs sûres. Ce qui est croustillant, la salade verte ou l’œuf au plat se transportent à part et s’ajoutent au moment de servir. Le geste le plus simple reste de doubler un plat ordinaire&nbsp;: les boîtes se remplissent sans effort supplémentaire. Notre page sur les <a href="/fr/repas-du-quotidien/">repas du quotidien</a> liste les plats qui s’y prêtent.</p><p>Pensez aussi aux céréales cuites à l’avance. Une grande casserole de riz, de quinoa ou de boulgour le dimanche devient la base de trois boîtes différentes dans la semaine, avec un légume rôti, une protéine et une sauce qui change à chaque fois. Le résultat ne ressemble pas à un reste, et le temps passé en cuisine se limite à l’assemblage.</p>""",
             ),
             (
                 "Planifier les boîtes de la semaine",
@@ -149,7 +149,7 @@ GUIDES2 = {
             ),
             (
                 "Garder un œil sur le frigo et le congélateur",
-                """<p>Le premier poste de gaspillage dans un foyer, c’est ce qu’on oublie. La boîte tout au fond du frigo est un classique. Dans Cibello, les boîtes-repas peuvent figurer dans votre inventaire, et l’application vous rappelle discrètement quand quelque chose devrait être consommé, sans jamais culpabiliser. Un doute sur la durée de conservation&nbsp;? Le guide sur la <a href="/fr/date-de-peremption/">date de péremption</a> explique la différence entre DLC et DDM&nbsp;; pour un plat cuisiné maison, l’odeur, l’aspect et le bon sens restent vos meilleurs alliés.</p>""",
+                """<p>Le premier poste de gaspillage dans un foyer, c’est ce qu’on oublie. La boîte tout au fond du frigo est un classique. Dans Cibello, les boîtes-repas peuvent figurer dans votre inventaire, et l’application vous rappelle discrètement quand quelque chose devrait être consommé, sans jamais culpabiliser. Un doute sur la durée de conservation&nbsp;? Le guide sur la <a href="/fr/date-de-peremption/">date de péremption</a> explique la différence entre DLC et DDM&nbsp;; pour un plat cuisiné maison, l’odeur, l’aspect et le bon sens restent vos meilleurs alliés. Le rappel arrive avant que la boîte devienne un problème, pas après&nbsp;; à vous de décider si elle passe au congélateur ou dans l’assiette du soir.</p>""",
             ),
             (
                 "Conservation et sécurité",
@@ -176,7 +176,7 @@ GUIDES2 = {
         slug="/fr/liste-de-courses/",
         label="Liste de courses",
         title="Liste de courses partagée avec tout le foyer | Cibello",
-        desc="Une liste de courses partagée qui ne contient que ce qui manque : remplie à partir des recettes et du menu de la semaine, visible par tout le foyer, mise à jour avec le ticket.",
+        desc="Une liste de courses partagée qui ne contient que ce qui manque, remplie depuis vos recettes et le menu de la semaine, visible par tout le foyer.",
         eyebrow="Courses sans doublons",
         h1="Liste de courses partagée : seulement ce qui manque vraiment",
         lead="La liste de courses classique s’écrit de mémoire, par une seule personne, et finit soit trop longue soit incomplète. Une liste qui part de votre inventaire et de vos recettes règle les deux problèmes.",
@@ -191,11 +191,11 @@ GUIDES2 = {
             ),
             (
                 "Partager la liste dans le foyer",
-                """<p>La fonction foyer de Cibello permet à plusieurs personnes de travailler sur le même inventaire, le même menu de la semaine et la même liste de courses. Celui qui rentre voit ce qui manque, celui qui planifie n’a plus à envoyer la liste par message. Pendant la période d’essai de 14 jours, puis avec un abonnement, le foyer partage cette vue d’ensemble. Les données sont stockées dans l’Union européenne, et le compte peut être supprimé depuis l’application&nbsp;; les détails figurent dans notre <a href="/fr/privacy/">politique de confidentialité</a>.</p>""",
+                """<p>La fonction foyer de Cibello permet à plusieurs personnes de travailler sur le même inventaire, le même menu de la semaine et la même liste de courses. Celui qui rentre voit ce qui manque, celui qui planifie n’a plus à envoyer la liste par message. Chacun voit les modifications des autres, qu’il s’agisse d’un article ajouté à la dernière minute ou d’un produit déjà coché en rayon, ce qui évite les doubles achats du samedi. Pendant la période d’essai de 14 jours, puis avec un abonnement, le foyer partage cette vue d’ensemble. Les données sont stockées dans l’Union européenne, et le compte peut être supprimé depuis l’application&nbsp;; les détails figurent dans notre <a href="/fr/privacy/">politique de confidentialité</a>.</p>""",
             ),
             (
                 "Une liste qui réduit le gaspillage et la dépense",
-                """<p>Quand la liste ne contient que ce qui manque, la plupart des doublons disparaissent. Quand les plats qui utilisent les produits à date courte sont planifiés en premier, le gaspillage recule. C’est le même principe que dans notre guide pour <a href="/fr/reduire-gaspillage-alimentaire/">réduire le gaspillage alimentaire</a>&nbsp;: la vue d’ensemble avant les courses. Un tour au magasin avec une liste précise est aussi plus court, et laisse moins de place aux achats que l’on regrette une fois rentré.</p>""",
+                """<p>Quand la liste ne contient que ce qui manque, la plupart des doublons disparaissent. Quand les plats qui utilisent les produits à date courte sont planifiés en premier, le gaspillage recule. C’est le même principe que dans notre guide pour <a href="/fr/reduire-gaspillage-alimentaire/">réduire le gaspillage alimentaire</a>&nbsp;: la vue d’ensemble avant les courses. Un tour au magasin avec une liste précise est aussi plus court, et laisse moins de place aux achats que l’on regrette une fois rentré.</p><p>Un exemple concret&nbsp;: le menu de la semaine prévoit un curry de pois chiches, une omelette et des pâtes au thon. L’inventaire montre déjà les pois chiches, le lait de coco, les œufs et le thon&nbsp;; la liste ne réclame que les épinards, un citron et de la crème. Sans cette comparaison, la moitié de ces produits aurait été rachetée, et la boîte de pois chiches déjà en stock aurait attendu encore un an.</p>""",
             ),
             (
                 "Une routine de courses en quatre gestes",
@@ -218,7 +218,7 @@ GUIDES2 = {
         slug="/fr/date-de-peremption/",
         label="DLC et DDM",
         title="Date de péremption : DLC ou DDM, que faire ? | Cibello",
-        desc="DLC et DDM : la différence entre « à consommer jusqu’au » et « à consommer de préférence avant », un tableau de durées indicatives et une méthode pour ne plus oublier les dates.",
+        desc="DLC et DDM : la différence entre « à consommer jusqu’au » et « de préférence avant », un tableau de durées indicatives et une méthode pour ne rien oublier.",
         eyebrow="Comprendre les dates sur l’emballage",
         h1="Date de péremption : DLC, DDM et ce que vous pouvez encore manger",
         lead="Deux mentions se côtoient sur les emballages et ne veulent pas dire la même chose. L’une est une limite de sécurité, l’autre une indication de qualité. Les confondre remplit la poubelle ou, à l’inverse, fait prendre des risques inutiles.",
@@ -237,11 +237,11 @@ GUIDES2 = {
             ),
             (
                 "Le vrai problème, c’est la mémoire",
-                """<p>La difficulté n’est pas la règle, c’est de se souvenir. Dans Cibello, les produits de votre inventaire portent leur date, saisie depuis un ticket de caisse, un code-barres ou ce que vous avez photographié, et l’application vous prévient discrètement quand quelque chose devrait être utilisé bientôt. Les suggestions de repas font alors remonter les recettes qui utilisent justement ces produits. <a href="/fr/reduire-gaspillage-alimentaire/">Réduire le gaspillage</a> devient un effet secondaire du dîner. Une date peut être mal lue par l’IA, vous vérifiez donc toujours vous-même.</p>""",
+                """<p>La difficulté n’est pas la règle, c’est de se souvenir. Dans Cibello, les produits de votre inventaire portent leur date, saisie depuis un ticket de caisse, un code-barres ou ce que vous avez photographié, et l’application vous prévient discrètement quand quelque chose devrait être utilisé bientôt. Les suggestions de repas font alors remonter les recettes qui utilisent justement ces produits. <a href="/fr/reduire-gaspillage-alimentaire/">Réduire le gaspillage</a> devient un effet secondaire du dîner. Une date peut être mal lue par l’IA, vous vérifiez donc toujours vous-même. Le rappel est discret et ne juge pas&nbsp;: il signale qu’un produit approche de sa date et propose un plat pour l’utiliser, la décision vous appartient. L’application ne se substitue pas à l’emballage&nbsp;; c’est à vous de distinguer une DLC d’une DDM au moment de trancher.</p>""",
             ),
             (
                 "Ranger pour ne rien perdre",
-                """<p>Quelques gestes simples complètent l’application. Placez les produits à date courte devant, les nouveaux achats derrière. Gardez la viande et le poisson dans la zone la plus froide du réfrigérateur. Transvasez les restes dans des boîtes transparentes et notez la date&nbsp;; notre guide <a href="/fr/batch-cooking/">batch cooking</a> détaille la conservation des plats maison. Et faites un rapide inventaire avant de partir en courses plutôt qu’après&nbsp;: c’est là que se décident les doublons. La <a href="/fr/liste-de-courses/">liste de courses partagée</a> s’appuie justement sur ce que vous avez déjà.</p>""",
+                """<p>Quelques gestes simples complètent l’application. Placez les produits à date courte devant, les nouveaux achats derrière. Gardez la viande et le poisson dans la zone la plus froide du réfrigérateur. Transvasez les restes dans des boîtes transparentes et notez la date&nbsp;; notre guide <a href="/fr/batch-cooking/">batch cooking</a> détaille la conservation des plats maison. Et faites un rapide inventaire avant de partir en courses plutôt qu’après&nbsp;: c’est là que se décident les doublons. La <a href="/fr/liste-de-courses/">liste de courses partagée</a> s’appuie justement sur ce que vous avez déjà. Enfin, ouvrez le congélateur avec la même logique&nbsp;: un sac de légumes surgelés entamé depuis des mois reste sûr mais perd du goût, autant le finir dans une soupe ou une poêlée cette semaine.</p>""",
             ),
         ],
         faq=[
@@ -256,22 +256,22 @@ GUIDES2 = {
         slug="/fr/idees-repas-semaine/",
         label="Idées repas semaine",
         title="Idées repas semaine : 25 dîners classés par temps | Cibello",
-        desc="25 idées de repas pour la semaine, classées par temps de préparation : prêts en 15, 25 ou 30 minutes, avec des produits que vous avez souvent déjà. Et une astuce pour ne plus chercher.",
+        desc="25 idées de repas pour la semaine, classées par temps : prêts en 15, 25 ou 30 minutes avec des produits que vous avez souvent déjà chez vous.",
         eyebrow="Du lundi au jeudi",
         h1="Idées repas de la semaine : 25 dîners classés par temps",
         lead="Un soir de semaine, la question n’est pas « quoi de nouveau ? » mais « qu’est-ce qui se fait en trente minutes avec ce qu’il y a ? ». Voici 25 réponses, du plus rapide au plus tranquille.",
         sections=[
             (
                 "Prêt en 15 minutes",
-                """<ul><li>Pâtes au thon, crème et citron.</li><li>Riz sauté aux œufs et légumes surgelés, sauce soja.</li><li>Pizza sur tortilla&nbsp;: galette, sauce tomate, fromage et ce qu’il reste.</li><li>Pâtes au pesto et au poulet, avec un reste de poulet ou un rôti du commerce.</li><li>Omelette au fromage et aux légumes&nbsp;: sauve les œufs et les demi-légumes.</li><li>Croque-monsieur et salade verte.</li><li>Tartines chaudes au chèvre, miel et noix, avec une salade.</li></ul>""",
+                """<p>Ces plats reposent sur un fond de placard et deux ou trois produits frais. Pas de découpe longue, pas de cuisson à surveiller&nbsp;: le temps indiqué compte du premier geste à l’assiette.</p><ul><li>Pâtes au thon, crème et citron.</li><li>Riz sauté aux œufs et légumes surgelés, sauce soja.</li><li>Pizza sur tortilla&nbsp;: galette, sauce tomate, fromage et ce qu’il reste.</li><li>Pâtes au pesto et au poulet, avec un reste de poulet ou un rôti du commerce.</li><li>Omelette au fromage et aux légumes&nbsp;: sauve les œufs et les demi-légumes.</li><li>Croque-monsieur et salade verte.</li><li>Tartines chaudes au chèvre, miel et noix, avec une salade.</li></ul>""",
             ),
             (
                 "Prêt en 20 à 25 minutes",
-                """<ul><li>Saucisses à la moutarde et purée.</li><li>Poêlée de poulet aux nouilles et légumes.</li><li>Wraps à la viande hachée, au poulet ou aux haricots.</li><li>Pâtes à la carbonara.</li><li>Saumon au four, pommes de terre et citron.</li><li>Falafels en pain pita avec sauce au yaourt.</li><li>Soupe de tomate et tartines grillées au fromage.</li><li>Pois chiches mijotés aux épinards.</li><li>Poêlée de restes&nbsp;: pommes de terre, oignon, reste de viande ou de légumes.</li><li>Bowl de saumon, riz et avocat.</li></ul>""",
+                """<p>Ici, une cuisson démarre pendant que le reste se prépare&nbsp;: l’eau des pâtes, le four qui chauffe, le riz. Le geste clé est de lancer en premier ce qui prend le plus de temps.</p><ul><li>Saucisses à la moutarde et purée.</li><li>Poêlée de poulet aux nouilles et légumes.</li><li>Wraps à la viande hachée, au poulet ou aux haricots.</li><li>Pâtes à la carbonara.</li><li>Saumon au four, pommes de terre et citron.</li><li>Falafels en pain pita avec sauce au yaourt.</li><li>Soupe de tomate et tartines grillées au fromage.</li><li>Pois chiches mijotés aux épinards.</li><li>Poêlée de restes&nbsp;: pommes de terre, oignon, reste de viande ou de légumes.</li><li>Bowl de saumon, riz et avocat.</li></ul>""",
             ),
             (
                 "Prêt en 30 minutes",
-                """<ul><li>Poulet à la crème et aux champignons.</li><li>Soupe de lentilles et pain grillé.</li><li>Chili sin carne.</li><li>Curry de poulet au lait de coco, à doubler pour des boîtes-repas.</li><li>Boulettes de viande et purée.</li><li>Plaque au four de saucisses et légumes racines.</li><li>Gratin de pâtes aux brocolis et au fromage.</li><li>Galettes de haricots rouges et pommes de terre.</li></ul><p>D’autres plats rapides, avec un tableau des temps et des ingrédients, dans le guide <a href="/fr/diner-rapide/">dîner rapide</a>. Des enfants à table&nbsp;? Voir les <a href="/fr/idees-repas-famille/">idées de repas en famille</a>.</p>""",
+                """<p>Trente minutes suffisent pour un mijoté court, un gratin ou une soupe complète, et pour cuisiner en double si vous voulez des boîtes pour le lendemain.</p><ul><li>Poulet à la crème et aux champignons.</li><li>Soupe de lentilles et pain grillé.</li><li>Chili sin carne.</li><li>Curry de poulet au lait de coco, à doubler pour des boîtes-repas.</li><li>Boulettes de viande et purée.</li><li>Plaque au four de saucisses et légumes racines.</li><li>Gratin de pâtes aux brocolis et au fromage.</li><li>Galettes de haricots rouges et pommes de terre.</li></ul><p>D’autres plats rapides, avec un tableau des temps et des ingrédients, dans le guide <a href="/fr/diner-rapide/">dîner rapide</a>. Des enfants à table&nbsp;? Voir les <a href="/fr/idees-repas-famille/">idées de repas en famille</a>.</p>""",
             ),
             (
                 "L’astuce&nbsp;: laisser le frigo choisir",
@@ -283,7 +283,7 @@ GUIDES2 = {
             ),
             (
                 "Un soir de restes chaque semaine",
-                """<p>Prévoyez un soir sans recette, où l’on finit ce qui reste&nbsp;: le fond de curry, le riz cuit, les légumes rôtis, une omelette pour lier le tout. Ce soir-là allège le budget, vide le frigo avant les courses et évite qu’une boîte oubliée finisse à la poubelle. Si les restes sont enregistrés dans l’inventaire de Cibello, l’application les compte quand elle propose la suite, et vous prévient en douceur quand ils doivent être mangés. Le guide <a href="/fr/batch-cooking/">batch cooking</a> explique comment les conserver correctement.</p>""",
+                """<p>Prévoyez un soir sans recette, où l’on finit ce qui reste&nbsp;: le fond de curry, le riz cuit, les légumes rôtis, une omelette pour lier le tout. Ce soir-là allège le budget, vide le frigo avant les courses et évite qu’une boîte oubliée finisse à la poubelle. Si les restes sont enregistrés dans l’inventaire de Cibello, l’application les compte quand elle propose la suite, et vous prévient en douceur quand ils doivent être mangés. Le guide <a href="/fr/batch-cooking/">batch cooking</a> explique comment les conserver correctement.</p><p>Et le vendredi&nbsp;? Ce soir-là mérite un peu plus de temps et un plat que tout le monde attend&nbsp;: burgers maison, raclette improvisée ou lasagnes. Le reste de la semaine peut rester simple précisément parce qu’un soir sort de l’ordinaire.</p>""",
             ),
         ],
         faq=[
@@ -298,7 +298,7 @@ GUIDES2 = {
         slug="/fr/quoi-manger-ce-soir/",
         label="Quoi manger ce soir ?",
         title="Qu’est-ce qu’on mange ce soir ? Réponse rapide | Cibello",
-        desc="Qu’est-ce qu’on mange ce soir ? Un sélecteur de dîner gratuit parmi quarante plats du quotidien, trois questions pour trancher, et une méthode pour ne plus se la poser.",
+        desc="Qu’est-ce qu’on mange ce soir ? Un sélecteur de dîner gratuit parmi quarante plats du quotidien et une méthode pour ne plus se poser la question.",
         eyebrow="La question de 18 h",
         h1="Qu’est-ce qu’on mange ce soir ?",
         lead="Décider quoi cuisiner, c’est jongler avec quatre choses à la fois : ce qu’il y a, le temps disponible, ce que chacun mangera et ce qui doit être consommé avant de se perdre. Le sélecteur ci-dessous tranche en dix secondes ; le reste de la page explique comment ne plus avoir à y penser.",
@@ -321,7 +321,7 @@ GUIDES2 = {
             ),
             (
                 "Quoi servir quand on reçoit",
-                """<p>Avec des invités, les règles changent&nbsp;: choisissez un plat qui se prépare à l’avance (mijoté, lasagnes, poulet rôti), qui supporte d’attendre et que vous avez déjà cuisiné. Gardez votre énergie pour les accompagnements et la table. Si vous planifiez déjà la semaine dans l’application, ce qui manque part dans la <a href="/fr/liste-de-courses/">liste de courses partagée</a>, et les restes deviennent les <a href="/fr/batch-cooking/">boîtes-repas</a> du lundi.</p>""",
+                """<p>Avec des invités, les règles changent&nbsp;: choisissez un plat qui se prépare à l’avance (mijoté, lasagnes, poulet rôti), qui supporte d’attendre et que vous avez déjà cuisiné. Gardez votre énergie pour les accompagnements et la table. Un plat que vous connaissez laisse aussi le temps de discuter au lieu de surveiller la casserole, et une entrée simple, une salade ou une soupe froide, suffit à marquer l’occasion. Si vous planifiez déjà la semaine dans l’application, ce qui manque part dans la <a href="/fr/liste-de-courses/">liste de courses partagée</a>, et les restes deviennent les <a href="/fr/batch-cooking/">boîtes-repas</a> du lundi.</p>""",
             ),
             (
                 "Ne plus se poser la question",
