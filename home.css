@@ -185,8 +185,6 @@
 .guide-grid{margin-top:28px}
 .guide-grid .f{color:inherit;text-decoration:none}
 .guide-grid .f h3{color:var(--green-d)}
-.langrow{margin-top:32px;text-align:center;line-height:2.2}
-.langrow a:hover{color:var(--green)}
 .foot-cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px;margin-top:26px;padding-top:24px;border-top:1px solid rgba(255,255,255,.1)}
 .foot-cols h3{color:#cfc9bc;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;margin:0 0 6px}
 .foot-cols a{display:block;color:var(--dark-ink);font-size:.88rem;margin:0;line-height:1.85;break-inside:avoid}

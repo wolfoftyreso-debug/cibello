@@ -80,13 +80,9 @@ def build(lang):
     for pth, lbl in GUIDES[lang]:
         h1, first = guide_meta(pth)
         cards += f'<a class="f" href="{pth}"><h3>{lbl}</h3><p>{first}</p></a>'
-    langrow = " · ".join(f'<a href="{home_of(c)}" lang="{c}" hreflang="{c}">{n}</a>' for c, n in LANG_NAMES.items() if c != lang)
     guides = f'''<section id="guider" aria-labelledby="upptack-cibello" class="guides">
   <div class="wrap center"><div class="kicker">{ui["guides_kicker"]}</div><h2 class="sec-h" id="upptack-cibello">{ui["guides_h"]}</h2><p class="sec-p">{ui["guides_p"]}</p></div>
   <div class="wrap feat guide-grid">{cards}</div>
-  <nav class="wrap langrow" aria-label="{t["other_langs"]}">
-    <strong>{t["other_langs"]}:</strong> {langrow}
-  </nav>
 </section>
 '''
     h = re.sub(r'<section id="guider".*?</section>\n', guides, h, count=1, flags=re.S)
