@@ -18,7 +18,7 @@ Statisk marknadssajt för Cibello (LandveX AB). Ren HTML/CSS/JS utan byggsteg �
 - `tools/build_home.py` – renderar startsidan till elva språkversioner (`/en/`, `/de/` …) från `tools/i18n.json`, `tools/sitedata.py` och `tools/hubtext/`. Kör efter varje ändring av `index.html`. `tools/llms.py` – regenererar `llms.txt`.
 - `tokens.css` – enda källan för färg, typografi och form.
 - `img/` – OG-bilder och ikoner. `manifest.webmanifest`, `favicon.svg`, `robots.txt`, `llms.txt`, `sitemap.xml`.
-- `_headers` (Netlify/Cloudflare) och `vercel.json` (Vercel) – säkerhets- och cache-headers. Använd den som passar hosten.
+- `_headers` (Netlify/Cloudflare) och `vercel.json` (Vercel) – säkerhets- och cache-headers. Använd den som passar hosten. `vercel.json` har `cleanUrls: false` med flit: `integritet.html`, `villkor.html` och `delete-account.html` är canonical med ändelse och får inte omdirigeras. `.vercelignore` håller `tools/`, `docs/`, `outreach/` och markdown-filer utanför deployen.
 - `tools/sitemap.py` – regenererar `sitemap.xml` från HTML-filerna (hreflang läses från sidorna, lastmod från git).
 - `tools/check.py` – validerar länkar, canonical, hreflang-reciprocitet, JSON-LD, titlar, beskrivningar och sitemap-täckning.
 
@@ -40,3 +40,6 @@ Alla tolv språk har samma sidor: startsida, 18 guider, Om, Press, Nytt (med RSS
 3. Se `SEO-RAPPORT.md` för nyckelordsdata, prioriteringar och nästa steg.
 
 Lokal förhandsvisning: `npx http-server -p 8080 .`
+
+## Testdeploy
+Vercel-projektet `cibello` (team hypbit) är kopplat till detta GitHub-repo och bygger automatiskt vid push. Testadress: https://cibello.vercel.app (kräver Vercel-inloggning tills Deployment Protection stängs av eller en egen domän kopplas). Produktionsgren är för närvarande `claude/sharp-mccarthy-9zypyb`; byt till `main` i projektinställningarna när sajten är mergad.

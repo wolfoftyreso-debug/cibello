@@ -6,7 +6,9 @@ Ordningen spelar roll. Punkt 1–4 samma dag, resten inom veckan.
 - [ ] Läs `docs/FAKTAKONTROLL.md`, avsnittet "Att bekräfta av LandveX", och rätta det som inte stämmer.
 - [ ] Låt någon med juridiskt ansvar läsa `/en/privacy/` och `/en/terms/`. De är översättningar av de svenska v2.0-texterna och anger att den svenska versionen gäller vid avvikelse. Om de svenska texterna ändras måste de engelska uppdateras samtidigt.
 - [ ] Kör `python3 tools/check.py` lokalt. Ska ge 0 errors. CI (`.github/workflows/site-checks.yml`) gör samma sak vid push.
+- [x] Testdeploy gjord på Vercel: projekt `cibello`, https://cibello.vercel.app, byggs från GitHub vid push. Verifierat: säkerhetsheaders, CSP, sitemap, RSS, security.txt, alla språksidor.
 - [ ] Välj host-konfiguration: behåll `_headers` + `_redirects` (Netlify, Cloudflare Pages) **eller** `vercel.json` (Vercel). Ta bort den andra så ingen undrar.
+- [ ] Vercel: koppla domänen cibello.app till projektet, byt produktionsgren till `main` efter merge, och stäng av Deployment Protection för produktion (eller låt den vara på tills lansering).
 - [ ] Bestäm om `outreach/` och `docs/` ska ligga i det publika repot. De publiceras inte som sidor men syns om repot är publikt.
 
 ## 2. Deploy

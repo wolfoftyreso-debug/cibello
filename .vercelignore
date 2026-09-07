@@ -1,0 +1,9 @@
+# Internal material that must not be served publicly
+tools/
+docs/
+outreach/
+.github/
+*.md
+_headers
+_redirects
+.gitignore
