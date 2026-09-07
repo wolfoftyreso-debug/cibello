@@ -142,7 +142,7 @@ def render_news(lang, c):
     extra = f'<link rel="alternate" type="application/rss+xml" title="Cibello – {NEWS[lang]}" href="{path}feed.xml">'
     html = head(lang, url, c["title"], c["desc"], alt_block(news_path), ld, extra=extra)
     html += f'''<body><a class="skip" href="#main">{SKIP[lang]}</a>{header(lang)}
-<main id="main"><div class="hero"><div class="wrap">{crumbs(lang, c["h1"])}<h1>{c["h1"]}</h1><p class="lead">{c["lead"]} <a href="{path}feed.xml">{c["rss_label"]}</a>.</p></div></div>
+<main id="main"><div class="hero"><div class="wrap">{crumbs(lang, c["h1"])}<h1>{c["h1"]}</h1><p class="lead">{c["lead"]}</p><p><a class="rsslink" href="{path}feed.xml">{c["rss_label"]}</a></p></div></div>
 <div class="wrap content"><div class="article news">{items}<p class="updated"><small>{t["updated"]} {TODAY}</small></p></div>{aside(lang)}</div></main>
 {footer(lang)}</body></html>
 '''
