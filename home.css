@@ -84,14 +84,16 @@
   @media(max-width:820px){.trust .grid{grid-template-columns:1fr}}
   .final{text-align:center}
   .final .box{background:rgba(255,255,255,.45);backdrop-filter:blur(20px) saturate(1.5);-webkit-backdrop-filter:blur(20px) saturate(1.5);border:1px solid rgba(255,255,255,.75);border-radius:var(--radius);padding:56px 30px;box-shadow:0 1px 0 rgba(255,255,255,.8) inset,0 30px 60px -35px rgba(40,60,45,.5)}
-  footer{background:var(--dark);color:var(--dark-ink);padding:52px 0 30px}
-  .foot-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}
-  .foot-brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:700;font-size:1.2rem}
-  .social{display:flex;gap:12px;margin-top:16px}
-  .social a{width:42px;height:42px;border-radius:12px;background:rgba(255,255,255,.08);display:grid;place-items:center;transition:background .2s}
+  footer{background:var(--dark);color:var(--dark-ink);padding:44px 0 22px}
+  .foot-grid{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:flex-start}
+  .foot-brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:700;font-size:1.1rem}
+  .social{display:flex;gap:8px;margin-top:14px}
+  .social a{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,.08);display:grid;place-items:center;transition:background .2s}
   .social a:hover{background:var(--green)}
-  .foot-dl{display:flex;flex-direction:column;gap:10px}
-  .foot-bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:34px;padding-top:20px;font-size:.85rem;color:#8f897c;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+  .foot-dl{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .foot-dl>span{flex-basis:100%;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:#cfc9bc!important}
+  footer .store{padding:8px 14px}
+  .foot-bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:20px;padding-top:16px;font-size:.8rem;color:#8f897c;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 24px}
   html.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
   html.js .reveal.in{opacity:1;transform:none}
   svg.icn{width:24px;height:24px;stroke:var(--green);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
@@ -102,7 +104,7 @@
   .sc .ic svg{width:22px;height:22px;stroke:var(--amber);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
   .sc h3{font-size:1.06rem;margin-bottom:6px}
   .sc p{color:var(--muted);font-size:.92rem}
-  .foot-note{font-size:.82rem;color:#a49e91;max-width:none;margin-top:24px}
+  .foot-note{font-size:.78rem;color:#a49e91;max-width:none;margin-top:18px;line-height:1.5}
   @media(max-width:820px){.safe .cards{grid-template-columns:1fr}}
   /* Telefon-mockup (alt B) – app-troget gränssnitt, lokaliserat via data-i18n */
   .hero .phone{height:620px}
@@ -190,12 +192,14 @@
 .guide-grid .f h3{color:var(--green-d)}
 .langrow{margin-top:32px;text-align:center;line-height:2.2}
 .langrow a:hover{color:var(--green)}
-.foot-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:36px;padding-top:32px;border-top:1px solid rgba(255,255,255,.1)}
-.foot-cols h3{color:#fff;font-size:.95rem;margin-bottom:10px}
-.foot-cols a{display:block;color:var(--dark-ink);font-size:.92rem;margin:.4em 0}
+.foot-cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px;margin-top:26px;padding-top:24px;border-top:1px solid rgba(255,255,255,.1)}
+.foot-cols h3{color:#cfc9bc;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;margin:0 0 6px}
+.foot-cols a{display:block;color:var(--dark-ink);font-size:.88rem;margin:0;line-height:1.85;break-inside:avoid}
 .foot-cols a:hover{color:#fff}
-@media(max-width:700px){.foot-cols{grid-template-columns:1fr 1fr}}
-@media(max-width:460px){.foot-cols{grid-template-columns:1fr}}
+.foot-cols nav:first-child{column-count:2;column-gap:24px}
+.foot-cols nav:first-child h3{column-span:all}
+@media(max-width:700px){.foot-cols{grid-template-columns:1fr 1fr;gap:20px 24px}.foot-cols nav:first-child{grid-column:1/-1}}
+@media(max-width:460px){.foot-cols{grid-template-columns:1fr}.foot-cols a{font-size:.84rem;line-height:1.75}.foot-cols nav{column-count:2;column-gap:16px}.foot-cols nav h3{column-span:all}}
 
 @media(prefers-reduced-motion:reduce){html.js .reveal{opacity:1;transform:none;transition:none}}
 
