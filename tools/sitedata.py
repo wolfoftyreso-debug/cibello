@@ -75,11 +75,9 @@ SOCIAL = ('<div class="social">'
 def footer(lang):
     t = T[lang]; home = home_of(lang)
     guides = "".join(f'<a href="{p}">{l}</a>' for p, l in GUIDES[lang])
-    langs = "".join(f'<a href="{home_of(c)}" lang="{c}" hreflang="{c}">{n}</a>' for c, n in LANG_NAMES.items())
     return (f'<footer class="foot"><div class="wrap foot-grid">'
             f'<div><a class="brand" href="{home}"><span class="mark">{MARK_SVG}</span>Cibello</a><p class="foot-tag">{t["tagline"]}</p>{SOCIAL}{store_badges(lang, "foot-stores")}</div>'
             f'<nav aria-label="{t["guides"]}"><h3>{t["guides"]}</h3>{guides}</nav>'
-            f'<nav aria-label="{t["langs"]}"><h3>{t["langs"]}</h3>{langs}</nav>'
             f'<nav aria-label="{t["company"]}"><h3>{t["company"]}</h3><a href="{news_path(lang)}">{NEWS[lang]}</a><a href="{legal_paths(lang)[0]}">{t["privacy"]}</a><a href="{legal_paths(lang)[1]}">{t["terms"]}</a><a href="/delete-account.html">{t["delete"]}</a><a href="mailto:hello@cibello.app">{t["contact"]}</a></nav>'
             f'</div><div class="wrap foot-bottom"><p>{t["disclaimer"]}</p><p>© 2026 Cibello · LandveX AB · Org.nr 559141-7042 · Antennvägen 2, 135&nbsp;48 Tyresö · {t["made"]}</p></div></footer>')
 
