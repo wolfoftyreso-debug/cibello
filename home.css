@@ -151,11 +151,6 @@
 .m2-teaser{margin-top:10px;flex:0 0 auto}
 .phone .m2-card{flex:0 0 auto}
 /* Flytande bevis-chips runt telefonen */
-.p-float{position:absolute;background:rgba(255,255,255,.55);backdrop-filter:blur(14px) saturate(1.5);-webkit-backdrop-filter:blur(14px) saturate(1.5);border:1px solid rgba(255,255,255,.7);border-radius:12px;box-shadow:0 16px 34px -18px rgba(40,60,45,.5);padding:10px 14px;font-size:.82rem;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:8px;z-index:5;white-space:nowrap}
-.p-float svg{flex:0 0 auto}
-.p-float.fa{left:-84px;top:132px}
-.p-float.fb{right:-62px;bottom:170px}
-@media(max-width:1020px){.p-float{display:none}}
 
 
 /* --- Added 2026-09: mobile nav, stats, FAQ, guides, footer columns, language bar --- */
