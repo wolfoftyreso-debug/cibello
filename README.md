@@ -41,5 +41,8 @@ Alla tolv språk har samma sidor: startsida, 18 guider, Om, Press, Nytt (med RSS
 
 Lokal förhandsvisning: `npx http-server -p 8080 .`
 
+## Deploy
+Produktion körs på AWS (S3 + CloudFront). Steg för steg, inklusive CloudFront-funktion för katalogindex, 404, säkerhetsheaders och cache: `docs/DEPLOY-AWS.md`. `_headers`, `_redirects` och `vercel.json` gäller bara Netlify/Cloudflare respektive Vercel och används inte på AWS.
+
 ## Testdeploy
 Vercel-projektet `cibello` (team hypbit) är kopplat till detta GitHub-repo och bygger automatiskt vid push. Testadress: https://cibello.vercel.app (kräver Vercel-inloggning tills Deployment Protection stängs av eller en egen domän kopplas). Produktionsgren är för närvarande `claude/sharp-mccarthy-9zypyb`; byt till `main` i projektinställningarna när sajten är mergad.

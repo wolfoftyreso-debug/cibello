@@ -189,7 +189,7 @@ HUBTEXT = """<section><h2>Une cuisine qui répond à «&nbsp;qu’est-ce qu’on
 
 ABOUT = dict(
     title="À propos de Cibello – l’application et l’entreprise | LandveX AB",
-    desc="Cibello est développé par LandveX AB à Tyresö, en Suède. Pourquoi l’application existe, comment nous abordons l’IA, les données et le gaspillage, et comment nous contacter.",
+    desc="Cibello est développé par LandveX AB à Tyresö, en Suède. Pourquoi l’application existe, notre approche de l’IA et du gaspillage, et comment nous contacter.",
     h1="À propos de Cibello",
     lead="Cibello est une application alimentaire suédoise éditée par LandveX AB. Elle est née d’une question posée presque chaque jour dans tous les foyers : qu’est-ce qu’on mange ? Cette page explique ce que nous cherchons à faire, comment nous travaillons avec l’IA et les données, et comment nous joindre.",
     sections=[
@@ -281,7 +281,7 @@ NEWS = dict(
 
 PRIVACY = dict(
     title="Politique de confidentialité – Cibello",
-    desc="Comment Cibello traite les données personnelles, les images, l’analyse par Gemini et l’entraînement volontaire de Cibello AI. Traduction française de la politique suédoise, version 2.0.",
+    desc="Comment Cibello traite les données personnelles, les images, l’analyse par Gemini et l’entraînement volontaire de l’IA. Traduction de la version suédoise, 2.0.",
     h1="Politique de confidentialité",
     notice="""<strong>En résumé&nbsp;:</strong> un service d’IA externe réalise aujourd’hui l’analyse des images. Le modèle d’IA propre à Cibello ne peut être entraîné que sur les corrections de l’utilisateur et sur des images assainies, après un choix distinct, volontaire et actif lors de l’introduction. Les réponses de l’IA externe ne servent jamais de référence d’entraînement.""",
     body="""<h2>1. Responsable du traitement</h2>
@@ -330,7 +330,7 @@ PRIVACY = dict(
 
 TERMS = dict(
     title="Conditions d’utilisation – Cibello",
-    desc="Conditions d’utilisation de Cibello : compte, limite d’âge, abonnements et essai de 14 jours, analyse par IA et usage sûr. Traduction française des conditions suédoises, version 2.0.",
+    desc="Conditions d’utilisation de Cibello : compte, limite d’âge, abonnements, essai de 14 jours et analyse par IA. Traduction des conditions suédoises, version 2.0.",
     h1="Conditions d’utilisation",
     body="""<h2>1. Contrat et limite d’âge</h2>
 <p>Les présentes conditions s’appliquent entre l’utilisateur et LandveX AB, numéro d’immatriculation 559141-7042. Pour l’instant, Cibello est réservé aux personnes d’au moins 18 ans. En créant un compte, l’utilisateur confirme son âge et accepte les présentes conditions ainsi que la <a href="/fr/privacy/">politique de confidentialité</a>.</p>

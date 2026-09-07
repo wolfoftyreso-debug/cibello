@@ -83,7 +83,7 @@ HUBTEXT = """<section><h2>Was essen wir heute? Die Antwort steht schon in deiner
 
 ABOUT = dict(
     title="Über Cibello: die App und das Unternehmen dahinter | LandveX AB",
-    desc="Cibello wird von LandveX AB in Tyresö, Schweden, entwickelt. Warum es die App gibt, wie wir über KI, Daten und Lebensmittelverschwendung denken und wie du uns erreichst.",
+    desc="Cibello wird von LandveX AB in Tyresö, Schweden, entwickelt. Warum es die App gibt, wie wir über KI, Daten und Lebensmittelverschwendung denken, und Kontakt.",
     h1="Über Cibello",
     lead="Cibello ist eine schwedische Food-App von LandveX AB. Sie wurde gebaut, um eine Frage zu beantworten, die in fast jedem Haushalt jeden Tag gestellt wird: Was essen wir? Diese Seite erklärt, was wir vorhaben, wie wir mit KI und Daten umgehen und wie du uns erreichst.",
     sections=[
@@ -97,7 +97,7 @@ ABOUT = dict(
 
 PRESS = dict(
     title="Presse und Medien: Fakten, Bilder und Kontakt | Cibello",
-    desc="Pressemappe zu Cibello: Kurzbeschreibung, Fakten zur App, Logo und Bilder sowie der Pressekontakt bei LandveX AB in Tyresö, Schweden. Frei verwendbar im redaktionellen Kontext.",
+    desc="Pressemappe zu Cibello: Kurzbeschreibung, Fakten zur App, Logo und Bilder sowie der Pressekontakt bei LandveX AB in Tyresö, Schweden.",
     eyebrow="Für Journalistinnen und Journalisten",
     h1="Presse und Medien",
     lead="Alles, was du brauchst, um über Cibello zu schreiben: eine kurze Beschreibung, Fakten, Bilder und ein Kontakt, der schnell antwortet. Alles auf dieser Seite darf im redaktionellen Kontext frei verwendet werden.",
@@ -129,7 +129,7 @@ NEWS = dict(
 
 PRIVACY = dict(
     title="Datenschutzerklärung | Cibello",
-    desc="So verarbeitet Cibello personenbezogene Daten, Bilder, die Gemini-Analyse und das freiwillige Training der Cibello-KI. Deutsche Übersetzung der schwedischen Datenschutzerklärung, Version 2.0.",
+    desc="So verarbeitet Cibello personenbezogene Daten, Bilder, die Gemini-Analyse und das freiwillige KI-Training. Übersetzung der schwedischen Fassung, Version 2.0.",
     h1="Datenschutzerklärung",
     notice="<strong>Kurz gesagt:</strong> Für die heutige Bildanalyse wird ein externer KI-Dienst genutzt. Cibellos eigenes KI-Modell darf nur mit den eigenen Korrekturen und bereinigten Bildern der Nutzerin oder des Nutzers trainiert werden, und nur nach einer separaten, freiwilligen und aktiven Entscheidung in der Einführung. Antworten externer KI werden nie als Trainingsgrundlage verwendet.",
     body="""<h2>1. Verantwortlicher</h2>
@@ -178,7 +178,7 @@ PRIVACY = dict(
 
 TERMS = dict(
     title="Nutzungsbedingungen | Cibello",
-    desc="Nutzungsbedingungen für Cibello: Konto, Altersgrenze, Abonnements und die 14-tägige Testphase, KI-Analyse und sichere Nutzung. Deutsche Übersetzung der schwedischen Bedingungen, Version 2.0.",
+    desc="Nutzungsbedingungen für Cibello: Konto, Altersgrenze, Abonnements, Testphase, KI-Analyse und sichere Nutzung. Übersetzung der schwedischen Fassung, Version 2.0.",
     h1="Nutzungsbedingungen",
     body="""<h2>1. Vertrag und Altersgrenze</h2>
 <p>Diese Bedingungen gelten zwischen dem Nutzer und LandveX AB, Org.-Nr. 559141-7042. Cibello ist bis auf Weiteres nur für Personen, die mindestens 18 Jahre alt sind. Mit dem Anlegen eines Kontos bestätigt der Nutzer sein Alter und akzeptiert diese Bedingungen sowie die <a href="/de/privacy/">Datenschutzerklärung</a>.</p>

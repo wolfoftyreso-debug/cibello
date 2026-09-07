@@ -78,7 +78,7 @@ HUBTEXT = """<section><h2>Mitä tänään syötäisiin?</h2><p>Kysymys toistuu j
 
 ABOUT = dict(
     title="Tietoa Cibellosta: sovellus ja yritys sen takana | LandveX AB",
-    desc="Cibellon kehittää LandveX AB Tyresössä, Ruotsissa. Miksi sovellus on olemassa, miten ajattelemme tekoälystä, tiedoista ja ruokahävikistä, ja miten meihin saa yhteyden.",
+    desc="Cibellon kehittää LandveX AB Tyresössä, Ruotsissa. Miksi sovellus on olemassa, miten ajattelemme tekoälystä ja ruokahävikistä, ja yhteystiedot.",
     h1="Tietoa Cibellosta",
     lead="Cibello on ruotsalainen ruokasovellus, jonka takana on LandveX AB. Se rakennettiin vastaamaan kysymykseen, joka esitetään lähes joka kodissa joka päivä: mitä syötäisiin? Tällä sivulla kerromme, mitä yritämme tehdä, miten työskentelemme tekoälyn ja tietojen kanssa ja miten meihin saa yhteyden.",
     sections=[

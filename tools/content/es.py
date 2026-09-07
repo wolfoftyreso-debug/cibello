@@ -121,7 +121,7 @@ NEWS = dict(
 
 PRIVACY = dict(
     title="Política de privacidad – Cibello",
-    desc="Cómo trata Cibello los datos personales, las imágenes, el análisis con Gemini y el entrenamiento voluntario de Cibello AI. Traducción al español de la política sueca, versión 2.0.",
+    desc="Cómo trata Cibello los datos personales, las imágenes, el análisis con Gemini y el entrenamiento voluntario de la IA. Traducción de la versión sueca, 2.0.",
     h1="Política de privacidad",
     notice="""<strong>En resumen:</strong> Un servicio externo de IA realiza el análisis de imágenes actual. El modelo de IA propio de Cibello solo puede entrenarse con las correcciones del propio usuario y con imágenes saneadas, tras una elección separada, voluntaria y activa durante la introducción. Las respuestas de la IA externa nunca se utilizan como referencia de entrenamiento.""",
     body="""<h2>1. Responsable del tratamiento</h2>
@@ -170,7 +170,7 @@ PRIVACY = dict(
 
 TERMS = dict(
     title="Condiciones de uso – Cibello",
-    desc="Condiciones de uso de Cibello: cuenta, edad mínima, suscripciones y prueba de 14 días, análisis con IA y uso seguro. Traducción al español de las condiciones suecas, versión 2.0.",
+    desc="Condiciones de uso de Cibello: cuenta, edad mínima, suscripciones, prueba de 14 días y análisis con IA. Traducción de las condiciones suecas, versión 2.0.",
     h1="Condiciones de uso",
     body="""<h2>1. Contrato y edad mínima</h2>
 <p>Estas condiciones rigen la relación entre el usuario y LandveX AB, n.º de registro 559141-7042. Por ahora, Cibello está destinada únicamente a personas de al menos 18 años. Al crear una cuenta, el usuario confirma su edad y acepta estas condiciones y la <a href="/es/privacy/">política de privacidad</a>.</p>

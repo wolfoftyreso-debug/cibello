@@ -193,7 +193,7 @@ PRIVACY = dict(
 
 TERMS = dict(
     title="Regulamin – Cibello",
-    desc="Regulamin korzystania z Cibello: konto, ograniczenie wiekowe, subskrypcje i 14-dniowy okres próbny, analiza AI i bezpieczne korzystanie. Polskie tłumaczenie szwedzkiego regulaminu, wersja 2.0.",
+    desc="Regulamin Cibello: konto, ograniczenie wiekowe, subskrypcje, 14-dniowy okres próbny i analiza AI. Tłumaczenie regulaminu szwedzkiego, wersja 2.0.",
     h1="Regulamin",
     body="""<h2>1. Umowa i ograniczenie wiekowe</h2>
 <p>Niniejszy regulamin obowiązuje między użytkownikiem a LandveX AB, nr rej. 559141-7042. Cibello jest na razie przeznaczone wyłącznie dla osób, które ukończyły 18 lat. Tworząc konto, użytkownik potwierdza swój wiek oraz akceptuje regulamin i <a href="/pl/privacy/">politykę prywatności</a>.</p>
