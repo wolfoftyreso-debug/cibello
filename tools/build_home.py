@@ -50,6 +50,7 @@ def build(lang):
     h = h.replace('<link rel="canonical" href="https://cibello.app/" />', f'<link rel="canonical" href="{url}" />', 1)
     h = h.replace('<meta property="og:url" content="https://cibello.app/" />', f'<meta property="og:url" content="{url}" />', 1)
     h = h.replace('<meta property="og:locale" content="sv_SE" />', f'<meta property="og:locale" content="{OG_LOCALE[lang]}" />', 1)
+    h = h.replace('<meta name="p:domain_verify" content="255b1ca1d9a9fd708796d25e3fa18336">', '')
     h = h.replace("https://cibello.app/img/og.png", f"https://cibello.app/img/og-{lang}.png")
     h = re.sub(r'<meta property="og:image:alt" content="[^"]*">', f'<meta property="og:image:alt" content="Cibello – {H.escape(d["hero_h1a"])} {H.escape(d["hero_h1b"])}">', h)
     # relative asset paths -> absolute
@@ -97,7 +98,7 @@ def build(lang):
     ap = about_path(lang); pp = press_path(lang)
     cols = f'''<div class="wrap foot-cols">
     <nav aria-label="{t["guides"]}"><h3>{t["guides"]}</h3>{g}</nav>
-    <nav aria-label="{t["company"]}"><h3>{t["company"]}</h3><a href="{ap}">{ABOUT[lang]}</a><a href="{pp}">{PRESS[lang]}</a><a href="{news_path(lang)}">{NEWS[lang]}</a><a href="{privacy_path(lang)}">{t["privacy"]}</a><a href="{terms_path(lang)}">{t["terms"]}</a><a href="{delete_path(lang)}">{t["delete"]}</a><a href="mailto:hello@cibello.app">{t["contact"]}</a><a href="https://landvex.com" rel="noopener">LandveX AB</a></nav>
+    <nav aria-label="{t["company"]}"><h3>{t["company"]}</h3><a href="{ap}">{ABOUT[lang]}</a><a href="{pp}">{PRESS[lang]}</a><a href="{news_path(lang)}">{NEWS[lang]}</a><a href="{privacy_path(lang)}">{t["privacy"]}</a><a href="{terms_path(lang)}">{t["terms"]}</a><a href="{delete_path(lang)}">{t["delete"]}</a><a href="mailto:contact@cibello.app">{t["contact"]}</a><a href="https://landvex.com" rel="noopener">LandveX AB</a></nav>
   </div>'''
     h = re.sub(r'<div class="wrap foot-cols">.*?</nav>\n  </div>', cols, h, count=1, flags=re.S)
     h = h.replace('<a href="/om/">Om Cibello</a><a href="/press/">Press</a>', f'<a href="{ap}">{ABOUT[lang]}</a><a href="{pp}">{PRESS[lang]}</a>')

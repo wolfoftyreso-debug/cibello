@@ -72,7 +72,7 @@ footer a{color:#fff}
 .foot-grid>nav:first-of-type{column-count:2;column-gap:24px}
 .foot-grid>nav:first-of-type h3{column-span:all}
 .foot nav a:hover{color:#fff}
-.social{display:flex;gap:8px;margin:0 0 14px}
+.social{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
 .social a{width:34px;height:34px;border-radius:10px;background:rgba(255,255,255,.08);display:grid;place-items:center}
 .social a:hover{background:rgba(255,255,255,.16)}
 .foot-stores{display:flex;flex-wrap:wrap;gap:8px}

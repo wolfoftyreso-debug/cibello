@@ -51,7 +51,7 @@ Om du vill ha bakgrund: vi har samlat de officiella matsvinnssiffrorna med käll
 
 Vänliga hälsningar
 [namn], LandveX AB / Cibello
-hello@cibello.app
+contact@cibello.app
 
 ### B. Till skribent av roundup-artikel
 Ämne: Tillägg till din artikel om [appar mot matsvinn]

@@ -127,7 +127,7 @@ GUIDES2 = {
             ),
             (
                 "Pour citer cette page",
-                """<p>Vous pouvez reprendre ces chiffres en citant Eurostat comme source. Pour renvoyer à cette synthèse&nbsp;: «&nbsp;Cibello, Gaspillage alimentaire en Europe&nbsp;: les chiffres clés, cibello.app/fr/gaspillage-alimentaire-chiffres/, mis à jour en septembre 2026&nbsp;». Questions sur la page&nbsp;: <a href="mailto:hello@cibello.app">hello@cibello.app</a>.</p>""",
+                """<p>Vous pouvez reprendre ces chiffres en citant Eurostat comme source. Pour renvoyer à cette synthèse&nbsp;: «&nbsp;Cibello, Gaspillage alimentaire en Europe&nbsp;: les chiffres clés, cibello.app/fr/gaspillage-alimentaire-chiffres/, mis à jour en septembre 2026&nbsp;». Questions sur la page&nbsp;: <a href="mailto:contact@cibello.app">contact@cibello.app</a>.</p>""",
             ),
         ],
         faq=[
