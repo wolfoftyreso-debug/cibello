@@ -22,7 +22,7 @@ Filen är färdigt uppmärkt. Skriv om innehållet inne i `<article class="artic
 
 ## Sökord
 
-Semrush-data finns bara för Sverige och USA. För övriga språk: utgå från hur människor i landet faktiskt formulerar "vad ska vi äta ikväll", "veckomeny", "recept med det jag har hemma" och "minska matsvinn", och lägg in de formuleringarna naturligt i rubrik, första stycket och FAQ. Kontrollera gärna Google Trends eller Semrush för landet innan texten skrivs. Titeln ska vara under 60 tecken och sluta med " | Cibello".
+För övriga språk: utgå från hur människor i landet faktiskt formulerar "vad ska vi äta ikväll", "veckomeny", "recept med det jag har hemma" och "minska matsvinn", och lägg in de formuleringarna naturligt i rubrik, första stycket och FAQ. Titeln ska vara under 60 tecken och sluta med " | Cibello".
 
 ## Fakta om appen som får användas
 

@@ -1,6 +1,6 @@
 # Länkprospekt och pitchmallar för cibello.app
 
-Syfte: cibello.app har Authority Score 0 och åtta bakåtlänkar (Semrush, 2026-09-04). Matlistan har 158 länkande domäner, SmakShare 227. Länkar är den enskilt viktigaste faktorn för att de nya sidorna ska ranka. Nedan: vilka som bör kontaktas, i vilken ordning, och färdiga mejl.
+Syfte: cibello.app har låg auktoritet och få bakåtlänkar. Matlistan och SmakShare har hundratals länkande domäner. Länkar är den enskilt viktigaste faktorn för att de nya sidorna ska ranka. Nedan: vilka som bör kontaktas, i vilken ordning, och färdiga mejl.
 
 ## Linkbara tillgångar på sajten (det man pitchar)
 
