@@ -126,7 +126,3 @@ curl -sI https://cibello.app/tools/check.py    # 404 (interna filer ska inte fin
 ## 6. Uppdateringar framöver
 
 Varje ändring i repot: kör `python3 tools/sitemap.py && python3 tools/check.py` (0 errors), pusha, kör steg 1 igen. Om det ska automatiseras: en GitHub Action med `aws s3 sync` + invalidation på push till `main`, med AWS-credentials via OIDC. Arbetsflödet i `.github/workflows/site-checks.yml` kan byggas ut med ett deploy-jobb som körs efter kontrollerna.
-
-## 7. Testmiljön på Vercel
-
-Projektet `cibello` på Vercel (https://cibello.vercel.app) skapades bara för testdeploy och byggs fortfarande vid varje push till grenen. Pausa eller ta bort det när AWS är uppe, så det inte finns två kopior av sajten. Det är skyddat med Vercel-inloggning och indexeras inte, så det är ingen brådska.

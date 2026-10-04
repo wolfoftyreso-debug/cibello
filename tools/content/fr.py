@@ -211,7 +211,7 @@ ABOUT = dict(
         ),
         (
             "Contact",
-            """<p>Questions générales et partenariats&nbsp;: <a href="mailto:hello@cibello.app">hello@cibello.app</a>. Support&nbsp;: <a href="mailto:support@cibello.app">support@cibello.app</a>. Confidentialité et protection des données&nbsp;: <a href="mailto:privacy@cibello.app">privacy@cibello.app</a>. Les demandes de la presse sont les bienvenues à la même adresse&nbsp;; nous répondons en général sous quelques jours ouvrés.</p><p>Suivez-nous sur <a href="https://www.instagram.com/cibelloapp/" rel="noopener">Instagram</a>, <a href="https://www.tiktok.com/@cibello73" rel="noopener">TikTok</a> et <a href="https://www.facebook.com/profile.php?id=61593336222919" rel="noopener">Facebook</a>.</p>""",
+            """<p>Questions générales et partenariats&nbsp;: <a href="mailto:contact@cibello.app">contact@cibello.app</a>. Support&nbsp;: <a href="mailto:support@cibello.app">support@cibello.app</a>. Confidentialité et protection des données&nbsp;: <a href="mailto:privacy@cibello.app">privacy@cibello.app</a>. Les demandes de la presse sont les bienvenues à la même adresse&nbsp;; nous répondons en général sous quelques jours ouvrés.</p><p>Suivez-nous sur <a href="https://www.instagram.com/cibelloapp/" rel="noopener">Instagram</a>, <a href="https://www.tiktok.com/@cibello_recipes" rel="noopener">TikTok</a> et <a href="https://www.facebook.com/profile.php?id=61593336222919" rel="noopener">Facebook</a>, <a href="https://www.pinterest.com/cibelloapp/" rel="noopener">Pinterest</a> · <a href="https://www.youtube.com/@cibelloappofficial" rel="noopener">YouTube</a>.</p>""",
         ),
     ],
 )
@@ -236,7 +236,7 @@ PRESS = dict(
         ),
         (
             "Contact presse",
-            """<p><a href="mailto:hello@cibello.app?subject=Demande%20presse">hello@cibello.app</a>. Nous répondons en général aux demandes de la presse sous un jour ouvré. Le fondateur est disponible pour des entretiens sur le gaspillage alimentaire des ménages, l’IA dans la vie quotidienne et les raisons pour lesquelles «&nbsp;qu’est-ce qu’on mange&nbsp;?&nbsp;» est une question qui mérite une réponse.</p><p>En savoir plus sur l’entreprise&nbsp;: <a href="/fr/about/">À propos de Cibello</a>.</p>""",
+            """<p><a href="mailto:contact@cibello.app?subject=Demande%20presse">contact@cibello.app</a>. Nous répondons en général aux demandes de la presse sous un jour ouvré. Le fondateur est disponible pour des entretiens sur le gaspillage alimentaire des ménages, l’IA dans la vie quotidienne et les raisons pour lesquelles «&nbsp;qu’est-ce qu’on mange&nbsp;?&nbsp;» est une question qui mérite une réponse.</p><p>En savoir plus sur l’entreprise&nbsp;: <a href="/fr/about/">À propos de Cibello</a>.</p>""",
         ),
     ],
 )

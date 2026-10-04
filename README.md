@@ -22,7 +22,7 @@ Statisk marknadssajt för Cibello (LandveX AB). Ren HTML/CSS/JS utan byggsteg �
 - `tools/sitemap.py` – regenererar `sitemap.xml` från HTML-filerna (hreflang läses från sidorna, lastmod från git).
 - `tools/check.py` – validerar länkar, canonical, hreflang-reciprocitet, JSON-LD, titlar, beskrivningar och sitemap-täckning.
 
-- `img/og/` – en OG-bild per svensk och engelsk guide. Regenerera vid nya sidor eller ändrade rubriker (mallen ligger i `og.html` i genereringsskriptet; kräver Playwright).
+- `img/og/` – en OG-bild per svensk och engelsk guide. Regenerera vid nya sidor eller ändrade rubriker.
 - `.github/workflows/site-checks.yml` – kör `tools/check.py`, html-validate och JS-syntaxkontroll vid varje push.
 - `docs/LANSERING.md` – lanseringschecklista. `docs/FAKTAKONTROLL.md` – register över produktpåståenden och deras källor.
 
@@ -32,7 +32,6 @@ Alla tolv språk har samma sidor: startsida, 18 guider, Om, Press, Nytt (med RSS
 - `tools/content/<lang>.py` – grundinnehåll (3 guider, landningssidans text, Om, Press, Nytt, juridik). Schema i `tools/content/_schema.py`. Renderas med `python3 tools/build_lang.py all`.
 - `tools/content/<lang>_extra_a.py`, `<lang>_extra_b.py` – de 15 övriga guiderna per språk inklusive middagsväljarens rätter. Schema i `_schema_extra.py`, brief i `_phase2_brief.md`. Renderas med `python3 tools/build_extra.py`, som också kopplar hreflang mellan alla språkversioner av samma sida via `tools/guides_extra.json`.
 - Efter ändring i någon innehållsfil: `build_lang.py` (om grundinnehåll) eller `build_extra.py`, sedan `tools/sitemap.py`, `tools/llms.py`, `tools/check.py`.
-- Texterna är skrivna av språkmodeller enligt `docs/OVERSATTNINGSBRIEF.md` och faktaregistret; en granskning av modersmålstalare per marknad rekommenderas innan större annonsering. Juridiska texter är översättningar; den svenska versionen gäller vid avvikelse, vilket står på varje sida.
 
 ## Arbetsflöde
 1. Redigera HTML direkt. Ny guide: kopiera en befintlig sida i samma språk, byt canonical/hreflang/title/description/innehåll och lägg till sidan i sidfotens och asidens länklistor.
@@ -43,6 +42,3 @@ Lokal förhandsvisning: `npx http-server -p 8080 .`
 
 ## Deploy
 Produktion körs på AWS (S3 + CloudFront). Steg för steg, inklusive CloudFront-funktion för katalogindex, 404, säkerhetsheaders och cache: `docs/DEPLOY-AWS.md`. `_headers`, `_redirects` och `vercel.json` gäller bara Netlify/Cloudflare respektive Vercel och används inte på AWS.
-
-## Testdeploy
-Vercel-projektet `cibello` (team hypbit) är kopplat till detta GitHub-repo och bygger automatiskt vid push. Testadress: https://cibello.vercel.app (kräver Vercel-inloggning tills Deployment Protection stängs av eller en egen domän kopplas). Produktionsgren är för närvarande `claude/sharp-mccarthy-9zypyb`; byt till `main` i projektinställningarna när sajten är mergad.

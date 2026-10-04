@@ -29,7 +29,7 @@ def footer(lang):
     f = sitedata.footer(lang)
     # company column: about, press, news, privacy, terms, delete, contact
     f = re.sub(r'(<nav aria-label="' + re.escape(t["company"]) + r'"><h3>[^<]*</h3>).*?(</nav>)',
-               lambda m: m.group(1) + f'<a href="{about_path(lang)}">{ABOUT[lang]}</a><a href="{press_path(lang)}">{PRESS[lang]}</a><a href="{news_path(lang)}">{NEWS[lang]}</a><a href="{privacy_path(lang)}">{t["privacy"]}</a><a href="{terms_path(lang)}">{t["terms"]}</a><a href="{delete_path(lang)}">{t["delete"]}</a><a href="mailto:hello@cibello.app">{t["contact"]}</a>' + m.group(2), f, count=1, flags=re.S)
+               lambda m: m.group(1) + f'<a href="{about_path(lang)}">{ABOUT[lang]}</a><a href="{press_path(lang)}">{PRESS[lang]}</a><a href="{news_path(lang)}">{NEWS[lang]}</a><a href="{privacy_path(lang)}">{t["privacy"]}</a><a href="{terms_path(lang)}">{t["terms"]}</a><a href="{delete_path(lang)}">{t["delete"]}</a><a href="mailto:contact@cibello.app">{t["contact"]}</a>' + m.group(2), f, count=1, flags=re.S)
     return f
 
 def alt_block(pathfn, langs=None):

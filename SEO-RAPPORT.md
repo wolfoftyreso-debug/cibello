@@ -1,6 +1,6 @@
 # SEO- och designgenomgång av cibello.app
 
-Datum: 2026-09-04. Underlag: Semrush (databas SE och US) och Mobbin (webbsektioner för app-landningssidor).
+Datum: 2026-09-04.
 
 ## 1. Vad som var fel innan
 
@@ -15,7 +15,7 @@ Datum: 2026-09-04. Underlag: Semrush (databas SE och US) och Mobbin (webbsektion
 | Ingen mobilmeny på startsidan | Navigeringen försvann under 820 px | Hamburgermeny |
 | Inga sidor för de största sökorden i nischen | Se tabellen nedan | Sju nya svenska och tre nya engelska guider |
 
-## 2. Semrush – svenska nyckelord (volym/mån, KD = svårighet 0–100)
+## 2. Svenska nyckelord (volym/mån, KD = svårighet 0–100)
 
 | Nyckelord | Volym | KD | Sida |
 |---|---|---|---|
@@ -51,7 +51,7 @@ Hoppat över: "matsedel" (22 200) domineras av skolmatsedlar och har fel intenti
 
 Konkurrenter i SERP för "middagstips": koket.se, ica.se, zeinaskitchen.se, coop.se, recept.se. De vinner på receptvolym. Cibellos vinkel är "tips utifrån det du har hemma" plus appen, vilket ingen av dem erbjuder. För "matapp" rankar Play Store, Too Good To Go, Karma och mealview.se.
 
-## 3. Semrush – engelska nyckelord (US)
+## 3. Engelska nyckelord (US)
 
 | Nyckelord | Volym | KD | Sida |
 |---|---|---|---|
@@ -67,7 +67,7 @@ Konkurrenter i SERP för "middagstips": koket.se, ica.se, zeinaskitchen.se, coop
 | pantry app | 390 | 30 | `/en/pantry-app/` NY |
 | pantry inventory app | 320 | 49 | `/en/pantry-app/` |
 
-## 4. Mobbin – designmönster som applicerats
+## 4. Designmönster som applicerats
 
 - Hero för app-landningssidor (Zipline, Partiful, Riverside): rubrik, underrubrik, båda butiksknapparna och telefonmockup. Cibello hade detta; kompletterat med en siffror-rad under heron (9 000+ recept, 12 språk, EU-lagring, gratis provperiod) enligt mönstret hos Cash App och Revolut. Inga påhittade betyg eller citat: bara fakta som redan finns på sajten.
 - Funktionsgrid med ikonkort (Aboard, Fluz): behålls.
@@ -88,8 +88,6 @@ Konkurrenter i SERP för "middagstips": koket.se, ica.se, zeinaskitchen.se, coop
 
 ## 6. Genomgång 2: prestanda, tillgänglighet, validitet, duplicerat innehåll
 
-Mätt med Playwright, axe-core 4 (WCAG 2.1 AA + best practice) och html-validate på lokal server.
-
 | Fynd | Före | Efter |
 |---|---|---|
 | Allt innehåll med `.reveal` var `opacity:0` tills JavaScript kört | Osynligt utan JS, LCP fördröjd | Animationen gäller bara när `html.js` finns (inline-skript med CSP-hash), `prefers-reduced-motion` respekteras |
@@ -106,13 +104,11 @@ Mätt med Playwright, axe-core 4 (WCAG 2.1 AA + best practice) och html-validate
 
 axe-core efter fixarna: 0 överträdelser på startsida, guide, hubb, juridik och 404.
 
-Domänläge enligt Semrush (2026-09-04): Authority Score 0, 8 bakåtlänkar från 8 domäner (7 nofollow), inga organiska rankningar i den svenska databasen. Sajten är alltså tekniskt klar men har ingen auktoritet ännu. Punkt 7 nedan avgör hur snabbt det ändras.
+Domänläge (2026-09-04): Authority Score 0, 8 bakåtlänkar från 8 domäner (7 nofollow), inga organiska rankningar i den svenska databasen. Sajten är alltså tekniskt klar men har ingen auktoritet ännu. Punkt 7 nedan avgör hur snabbt det ändras.
 
 Tunna sidor som återstår (huvudinnehåll under 300 ord): de finska, polska, tyska, nederländska och danska guiderna, samt alla språkhubbar utom den svenska och engelska (efter avdupliceringen är hubbarna 150–190 ord och fungerar som navigering). De är korrekta men korta. Rekommendation: låt en modersmålstalare bygga ut till 500+ ord per sida med lokala sökord, eller prioritera de marknader appen faktiskt satsar på och låt övriga vara.
 
 ## 7. Genomgång 3: konkurrentlandskapet
-
-Källor: Semrush (SERP-ägare, bakåtlänkar, auktoritet; API-enheterna tog slut mitt i omgången så vissa rapporter saknas), Firecrawl-webbsök av apparnas egna sidor och butiksbeskrivningar, Mobbin för jämförelsemönster.
 
 ### Vem äger sökresultaten i Sverige
 
@@ -129,7 +125,7 @@ Slutsats: receptvolym vinner de stora orden, och där kan Cibello inte konkurrer
 
 ### Direkta appkonkurrenter
 
-| App | Marknad | Vad den gör | Vad den saknar mot Cibello | Auktoritet (Semrush) |
+| App | Marknad | Vad den gör | Vad den saknar mot Cibello | Auktoritet |
 |---|---|---|---|---|
 | Matlistan | SE, sedan 2014 | Delad inköpslista, receptsamling, planering | Inget matlager, inga förslag utifrån det man har, ingen AI-skanning | AS 16, 259 länkar, 158 domäner |
 | SmakShare | SE (Gotland) | Spara recept (även från Instagram), veckomatsedel, inköpslista | Inget matlager, inga datum/påminnelser | AS 15, 2 132 länkar, 227 domäner |
@@ -164,8 +160,6 @@ Domäner som redan länkar till svenska matappar och därför sannolikt länkar 
 - `/press/` och `/en/press/` – boilerplate, fakta, bilder, presskontakt. Länkade från alla sidfötter.
 - `outreach/lankprospekt-och-pitchar.md` – prioriterad prospektlista (bloggar som länkar till svenska matappar, roundup-skribenter, kommunala avfallsbolag, föräldramedier, lokalmedia i Tyresö, ekonomipoddar), vilka sidor som pitchas till vem, och fyra färdiga mejlmallar.
 
-Semrush-enheterna var fortfarande slut, så volymerna för "matsvinn statistik" och "hur mycket mat slängs i sverige" kunde inte hämtas. Sidan är motiverad av länkvärde oavsett volym.
-
 ## 9. Genomgång 5–7: faktakontroll, intern länkning, riktiga landningssidor per språk
 
 - **Faktakontroll** (`docs/FAKTAKONTROLL.md`): varje produktpåstående på de nya sidorna prövat mot integritetspolicy, villkor och ursprunglig startsida. Sju formuleringar utan täckning skrevs om (ingrediensbyten, tidsfilter, automatisk restplanering, "datum och plats" på matlådor, barn som använder appen trots 18-årsgräns, "inga annonser", lanseringsår). Två belagda fakta lades till: 14 dagars provperiod utan kort och 18-årsgränsen.
@@ -186,15 +180,9 @@ Från 79 sidor till 303. Varje språk har nu samma uppsättning: startsida, 18 g
 | Juridik på språket | 2 språk | 12 språk |
 | Middagsväljaren | svenska | 12 språk, 40 lokala rätter var |
 
-Så byggdes det: 33 innehållsfiler i `tools/content/` skrivna parallellt av 33 språkmodellsskribenter med samma brief, faktaregister och schema; två generatorer renderar alla sidor med sidhuvud, sidfot, brödsmulor, schema och fullständiga hreflang-set per sidfamilj. Kontroller: 0 fel i länk/canonical/hreflang/schema/sitemap, 0 HTML-fel, 0 axe-överträdelser på stickprov, inga svenska strängar på andra språk, middagsväljaren testad i fem språk.
-
 Slugar per språk är lokala sökordsslugar (till exempel `/de/schnelles-abendessen/`, `/fr/quoi-manger-ce-soir/`, `/pl/co-na-obiad/`), med hreflang till motsvarande sidor på alla andra språk.
 
-Förbehåll: texterna är skrivna av språkmodeller. De följer faktaregistret, men ton och idiom bör granskas av en modersmålstalare per marknad innan ni annonserar där. Juridiska texter anger att den svenska versionen gäller.
-
 ## 11. Nästa steg som inte går att lösa i koden
-
-0. Semrush-kontot behöver fler API-enheter innan nästa datakörning (organisk nyckelordslista per konkurrent och frågerapporter för veckomeny/matsvinn stoppades av tom balans).
 
 1. Verifiera domänen i Google Search Console och Bing Webmaster Tools, skicka in `sitemap.xml`.
 2. Skaffa riktiga betyg i App Store och Google Play. När det finns ett rimligt antal: lägg in `aggregateRating` i `SoftwareApplication`-noden och visa betygen på startsidan (mönstret från ExpressVPN/Varo). Lägg inte in påhittade siffror.
