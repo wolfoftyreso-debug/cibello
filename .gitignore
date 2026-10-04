@@ -1,3 +1,11 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+node_modules
+.vercel
+.tanstack
+.grok
+screenshots
+artifacts
+attachments
